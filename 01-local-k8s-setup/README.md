@@ -23,6 +23,19 @@ In this lesson you'll build the local Kubernetes environment that the rest of th
 
 ---
 
+## Clone the Tutorial Repository
+
+All sample app manifests, Helm values, and helper scripts live in the companion GitHub repo. Clone it first:
+
+```bash
+git clone https://github.com/devoriales/goldilocks-tutorial.git
+cd goldilocks-tutorial
+```
+
+You'll run commands from this directory throughout the tutorial.
+
+---
+
 ## Prerequisites
 
 - Docker Desktop running (4 GB+ memory allocated)

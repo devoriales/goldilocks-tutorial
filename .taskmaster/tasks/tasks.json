@@ -1,0 +1,246 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": "1",
+        "title": "Repository Root Files",
+        "description": "Create CLAUDE.md, README.md, TUTORIAL_CHECKLIST.md, CONTRIBUTING.md, .env.example, and root index.html (Docsify loader)",
+        "details": "1. CLAUDE.md: Bot guidance covering project structure, conventions (symbols 🎯⚠️✅💡), Docsify setup, k3d cluster name (goldilocks-demo), registry path, lesson authoring rules.\n2. README.md: Tutorial overview with lesson index table, prerequisites (k3d, kubectl, helm), tech stack versions (Goldilocks v4.15.1, Helm chart 10.4.0), estimated time (~3 hours total), getting started instructions.\n3. TUTORIAL_CHECKLIST.md: Per-lesson verification checklists with specific kubectl commands to confirm success.\n4. CONTRIBUTING.md: How to contribute lessons, validation requirements, PR process.\n5. .env.example: CLUSTER_NAME=goldilocks-demo, GOLDILOCKS_NAMESPACE=goldilocks, APP_NAMESPACE=metrics-app.\n6. index.html: Root Docsify loader with golden theme (#f5a623), lists all lessons with links.",
+        "testStrategy": "Verify all files exist. CLAUDE.md reviewed for accuracy. README.md index links to all 9 lesson folders. index.html renders without JS errors when served with npx serve.",
+        "priority": "high",
+        "dependencies": [],
+        "status": "done",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T08:43:13.431Z"
+      },
+      {
+        "id": "2",
+        "title": "Setup Scripts",
+        "description": "Create and validate all scripts in scripts/: setup-cluster.sh, verify-prerequisites.sh, verify-goldilocks.sh, deploy-sample-app.sh, cleanup.sh",
+        "details": "All scripts: #!/usr/bin/env bash, set -euo pipefail, color output (RED/GREEN/YELLOW vars).\n\nsetup-cluster.sh:\n- Check docker, k3d, kubectl, helm are installed\n- Create k3d cluster: k3d cluster create goldilocks-demo --agents 2\n- Install VPA CRDs from kubernetes/autoscaler (latest release tag)\n- Install metrics-server via helm: helm install metrics-server metrics-server/metrics-server -n kube-system --set args[0]=--kubelet-insecure-tls\n- Wait for metrics-server to be ready\n- Print success summary\n\nverify-prerequisites.sh:\n- Check k3d >= 5.0, kubectl >= 1.28, helm >= 3.10\n- Print PASS/FAIL per tool\n\nverify-goldilocks.sh:\n- Check goldilocks-controller pod Running\n- Check goldilocks-dashboard pod Running\n- Check VPA CRDs exist\n- Print PASS/FAIL per check\n\ndeploy-sample-app.sh:\n- Apply all sample-app/ manifests in order\n- Wait for all pods to be Running\n- Print pod status summary\n\ncleanup.sh:\n- k3d cluster delete goldilocks-demo\n- Print confirmation\n\nVALIDATE: Run setup-cluster.sh on the actual machine. Verify clean run from scratch.",
+        "testStrategy": "Run setup-cluster.sh on macOS. Verify: k3d cluster goldilocks-demo exists, kubectl get nodes shows Ready, VPA CRDs (verticalpodautoscalers.autoscaling.k8s.io) exist, metrics-server pod Running in kube-system. All scripts must exit 0.",
+        "priority": "high",
+        "dependencies": [
+          "1"
+        ],
+        "status": "done",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T08:53:00.957Z"
+      },
+      {
+        "id": "3",
+        "title": "Sample Application Manifests",
+        "description": "Create sample-app/ with 3-service metrics-app having intentionally wrong resource settings + load generator",
+        "details": "sample-app/namespace.yaml: ns metrics-app (do NOT add goldilocks label here — added in lesson 05).\n\nfrontend/deployment.yaml:\n- image: nginx:stable\n- replicas: 2\n- resources: requests: {cpu: 500m, memory: 512Mi}, limits: {cpu: 500m, memory: 512Mi} (intentionally over-provisioned — Guaranteed QoS)\n- Add ConfigMap with custom nginx.conf serving a simple HTML page\n\nfrontend/service.yaml: ClusterIP on port 80\n\napi/deployment.yaml:\n- image: kennethreitz/httpbin\n- replicas: 2\n- resources: requests: {cpu: 10m, memory: 16Mi}, limits: {cpu: 100m, memory: 64Mi} (intentionally under-provisioned)\n\napi/service.yaml: ClusterIP on port 80\n\nworker/deployment.yaml:\n- image: python:3.11-alpine\n- command: [python3, -c, 'import time,math; [math.factorial(10000) for _ in iter(int, 1)]']\n- resources: requests: {cpu: 50m, memory: 32Mi}, limits: {cpu: 1000m, memory: 128Mi} (mismatched — Burstable)\n\nload-generator/deployment.yaml:\n- image: busybox\n- command that runs: while true; do wget -q -O /dev/null http://frontend/; wget -q -O /dev/null http://api/get; sleep 1; done\n- resources: requests: {cpu: 10m, memory: 16Mi}\n\nsample-app/README.md: Explain all 3 intentional misconfigurations and why they're educational.\n\nVALIDATE: kubectl apply -f sample-app/ (in order: namespace, then each service). All pods reach Running state.",
+        "testStrategy": "kubectl apply -f sample-app/ -R after cluster setup. Verify: kubectl get pods -n metrics-app shows all pods Running. Load generator should be hitting frontend and api endpoints continuously.",
+        "priority": "high",
+        "dependencies": [
+          "2"
+        ],
+        "status": "done",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:04:30.033Z"
+      },
+      {
+        "id": "4",
+        "title": "Manifests Directory",
+        "description": "Create manifests/ with VPA references, Goldilocks Helm values, and before/after recommendation examples",
+        "details": "manifests/00-vpa/README.md: Instructions for installing VPA from kubernetes/autoscaler, with the exact kubectl apply command pointing to the latest release.\n\nmanifests/01-goldilocks/values.yaml:\n```yaml\nimage:\n  repository: us-docker.pkg.dev/fairwinds-ops/oss/goldilocks\n  tag: v4.15.1\nvpa:\n  enabled: false\nmetrics-server:\n  enabled: false\ncontroller:\n  enabled: true\ndashboard:\n  enabled: true\n  service:\n    type: ClusterIP\n    port: 80\n```\n\nmanifests/02-recommendations/frontend-patched.yaml: frontend deployment with corrected resources (from example VPA recommendation).\nmanifests/02-recommendations/api-patched.yaml: api deployment with corrected resources.\nmanifests/README.md: Apply order guide.",
+        "testStrategy": "Verify values.yaml is valid YAML. Verify before/after deployments are valid Kubernetes manifests with kubectl --dry-run=client.",
+        "priority": "medium",
+        "dependencies": [
+          "3"
+        ],
+        "status": "done",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:05:34.243Z"
+      },
+      {
+        "id": "5",
+        "title": "Lesson 01 — The Resource Requests Problem",
+        "description": "Create 01-intro-resource-problem/index.html, README.md, QUIZ.md. Theory lesson, no cluster needed.",
+        "details": "README.md sections:\n- Overview: Introduce the metrics-app team narrative\n- Why resource requests matter: scheduler decisions, node capacity\n- OOMKills vs CPU throttling: differences, symptoms, detection with kubectl describe pod\n- Cost implications: over-provisioning wastes money, under-provisioning causes instability\n- QoS classes: BestEffort (no requests/limits), Burstable (partial), Guaranteed (requests=limits)\n- Show QoS class in output: kubectl get pod -o jsonpath='{.status.qosClass}'\n- The Goldilocks solution preview: what's coming in the series\n\nQUIZ.md: 4 questions:\n1. What happens to a pod when it exceeds its memory limit? (OOMKilled)\n2. What QoS class is assigned when requests == limits? (Guaranteed)\n3. What does CPU throttling cause? (Slow performance, not termination)\n4. Why is over-provisioning expensive? (Wastes cluster capacity, inflates node costs)\n\nDuration: ~10 min. Level: Beginner. No prerequisites beyond basic kubectl knowledge.",
+        "testStrategy": "No cluster validation needed. Review content for accuracy. Verify QUIZ.md has correct answers. Verify Docsify renders from index.html.",
+        "priority": "medium",
+        "dependencies": [
+          "1"
+        ],
+        "status": "done",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:06:51.910Z"
+      },
+      {
+        "id": "6",
+        "title": "Lesson 02 — Local Kubernetes Setup with k3d",
+        "description": "Create 02-local-k8s-setup/index.html, README.md, QUIZ.md. Full cluster setup walkthrough.",
+        "details": "README.md sections:\n- Prerequisites: Docker Desktop running, Homebrew (macOS) or package manager\n- Install k3d: brew install k3d (macOS) + Linux alternative\n- Install kubectl: brew install kubectl\n- Install helm: brew install helm\n- Create cluster: k3d cluster create goldilocks-demo --agents 2\n- Verify cluster: kubectl get nodes (should show 3 nodes: server + 2 agents)\n- Install VPA CRDs: kubectl apply -f https://github.com/kubernetes/autoscaler/releases/download/vertical-pod-autoscaler-<VERSION>/vpa-v1-crd-gen.yaml (get latest tag)\n- Install VPA admission controller + updater + recommender from autoscaler\n- Install metrics-server: helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/ && helm install metrics-server metrics-server/metrics-server -n kube-system --set args[0]=--kubelet-insecure-tls\n- Verify VPA pods running: kubectl get pods -n kube-system | grep vpa\n- Verify metrics-server: kubectl top nodes\n- Reference setup-cluster.sh for automated setup\n\nQUIZ.md: 4 questions on k3d, VPA purpose, why metrics-server is needed, what --kubelet-insecure-tls does\n\nVALIDATE: Every command in README must be tested. kubectl top nodes must show metrics.\nDuration: ~20 min. Level: Beginner.",
+        "testStrategy": "CRITICAL: Run every command from this lesson in order on a fresh k3d cluster. Verify kubectl top nodes works. Verify VPA pods (recommender, updater, admission-controller) are Running in kube-system.",
+        "priority": "high",
+        "dependencies": [
+          "2"
+        ],
+        "status": "in-progress",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:07:00.288Z"
+      },
+      {
+        "id": "7",
+        "title": "Lesson 03 — VPA Fundamentals",
+        "description": "Create 03-vpa-fundamentals/index.html, README.md, QUIZ.md. Teach VPA before introducing Goldilocks.",
+        "details": "README.md sections:\n- What is VPA: Vertical vs Horizontal scaling\n- VPA modes: Off (recommend only), Initial (set on pod creation), Recreate (evict+recreate), Auto (same as Recreate)\n- Why Goldilocks uses Off mode: recommendations without disruption\n- Create a manual VPA for the api deployment (deploy sample-app first):\n```yaml\napiVersion: autoscaling.k8s.io/v1\nkind: VerticalPodAutoscaler\nmetadata:\n  name: api-vpa-manual\n  namespace: metrics-app\nspec:\n  targetRef:\n    apiVersion: apps/v1\n    kind: Deployment\n    name: api\n  updatePolicy:\n    updateMode: 'Off'\n  resourcePolicy:\n    containerPolicies:\n    - containerName: '*'\n      minAllowed:\n        cpu: 10m\n        memory: 16Mi\n```\n- Read VPA recommendation: kubectl describe vpa api-vpa-manual -n metrics-app\n- Show the lowerBound/target/upperBound in raw kubectl output\n- Explain why early recommendations may be inaccurate (need historical data)\n\nQUIZ.md: 4 questions on VPA modes, why Off mode doesn't evict pods, difference between VPA and HPA\n\nVALIDATE: VPA object created, kubectl describe shows recommendation section (even if minimal after short time)\nDuration: ~15 min.",
+        "testStrategy": "Apply the manual VPA YAML. Wait 5 minutes. kubectl describe vpa api-vpa-manual -n metrics-app must show the recommendation section with at least some values (even if unreliable at this point).",
+        "priority": "high",
+        "dependencies": [
+          "6"
+        ],
+        "status": "in-progress",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:07:00.293Z"
+      },
+      {
+        "id": "8",
+        "title": "Lesson 04 — Installing Goldilocks",
+        "description": "Create 04-install-goldilocks/index.html, README.md, QUIZ.md. Helm install with new registry.",
+        "details": "README.md sections:\n- Architecture overview: Goldilocks controller + dashboard, how they work together\n- Add Helm repo: helm repo add fairwinds-stable https://charts.fairwinds.com/stable && helm repo update\n- Create namespace: kubectl create namespace goldilocks\n- Install with custom values (new registry):\n```bash\nhelm install goldilocks fairwinds-stable/goldilocks \\\n  --namespace goldilocks \\\n  --version 10.4.0 \\\n  --set image.repository=us-docker.pkg.dev/fairwinds-ops/oss/goldilocks \\\n  --set image.tag=v4.15.1 \\\n  --set vpa.enabled=false \\\n  --set metrics-server.enabled=false\n```\n- Wait for pods: kubectl wait --for=condition=ready pod -l app.kubernetes.io/name=goldilocks -n goldilocks --timeout=120s\n- Verify: kubectl get pods -n goldilocks\n- Explain what goldilocks-controller does: watches namespaces with label, creates VPA objects\n- Explain what goldilocks-dashboard does: reads VPA objects, presents recommendations\n- IMPORTANT NOTE: Call out the registry change from quay.io to us-docker.pkg.dev\n\nQUIZ.md: 4 questions on Goldilocks architecture, what happens without the namespace label, what the controller creates\n\nVALIDATE: helm install succeeds with new registry, both pods reach Running state.\nDuration: ~15 min.",
+        "testStrategy": "CRITICAL: Run helm install with exact values.yaml. Verify kubectl get pods -n goldilocks shows goldilocks-controller and goldilocks-dashboard both in Running state. If image pull fails, the registry path is wrong.",
+        "priority": "high",
+        "dependencies": [
+          "7"
+        ],
+        "status": "in-progress",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:07:00.298Z"
+      },
+      {
+        "id": "9",
+        "title": "Lesson 05 — Enabling Namespaces and Observing VPAs",
+        "description": "Create 05-enable-and-observe/index.html, README.md, QUIZ.md. Label namespace, watch VPAs created.",
+        "details": "README.md sections:\n- Deploy metrics-app: kubectl apply -f sample-app/ (or reference deploy-sample-app.sh)\n- Verify pods running: kubectl get pods -n metrics-app\n- Enable namespace for Goldilocks: kubectl label ns metrics-app goldilocks.fairwinds.com/enabled=true\n- Watch VPA objects appear: kubectl get vpa -n metrics-app -w (should see frontend, api, worker VPAs created within 30-60s)\n- Inspect a VPA: kubectl describe vpa goldilocks-frontend -n metrics-app\n- Show the connection: label → controller watches → VPA objects created\n- Note: VPA naming convention used by Goldilocks: goldilocks-<deployment-name>\n- Check controller logs: kubectl logs -n goldilocks -l app.kubernetes.io/component=controller --tail=20\n\nQUIZ.md: 4 questions on what happens when the label is added, VPA naming convention, what the controller logs show\n\nVALIDATE: After labeling, kubectl get vpa -n metrics-app shows 3 VPAs (goldilocks-frontend, goldilocks-api, goldilocks-worker) within 60s.\nDuration: ~15 min.",
+        "testStrategy": "Label namespace, time how long VPAs take to appear. Must be < 60s. kubectl get vpa -n metrics-app must show all 3 deployments. kubectl describe vpa goldilocks-api -n metrics-app must show targetRef pointing to api deployment.",
+        "priority": "high",
+        "dependencies": [
+          "8",
+          "3"
+        ],
+        "status": "in-progress",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T09:07:00.301Z"
+      },
+      {
+        "id": "10",
+        "title": "Lesson 06 — The Goldilocks Dashboard",
+        "description": "Create 06-goldilocks-dashboard/index.html, README.md, QUIZ.md. Port-forward and read recommendations.",
+        "details": "README.md sections:\n- Port-forward dashboard: kubectl -n goldilocks port-forward svc/goldilocks-dashboard 8080:80\n- Open http://localhost:8080\n- Dashboard overview: namespace selector, deployment list, recommendation columns\n- Understanding columns: Current Request, Guaranteed (target), Burstable (lowerBound/upperBound)\n- Reading frontend recommendations: VPA will suggest much lower CPU/memory (it's over-provisioned)\n- Reading api recommendations: VPA will suggest higher CPU/memory (it's under-provisioned)\n- Understanding QoS implications: Guaranteed = requests==limits, Burstable = requests<limits\n- When to use Guaranteed: Production stateful services, predictable workloads\n- When to use Burstable: Variable workloads, cost savings at risk of throttling\n- Screenshot description: Walk learner through UI elements they should see\n- Important caveat: Wait at least 10-15 min with load generator running before recommendations are meaningful\n\nQUIZ.md: 4 questions on Guaranteed vs Burstable trade-offs, when recommendations become accurate, what lowerBound means\n\nVALIDATE: Dashboard accessible at localhost:8080 with metrics-app namespace showing. All 3 deployments visible with recommendation values.\nDuration: ~20 min.",
+        "testStrategy": "Port-forward dashboard. Navigate to http://localhost:8080. Verify metrics-app namespace appears in the dropdown. Verify frontend, api, and worker deployments all show recommendation values (not blank). Document actual recommendation values for Lesson 07.",
+        "priority": "high",
+        "dependencies": [
+          "9"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "11",
+        "title": "Lesson 07 — Applying Recommendations",
+        "description": "Create 07-applying-recommendations/index.html, README.md, QUIZ.md. Apply Guaranteed for frontend, Burstable for api.",
+        "details": "README.md sections:\n- Reading dashboard values for frontend (over-provisioned): note the Guaranteed recommendation\n- Updating frontend deployment to use Guaranteed values (requests == limits):\n```bash\nkubectl set resources deployment frontend \\\n  -n metrics-app \\\n  --containers=nginx \\\n  --requests=cpu=<GUARANTEED_CPU>,memory=<GUARANTEED_MEM> \\\n  --limits=cpu=<GUARANTEED_CPU>,memory=<GUARANTEED_MEM>\n```\n- Watching rollout: kubectl rollout status deployment/frontend -n metrics-app\n- Reading dashboard values for api (under-provisioned): note Burstable recommendation\n- Updating api deployment with Burstable values (lowerBound for request, upperBound for limit)\n- Verifying QoS class after apply: kubectl get pod -n metrics-app -l app=frontend -o jsonpath='{.items[0].status.qosClass}'\n- Should show Guaranteed for frontend, Burstable for api\n- Using goldilocks summary: kubectl exec -n goldilocks deployment/goldilocks-dashboard -- goldilocks summary\n- Show JSON output and how to pipe to jq\n- Before/after resource comparison table\n\nQUIZ.md: 5 questions on QoS class verification, what triggers a pod restart, Guaranteed vs Burstable cost trade-off, kubectl set resources vs patching YAML\n\nVALIDATE: After applying, kubectl describe pod -n metrics-app -l app=frontend shows new resource values. QoS class == Guaranteed.\nDuration: ~20 min.",
+        "testStrategy": "Apply resources to frontend and api deployments. Verify rollout completes. Verify QoS class with kubectl get pod jsonpath. Compare kubectl top pod -n metrics-app before/after to see if over-provisioned frontend now uses much less.",
+        "priority": "high",
+        "dependencies": [
+          "10"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "12",
+        "title": "Lesson 08 — Advanced Configuration",
+        "description": "Create 08-advanced-configuration/index.html, README.md, QUIZ.md. Per-namespace modes, container exclusions.",
+        "details": "README.md sections:\n- Per-namespace VPA update mode (usually used for testing, not production):\n  kubectl annotate ns metrics-app goldilocks.fairwinds.com/vpa-update-mode=off\n- Container exclusions for sidecars:\n  kubectl label deployment api goldilocks.fairwinds.com/exclude-containers=sidecar-name -n metrics-app\n- VPA resource policy (min/max bounds) via namespace annotation:\n  kubectl annotate ns metrics-app 'goldilocks.fairwinds.com/vpa-resource-policy={\"containerPolicies\":[{\"containerName\":\"*\",\"minAllowed\":{\"cpu\":\"10m\",\"memory\":\"16Mi\"},\"maxAllowed\":{\"cpu\":\"1000m\",\"memory\":\"1Gi\"}}]}'\n- Controller --on-by-default mode (explain via Helm values, not actual change):\n  Show values.yaml snippet with controller.flags: {on-by-default: true}\n- Excluding namespaces with on-by-default:\n  Show controller.flags: {exclude-namespaces: kube-system,kube-public}\n- Image signature verification:\n  cosign verify us-docker.pkg.dev/fairwinds-ops/oss/goldilocks:v4.15.1 --key https://artifacts.fairwinds.com/cosign-p256.pub\n\nQUIZ.md: 4 questions on when to use exclude-containers, what on-by-default enables, VPA resource policy purpose\n\nVALIDATE: Resource policy annotation applied, verify new VPA object respects min/max bounds in kubectl describe vpa.\nDuration: ~15 min. Level: Intermediate.",
+        "testStrategy": "Apply VPA resource policy annotation. Delete and re-check VPA object. Verify kubectl describe vpa shows ContainerPolicies with minAllowed/maxAllowed from annotation.",
+        "priority": "medium",
+        "dependencies": [
+          "11"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "13",
+        "title": "Lesson 09 — Production Considerations",
+        "description": "Create 09-production-considerations/index.html, README.md, QUIZ.md. 8-day convergence, CI/CD, multi-namespace.",
+        "details": "README.md sections:\n- The 8-day convergence: VPA needs ~8 days of historical data for accurate recommendations. lowerBound converges faster than upperBound. Early recommendations may be unrealistic (e.g., 100T memory).\n- Monitoring convergence: Check VPA lastUpdateTime, track changes over days\n- When NOT to use Goldilocks:\n  * Jobs and CronJobs (ephemeral, no steady-state)\n  * Batch workloads with highly variable patterns\n  * Pods with extreme traffic spikes (use HPA instead)\n- Multi-namespace strategy: Label multiple namespaces, use --on-by-default cautiously\n- CI/CD integration: goldilocks summary JSON output\n  kubectl exec -n goldilocks deploy/goldilocks-dashboard -- goldilocks summary | jq '.namespaces[\"metrics-app\"]'\n- Example: Compare current vs recommended in a pipeline script\n- Related Fairwinds tools: Polaris (policy), Nova (chart updates), Pluto (deprecated APIs)\n- VPA Auto mode vs Goldilocks Off mode: when to graduate to Auto\n- Commercial option: Fairwinds Insights for multi-cluster\n\nQUIZ.md: 4 questions on 8-day convergence, when to exclude batch jobs, CI/CD integration approach\n\nNo cluster validation needed for most of this lesson (conceptual). goldilocks summary command should be validated.\nDuration: ~15 min. Level: Intermediate.",
+        "testStrategy": "Validate goldilocks summary command works: kubectl exec -n goldilocks deploy/goldilocks-dashboard -- goldilocks summary. Output should be valid JSON. Test jq parsing.",
+        "priority": "medium",
+        "dependencies": [
+          "12"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "14",
+        "title": "Goldilocks Cheatsheet",
+        "description": "Create goldilocks-cheatsheet/index.html and README.md with comprehensive command reference",
+        "details": "README.md sections:\n1. Quick Install (all commands in one block)\n2. Namespace Management (label/unlabel, check labels)\n3. VPA Inspection (get, describe, watch)\n4. Dashboard Access (port-forward command)\n5. CLI Commands (goldilocks summary, version, create-vpas, delete-vpas)\n6. Configuration Labels & Annotations (all goldilocks.fairwinds.com/* labels with descriptions)\n7. Helm Chart Key Values (table: value, default, description)\n8. Troubleshooting Commands:\n   - Check controller logs\n   - Verify VPA CRDs: kubectl get crd | grep autoscaling.k8s.io\n   - Check metrics API: kubectl get apiservice v1beta1.metrics.k8s.io\n   - Verify VPA recommender: kubectl get pods -n kube-system | grep vpa\n9. Before/After Deployment Examples (Guaranteed and Burstable)\n10. Common Patterns table\n\nThis is a reference doc, not a lesson — no quiz.",
+        "testStrategy": "All commands in cheatsheet verified to work. kubectl commands validated against live cluster. YAML examples pass kubectl --dry-run=client.",
+        "priority": "medium",
+        "dependencies": [
+          "13"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "15",
+        "title": "Killercoda Scenarios",
+        "description": "Add goldilocks course with 3 scenarios to /Users/alma/dev-projects/killercoda-scenarios/",
+        "details": "1. Update killercoda-scenarios/structure.json: add {\"path\": \"goldilocks\"} to items array.\n\n2. Create goldilocks/structure.json:\n```json\n{\"title\": \"Goldilocks: Right-Sizing Kubernetes Resources\", \"description\": \"Learn to use Goldilocks to get resource recommendations just right\", \"items\": [{\"path\": \"scenario-1-install-goldilocks\"}, {\"path\": \"scenario-2-enable-and-observe\"}, {\"path\": \"scenario-3-apply-recommendations\"}]}\n```\n\n3. scenario-1-install-goldilocks/:\n- index.json: title, description, 4 steps, backend: kubernetes-kubeadm-1node\n- background.sh: kubectl create namespace goldilocks; kubectl create namespace metrics-app\n- intro.md: Context about resource management problem\n- step1/ (text.md: Add Helm repo, verify.sh: helm repo list | grep fairwinds)\n- step2/ (text.md: Install VPA CRDs, verify.sh: kubectl get crd verticalpodautoscalers.autoscaling.k8s.io)\n- step3/ (text.md: Install Goldilocks, verify.sh: kubectl get pods -n goldilocks | grep Running | wc -l | grep -q 2)\n- step4/ (text.md: Verify both pods running, verify.sh: same as step3)\n- finish.md: Summary\n\n4. scenario-2-enable-and-observe/:\n- background.sh: Full Goldilocks install + deploy metrics-app manifests\n- 3 steps: deploy metrics-app, label namespace, inspect VPA objects\n- verify.sh for step2: kubectl get vpa -n metrics-app | grep -c goldilocks\n\n5. scenario-3-apply-recommendations/:\n- background.sh: Full setup with load running for a few minutes, basic recommendations available\n- 4 steps: read VPA recommendation, patch deployment, verify rollout, check QoS class\n- verify.sh for step4: kubectl get pods -n metrics-app -l app=frontend -o jsonpath='{.items[0].status.qosClass}' | grep -q Guaranteed\n\nAll verify.sh scripts: #!/bin/bash, exit 0 on success, exit 1 on failure. No set -e.",
+        "testStrategy": "Review all verify.sh scripts for correctness. Manually trace through each scenario step. Verify background.sh installs reliably (important for Killercoda cold start). Test JSON files are valid with python3 -m json.tool.",
+        "priority": "medium",
+        "dependencies": [
+          "14"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      },
+      {
+        "id": "16",
+        "title": "Quiz Content Upload to Devoriales",
+        "description": "Upload all quiz questions from all 9 lessons to devoriales.com/quiz/admin/questions/create using Playwright",
+        "details": "For each lesson (01-09), upload 4-5 questions to https://devoriales.com/quiz/admin/questions/create.\nChallenge link: https://devoriales.com/quiz/admin/quiz/21/edit\nUse the devoriales-question-creator skill with Playwright MCP.\nEach question:\n- Practical/scenario-based (not trivia)\n- 4 options, 1 correct answer\n- Clear explanation for correct answer\n- Tagged to the appropriate lesson\nTotal: ~36-45 questions across 9 lessons.",
+        "testStrategy": "Verify each question appears in the Devoriales admin after upload. Check formatting looks correct in the quiz preview.",
+        "priority": "low",
+        "dependencies": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "status": "pending",
+        "subtasks": [],
+        "updatedAt": "2026-06-14T00:00:00.000Z"
+      }
+    ],
+    "metadata": {
+      "version": "1.0.0",
+      "lastModified": "2026-06-14T09:07:00.301Z",
+      "taskCount": 16,
+      "completedCount": 5,
+      "tags": [
+        "master"
+      ]
+    }
+  }
+}

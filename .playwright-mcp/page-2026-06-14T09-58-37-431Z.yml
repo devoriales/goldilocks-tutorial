@@ -1,0 +1,404 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic: ×
+      - paragraph: Join Devoriales Today!
+      - paragraph:
+        - text: Get the latest insights on DevOps, programming, cloud computing, and Kubernetes directly to your inbox.
+        - text: You'll receive exclusive materials including posts, videos, and newsletters tailored to keep you ahead in your field.
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: "Register with:"
+            - link "Google":
+              - /url: /login/google
+              - text: Google
+            - link "GitHub":
+              - /url: /login/github
+              - text: GitHub
+      - link "Other Options":
+        - /url: /register
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Main navigation" [ref=e4]:
+        - generic [ref=e5]:
+          - link "Devoriales - Home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Devoriales Logo" [ref=e7]
+          - generic [ref=e8]:
+            - menubar [ref=e9]:
+              - menuitem "Home" [ref=e10] [cursor=pointer]
+              - menuitem "Blog" [ref=e11] [cursor=pointer]
+              - menuitem "Challenges" [ref=e12] [cursor=pointer]
+            - generic [ref=e13]:
+              - link "New Post" [ref=e14] [cursor=pointer]:
+                - /url: /post/new
+              - listitem [ref=e15]:
+                - button "Admin" [ref=e16] [cursor=pointer]
+              - listitem [ref=e17]:
+                - button "Create" [ref=e18] [cursor=pointer]
+              - link "My Account" [ref=e19] [cursor=pointer]:
+                - /url: /account
+              - link "Logout" [ref=e20] [cursor=pointer]:
+                - /url: /logout
+              - generic [ref=e21]: Hi Aleksandro
+              - 'generic "Build: 2026-06-13T18:02:30Z" [ref=e22]':
+                - generic [ref=e23]: v0.17.1
+              - button "Toggle dark mode" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]: 
+              - searchbox "Search" [ref=e28]
+      - separator [ref=e29]
+  - main [ref=e30]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Quiz Administration" [level=1] [ref=e38]
+          - paragraph [ref=e39]: Manage quizzes and questions
+        - generic [ref=e40]:
+          - link "Create Quiz" [ref=e41] [cursor=pointer]:
+            - /url: /quiz/admin/create
+            - text: Create Quiz
+          - link "Create Question" [ref=e42] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+            - text: Create Question
+      - generic [ref=e43]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: "18"
+          - text: Total Quizzes
+        - generic [ref=e54]:
+          - generic [ref=e55]: "7"
+          - text: Active Quizzes
+        - generic [ref=e60]:
+          - generic [ref=e61]: "144"
+          - text: Total Questions
+        - generic [ref=e66]:
+          - generic [ref=e67]: "144"
+          - text: Total Points
+      - tablist [ref=e68]:
+        - tab "Quizzes (18)" [selected] [ref=e69] [cursor=pointer]: Quizzes (18)
+        - tab "Questions (144)" [ref=e70] [cursor=pointer]: Questions (144)
+        - tab "User Attempts (88)" [ref=e71] [cursor=pointer]: User Attempts (88)
+      - tabpanel "Quizzes (18)" [ref=e73]:
+        - generic [ref=e74]:
+          - heading "All Quizzes" [level=5] [ref=e76]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e83]:
+                - text: Show
+                - combobox "Show entries" [ref=e84]:
+                  - option "10" [selected]
+                  - option "25"
+                  - option "50"
+                  - option "100"
+                - text: entries
+              - generic [ref=e87]:
+                - text: "Search:"
+                - searchbox "Search:" [ref=e88]
+            - table [ref=e91]:
+              - rowgroup [ref=e92]:
+                - 'row "Title: activate to sort column ascending Questions: activate to sort column ascending Category/SubCategory: activate to sort column ascending Paid/Free: activate to sort column ascending Points: activate to sort column ascending Time Limit: activate to sort column ascending Status: activate to sort column ascending Created: activate to sort column ascending Actions" [ref=e93]':
+                  - 'columnheader "Title: activate to sort column ascending" [ref=e94]': Title
+                  - 'columnheader "Questions: activate to sort column ascending" [ref=e95]': Questions
+                  - 'columnheader "Category/SubCategory: activate to sort column ascending" [ref=e96]': Category/SubCategory
+                  - 'columnheader "Paid/Free: activate to sort column ascending" [ref=e97]': Paid/Free
+                  - 'columnheader "Points: activate to sort column ascending" [ref=e98]': Points
+                  - 'columnheader "Time Limit: activate to sort column ascending" [ref=e99]': Time Limit
+                  - 'columnheader "Status: activate to sort column ascending" [ref=e100]': Status
+                  - 'columnheader "Created: activate to sort column ascending" [ref=e101]': Created
+                  - columnheader "Actions" [ref=e102]
+              - rowgroup [ref=e103]:
+                - row "Goldilocks Tutorial 0 kubernetes / resources Free 0 No limit Inactive Retakes 2026-06-14" [ref=e104]:
+                  - cell "Goldilocks Tutorial" [ref=e105]:
+                    - strong [ref=e106]: Goldilocks Tutorial
+                  - cell "0" [ref=e107]
+                  - cell "kubernetes / resources" [ref=e108]
+                  - cell "Free" [ref=e109]:
+                    - generic [ref=e110]: Free
+                  - cell "0" [ref=e111]
+                  - cell "No limit" [ref=e112]
+                  - cell "Inactive Retakes" [ref=e113]:
+                    - generic [ref=e114]: Inactive
+                    - generic [ref=e115]: Retakes
+                  - cell "2026-06-14" [ref=e116]
+                  - cell [ref=e117]:
+                    - group [ref=e118]:
+                      - link "Edit" [ref=e119] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/21/edit
+                        - text: Edit
+                      - link "Manage" [ref=e120] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/21/manage
+                        - text: Manage
+                      - link "Preview" [ref=e121] [cursor=pointer]:
+                        - /url: /quiz/21/goldilocks-tutorial
+                        - text: Preview
+                      - button "Delete" [ref=e122] [cursor=pointer]: Delete
+                - 'row "Gateway API Learning Lab: From Zero to Hero 16 Kubernetes / Gateway-api Free 16 No limit Active Retakes 2026-01-17" [ref=e123]':
+                  - 'cell "Gateway API Learning Lab: From Zero to Hero" [ref=e124]':
+                    - strong [ref=e125]: "Gateway API Learning Lab: From Zero to Hero"
+                  - cell "16" [ref=e126]
+                  - cell "Kubernetes / Gateway-api" [ref=e127]
+                  - cell "Free" [ref=e128]:
+                    - generic [ref=e129]: Free
+                  - cell "16" [ref=e130]
+                  - cell "No limit" [ref=e131]
+                  - cell "Active Retakes" [ref=e132]:
+                    - generic [ref=e133]: Active
+                    - generic [ref=e134]: Retakes
+                  - cell "2026-01-17" [ref=e135]
+                  - cell [ref=e136]:
+                    - group [ref=e137]:
+                      - link "Edit" [ref=e138] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/20/edit
+                        - text: Edit
+                      - link "Manage" [ref=e139] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/20/manage
+                        - text: Manage
+                      - link "Preview" [ref=e140] [cursor=pointer]:
+                        - /url: /quiz/20/gateway-api-learning-lab-from-zero-to-hero
+                        - text: Preview
+                      - button "Delete" [ref=e141] [cursor=pointer]: Delete
+                - row "Set Up Your Local Kubernetes Environment 0 Kubernetes Free 0 No limit Inactive Retakes 2026-01-17" [ref=e142]:
+                  - cell "Set Up Your Local Kubernetes Environment" [ref=e143]:
+                    - strong [ref=e144]: Set Up Your Local Kubernetes Environment
+                  - cell "0" [ref=e145]
+                  - cell "Kubernetes" [ref=e146]
+                  - cell "Free" [ref=e147]:
+                    - generic [ref=e148]: Free
+                  - cell "0" [ref=e149]
+                  - cell "No limit" [ref=e150]
+                  - cell "Inactive Retakes" [ref=e151]:
+                    - generic [ref=e152]: Inactive
+                    - generic [ref=e153]: Retakes
+                  - cell "2026-01-17" [ref=e154]
+                  - cell [ref=e155]:
+                    - group [ref=e156]:
+                      - link "Edit" [ref=e157] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/19/edit
+                        - text: Edit
+                      - link "Manage" [ref=e158] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/19/manage
+                        - text: Manage
+                      - link "Preview" [ref=e159] [cursor=pointer]:
+                        - /url: /quiz/19/set-up-your-local-kubernetes-environment
+                        - text: Preview
+                      - button "Delete" [ref=e160] [cursor=pointer]: Delete
+                - row "Build Your Own Production-Ready RAG Chatbot 3 ai rag python Free 3 No limit Inactive Retakes 2026-01-05" [ref=e161]:
+                  - cell "Build Your Own Production-Ready RAG Chatbot" [ref=e162]:
+                    - strong [ref=e163]: Build Your Own Production-Ready RAG Chatbot
+                  - cell "3" [ref=e164]
+                  - cell "ai rag python" [ref=e165]
+                  - cell "Free" [ref=e166]:
+                    - generic [ref=e167]: Free
+                  - cell "3" [ref=e168]
+                  - cell "No limit" [ref=e169]
+                  - cell "Inactive Retakes" [ref=e170]:
+                    - generic [ref=e171]: Inactive
+                    - generic [ref=e172]: Retakes
+                  - cell "2026-01-05" [ref=e173]
+                  - cell [ref=e174]:
+                    - group [ref=e175]:
+                      - link "Edit" [ref=e176] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/18/edit
+                        - text: Edit
+                      - link "Manage" [ref=e177] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/18/manage
+                        - text: Manage
+                      - link "Preview" [ref=e178] [cursor=pointer]:
+                        - /url: /quiz/18/build-your-own-production-ready-rag-chatbot
+                        - text: Preview
+                      - button "Delete" [ref=e179] [cursor=pointer]: Delete
+                - row "☸️ Helm v3 Mastery Quiz 10 Helm Free 10 No limit Active Retakes 2025-12-21" [ref=e180]:
+                  - cell "☸️ Helm v3 Mastery Quiz" [ref=e181]:
+                    - strong [ref=e182]: ☸️ Helm v3 Mastery Quiz
+                  - cell "10" [ref=e183]
+                  - cell "Helm" [ref=e184]
+                  - cell "Free" [ref=e185]:
+                    - generic [ref=e186]: Free
+                  - cell "10" [ref=e187]
+                  - cell "No limit" [ref=e188]
+                  - cell "Active Retakes" [ref=e189]:
+                    - generic [ref=e190]: Active
+                    - generic [ref=e191]: Retakes
+                  - cell "2025-12-21" [ref=e192]
+                  - cell [ref=e193]:
+                    - group [ref=e194]:
+                      - link "Edit" [ref=e195] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/16/edit
+                        - text: Edit
+                      - link "Manage" [ref=e196] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/16/manage
+                        - text: Manage
+                      - link "Preview" [ref=e197] [cursor=pointer]:
+                        - /url: /quiz/16/helm-v3-mastery-quiz
+                        - text: Preview
+                      - button "Delete" [ref=e198] [cursor=pointer]: Delete
+                - row "Kubernetes 1.35 \"Timbernetes\" Knowledge Quiz 12 Kubernetes / 1.35 Free 12 No limit Active Retakes 2025-12-20" [ref=e199]:
+                  - cell "Kubernetes 1.35 \"Timbernetes\" Knowledge Quiz" [ref=e200]:
+                    - strong [ref=e201]: Kubernetes 1.35 "Timbernetes" Knowledge Quiz
+                  - cell "12" [ref=e202]
+                  - cell "Kubernetes / 1.35" [ref=e203]
+                  - cell "Free" [ref=e204]:
+                    - generic [ref=e205]: Free
+                  - cell "12" [ref=e206]
+                  - cell "No limit" [ref=e207]
+                  - cell "Active Retakes" [ref=e208]:
+                    - generic [ref=e209]: Active
+                    - generic [ref=e210]: Retakes
+                  - cell "2025-12-20" [ref=e211]
+                  - cell [ref=e212]:
+                    - group [ref=e213]:
+                      - link "Edit" [ref=e214] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/15/edit
+                        - text: Edit
+                      - link "Manage" [ref=e215] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/15/manage
+                        - text: Manage
+                      - link "Preview" [ref=e216] [cursor=pointer]:
+                        - /url: /quiz/15/kubernetes-1-35-timbernetes-knowledge-quiz
+                        - text: Preview
+                      - button "Delete" [ref=e217] [cursor=pointer]: Delete
+                - row "Test Your Kubernetes CRD Knowledge 6 Kubernetes / CRD Free 6 No limit Active Retakes 2025-11-23" [ref=e218]:
+                  - cell "Test Your Kubernetes CRD Knowledge" [ref=e219]:
+                    - strong [ref=e220]: Test Your Kubernetes CRD Knowledge
+                  - cell "6" [ref=e221]
+                  - cell "Kubernetes / CRD" [ref=e222]
+                  - cell "Free" [ref=e223]:
+                    - generic [ref=e224]: Free
+                  - cell "6" [ref=e225]
+                  - cell "No limit" [ref=e226]
+                  - cell "Active Retakes" [ref=e227]:
+                    - generic [ref=e228]: Active
+                    - generic [ref=e229]: Retakes
+                  - cell "2025-11-23" [ref=e230]
+                  - cell [ref=e231]:
+                    - group [ref=e232]:
+                      - link "Edit" [ref=e233] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/13/edit
+                        - text: Edit
+                      - link "Manage" [ref=e234] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/13/manage
+                        - text: Manage
+                      - link "Preview" [ref=e235] [cursor=pointer]:
+                        - /url: /quiz/13/test-your-kubernetes-crd-knowledge
+                        - text: Preview
+                      - button "Delete" [ref=e236] [cursor=pointer]: Delete
+                - row "Kubernetes Network Policies 4 Kubernetes / Network Free 4 No limit Inactive Retakes 2025-11-22" [ref=e237]:
+                  - cell "Kubernetes Network Policies" [ref=e238]:
+                    - strong [ref=e239]: Kubernetes Network Policies
+                  - cell "4" [ref=e240]
+                  - cell "Kubernetes / Network" [ref=e241]
+                  - cell "Free" [ref=e242]:
+                    - generic [ref=e243]: Free
+                  - cell "4" [ref=e244]
+                  - cell "No limit" [ref=e245]
+                  - cell "Inactive Retakes" [ref=e246]:
+                    - generic [ref=e247]: Inactive
+                    - generic [ref=e248]: Retakes
+                  - cell "2025-11-22" [ref=e249]
+                  - cell [ref=e250]:
+                    - group [ref=e251]:
+                      - link "Edit" [ref=e252] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/12/edit
+                        - text: Edit
+                      - link "Manage" [ref=e253] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/12/manage
+                        - text: Manage
+                      - link "Preview" [ref=e254] [cursor=pointer]:
+                        - /url: /quiz/12/kubernetes-network-policies
+                        - text: Preview
+                      - button "Delete" [ref=e255] [cursor=pointer]: Delete
+                - row "Kubernetes Health Checks 2 Kubernetes Probes Free 2 No limit Inactive Retakes 2025-11-02" [ref=e256]:
+                  - cell "Kubernetes Health Checks" [ref=e257]:
+                    - strong [ref=e258]: Kubernetes Health Checks
+                  - cell "2" [ref=e259]
+                  - cell "Kubernetes Probes" [ref=e260]
+                  - cell "Free" [ref=e261]:
+                    - generic [ref=e262]: Free
+                  - cell "2" [ref=e263]
+                  - cell "No limit" [ref=e264]
+                  - cell "Inactive Retakes" [ref=e265]:
+                    - generic [ref=e266]: Inactive
+                    - generic [ref=e267]: Retakes
+                  - cell "2025-11-02" [ref=e268]
+                  - cell [ref=e269]:
+                    - group [ref=e270]:
+                      - link "Edit" [ref=e271] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/11/edit
+                        - text: Edit
+                      - link "Manage" [ref=e272] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/11/manage
+                        - text: Manage
+                      - link "Preview" [ref=e273] [cursor=pointer]:
+                        - /url: /quiz/11/kubernetes-health-checks
+                        - text: Preview
+                      - button "Delete" [ref=e274] [cursor=pointer]: Delete
+                - row "Set Up Your Own Kubernetes Lab Environment 0 Lab Free 0 No limit Inactive Retakes 2025-10-26" [ref=e275]:
+                  - cell "Set Up Your Own Kubernetes Lab Environment" [ref=e276]:
+                    - strong [ref=e277]: Set Up Your Own Kubernetes Lab Environment
+                  - cell "0" [ref=e278]
+                  - cell "Lab" [ref=e279]
+                  - cell "Free" [ref=e280]:
+                    - generic [ref=e281]: Free
+                  - cell "0" [ref=e282]
+                  - cell "No limit" [ref=e283]
+                  - cell "Inactive Retakes" [ref=e284]:
+                    - generic [ref=e285]: Inactive
+                    - generic [ref=e286]: Retakes
+                  - cell "2025-10-26" [ref=e287]
+                  - cell [ref=e288]:
+                    - group [ref=e289]:
+                      - link "Edit" [ref=e290] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/10/edit
+                        - text: Edit
+                      - link "Manage" [ref=e291] [cursor=pointer]:
+                        - /url: /quiz/admin/quiz/10/manage
+                        - text: Manage
+                      - link "Preview" [ref=e292] [cursor=pointer]:
+                        - /url: /quiz/10/set-up-your-own-kubernetes-lab-environment
+                        - text: Preview
+                      - button "Delete" [ref=e293] [cursor=pointer]: Delete
+            - generic [ref=e294]:
+              - status [ref=e296]: Showing 1 to 10 of 18 entries
+              - list [ref=e299]:
+                - listitem [ref=e300]:
+                  - link "Previous":
+                    - /url: "#"
+                - listitem [ref=e301]:
+                  - link "1" [ref=e302] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e303]:
+                  - link "2" [ref=e304] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e305]:
+                  - link "Next" [ref=e306] [cursor=pointer]:
+                    - /url: "#"
+  - contentinfo [ref=e309]:
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - paragraph
+        - link "www.devoriales.com" [ref=e313] [cursor=pointer]:
+          - /url: /home
+        - paragraph
+        - paragraph [ref=e314]: © 2025 Copyrights. All rights reserved.
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - link "Terms" [ref=e318] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e319]:
+          - link "Privacy Policy" [ref=e320] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e321]:
+          - link "Blog" [ref=e322] [cursor=pointer]:
+            - /url: /blog
+      - list [ref=e324]:
+        - listitem [ref=e325]:
+          - link "Support" [ref=e326] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e327]:
+        - heading [level=5]
+        - paragraph [ref=e328]:
+          - link "Sign Up To Our Newsletter" [ref=e329] [cursor=pointer]:
+            - /url: /newsletter
+  - region "Cookies management panel":
+    - heading "Cookies management panel" [level=1] [ref=e330]
+    - text: ☑ ☐ ✛ ☑ ☐ ✛ ✛ ✛ ☑ ☐ ✛ ✛ ✛ ✛ ✛ ✛ ☝ 🍪 ☐ ☐

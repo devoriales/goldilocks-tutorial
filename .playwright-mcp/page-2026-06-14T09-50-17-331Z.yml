@@ -1,0 +1,294 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic: ×
+      - paragraph: Join Devoriales Today!
+      - paragraph:
+        - text: Get the latest insights on DevOps, programming, cloud computing, and Kubernetes directly to your inbox.
+        - text: You'll receive exclusive materials including posts, videos, and newsletters tailored to keep you ahead in your field.
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: "Register with:"
+            - link "Google":
+              - /url: /login/google
+              - text: Google
+            - link "GitHub":
+              - /url: /login/github
+              - text: GitHub
+      - link "Other Options":
+        - /url: /register
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Main navigation" [ref=e4]:
+        - generic [ref=e5]:
+          - link "Devoriales - Home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Devoriales Logo" [ref=e7]
+          - generic [ref=e8]:
+            - menubar [ref=e9]:
+              - menuitem "Home" [ref=e10] [cursor=pointer]
+              - menuitem "Blog" [ref=e11] [cursor=pointer]
+              - menuitem "Challenges" [ref=e12] [cursor=pointer]
+            - generic [ref=e13]:
+              - link "New Post" [ref=e14] [cursor=pointer]:
+                - /url: /post/new
+              - listitem [ref=e15]:
+                - button "Admin" [ref=e16] [cursor=pointer]
+              - listitem [ref=e17]:
+                - button "Create" [ref=e18] [cursor=pointer]
+              - link "My Account" [ref=e19] [cursor=pointer]:
+                - /url: /account
+              - link "Logout" [ref=e20] [cursor=pointer]:
+                - /url: /logout
+              - generic [ref=e21]: Hi Aleksandro
+              - 'generic "Build: 2026-06-13T18:02:30Z" [ref=e22]':
+                - generic [ref=e23]: v0.17.1
+              - button "Toggle dark mode" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]: 
+              - searchbox "Search" [ref=e28]
+      - separator [ref=e29]
+  - main [ref=e30]:
+    - generic [ref=e33]:
+      - link "← Back to Dashboard" [ref=e35] [cursor=pointer]:
+        - /url: /quiz/admin
+      - heading "Create New Question" [level=2] [ref=e36]
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - strong [ref=e40]: Question Text *
+          - application [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - menubar [ref=e46]:
+                  - menuitem "File" [ref=e47] [cursor=pointer]:
+                    - generic [ref=e48]: File
+                  - menuitem "Edit" [ref=e49] [cursor=pointer]:
+                    - generic [ref=e50]: Edit
+                  - menuitem "View" [ref=e51] [cursor=pointer]:
+                    - generic [ref=e52]: View
+                  - menuitem "Insert" [ref=e53] [cursor=pointer]:
+                    - generic [ref=e54]: Insert
+                  - menuitem "Format" [ref=e55] [cursor=pointer]:
+                    - generic [ref=e56]: Format
+                  - menuitem "Tools" [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]: Tools
+                  - menuitem "Table" [ref=e59] [cursor=pointer]:
+                    - generic [ref=e60]: Table
+                - group [ref=e61]:
+                  - group [ref=e62]:
+                    - toolbar [ref=e63]:
+                      - button "Undo" [disabled] [ref=e64]:
+                        - img [ref=e66]
+                      - button "Redo" [disabled] [ref=e68]:
+                        - img [ref=e70]
+                    - toolbar [ref=e72]:
+                      - button "Block Paragraph" [ref=e73] [cursor=pointer]:
+                        - generic [ref=e74]: Paragraph
+                        - img [ref=e76]
+                      - button "Font System Font" [ref=e78] [cursor=pointer]:
+                        - generic [ref=e79]: System Font
+                        - img [ref=e81]
+                      - button "Font size 12pt" [ref=e83] [cursor=pointer]:
+                        - generic [ref=e84]: 12pt
+                        - img [ref=e86]
+                    - toolbar [ref=e88]:
+                      - button "Bold" [ref=e89] [cursor=pointer]:
+                        - img [ref=e91]
+                      - button "Italic" [ref=e93] [cursor=pointer]:
+                        - img [ref=e95]
+                      - button "Underline" [ref=e97] [cursor=pointer]:
+                        - img [ref=e99]
+                      - button "Strikethrough" [ref=e101] [cursor=pointer]:
+                        - img [ref=e103]
+                    - toolbar [ref=e107]:
+                      - button "Reveal or hide additional toolbar items" [ref=e108] [cursor=pointer]:
+                        - img [ref=e110]
+              - iframe [ref=e114]:
+                - generic "Rich Text Area" [active] [ref=f8e1]:
+                  - text: Enter your question here...
+                  - paragraph [ref=f8e2]
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - navigation [ref=e117]:
+                  - button "p" [ref=e118]
+                - button "0 words" [ref=e120] [cursor=pointer]
+              - generic "Press the Up and Down arrow keys to resize the editor." [ref=e121]:
+                - img [ref=e122]
+          - text: Write a clear and concise question. You can add images, videos, code, and formatting.
+        - generic [ref=e125]:
+          - strong [ref=e127]: Question Explanation (Optional)
+          - application [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - menubar [ref=e132]:
+                  - menuitem "File" [ref=e133] [cursor=pointer]:
+                    - generic [ref=e134]: File
+                  - menuitem "Edit" [ref=e135] [cursor=pointer]:
+                    - generic [ref=e136]: Edit
+                  - menuitem "View" [ref=e137] [cursor=pointer]:
+                    - generic [ref=e138]: View
+                  - menuitem "Insert" [ref=e139] [cursor=pointer]:
+                    - generic [ref=e140]: Insert
+                  - menuitem "Format" [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]: Format
+                  - menuitem "Tools" [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]: Tools
+                  - menuitem "Table" [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]: Table
+                - group [ref=e147]:
+                  - group [ref=e148]:
+                    - toolbar [ref=e149]:
+                      - button "Undo" [disabled] [ref=e150]:
+                        - img [ref=e152]
+                      - button "Redo" [disabled] [ref=e154]:
+                        - img [ref=e156]
+                    - toolbar [ref=e158]:
+                      - button "Block Paragraph" [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: Paragraph
+                        - img [ref=e162]
+                      - button "Font System Font" [ref=e164] [cursor=pointer]:
+                        - generic [ref=e165]: System Font
+                        - img [ref=e167]
+                      - button "Font size 12pt" [ref=e169] [cursor=pointer]:
+                        - generic [ref=e170]: 12pt
+                        - img [ref=e172]
+                    - toolbar [ref=e174]:
+                      - button "Bold" [ref=e175] [cursor=pointer]:
+                        - img [ref=e177]
+                      - button "Italic" [ref=e179] [cursor=pointer]:
+                        - img [ref=e181]
+                      - button "Underline" [ref=e183] [cursor=pointer]:
+                        - img [ref=e185]
+                      - button "Strikethrough" [ref=e187] [cursor=pointer]:
+                        - img [ref=e189]
+                    - toolbar [ref=e193]:
+                      - button "Reveal or hide additional toolbar items" [ref=e194] [cursor=pointer]:
+                        - img [ref=e196]
+              - iframe [ref=e200]:
+                - generic "Rich Text Area" [active] [ref=f9e1]:
+                  - text: Provide an explanation for the question (optional)
+                  - paragraph [ref=f9e2]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - navigation [ref=e203]:
+                  - button "p" [ref=e204]
+                - button "0 words" [ref=e206] [cursor=pointer]
+              - generic "Press the Up and Down arrow keys to resize the editor." [ref=e207]:
+                - img [ref=e208]
+          - text: Explain the answer or provide additional context. This will be shown after the user answers.
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - strong [ref=e214]: Question Type *
+            - combobox "Question Type *" [ref=e215]:
+              - option "Single Choice (Radio buttons)" [selected]
+              - option "Multiple Choice (Checkboxes)"
+              - option "Scenario (Killercoda Lab)"
+            - text: Choose how users can answer
+          - generic [ref=e216]:
+            - strong [ref=e218]: Points *
+            - spinbutton "Points *" [ref=e219]: "1"
+            - text: Points awarded for correct answer
+          - generic [ref=e220]:
+            - strong [ref=e222]: Category (Optional)
+            - textbox "Category (Optional)" [ref=e223]:
+              - /placeholder: Enter question category (e.g., Math, Science)
+            - text: Categorize your question for better organization
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - strong [ref=e227]: Answer Options *
+              - button "➕ Add Answer" [ref=e228] [cursor=pointer]
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - radio "✓ Correct" [ref=e233]
+                - generic [ref=e234]: ✓ Correct
+              - application [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - menubar [ref=e240]:
+                      - menuitem "File" [ref=e241] [cursor=pointer]:
+                        - generic [ref=e242]: File
+                      - menuitem "Edit" [ref=e243] [cursor=pointer]:
+                        - generic [ref=e244]: Edit
+                      - menuitem "View" [ref=e245] [cursor=pointer]:
+                        - generic [ref=e246]: View
+                      - menuitem "Insert" [ref=e247] [cursor=pointer]:
+                        - generic [ref=e248]: Insert
+                      - menuitem "Format" [ref=e249] [cursor=pointer]:
+                        - generic [ref=e250]: Format
+                      - menuitem "Tools" [ref=e251] [cursor=pointer]:
+                        - generic [ref=e252]: Tools
+                      - menuitem "Table" [ref=e253] [cursor=pointer]:
+                        - generic [ref=e254]: Table
+                    - group [ref=e255]:
+                      - group [ref=e256]:
+                        - toolbar [ref=e257]:
+                          - button "Undo" [disabled] [ref=e258]:
+                            - img [ref=e260]
+                          - button "Redo" [disabled] [ref=e262]:
+                            - img [ref=e264]
+                        - toolbar [ref=e266]:
+                          - button "Block Paragraph" [ref=e267] [cursor=pointer]:
+                            - generic [ref=e268]: Paragraph
+                            - img [ref=e270]
+                          - button "Font System Font" [ref=e272] [cursor=pointer]:
+                            - generic [ref=e273]: System Font
+                            - img [ref=e275]
+                          - button "Font size 14px" [ref=e277] [cursor=pointer]:
+                            - generic [ref=e278]: 14px
+                            - img [ref=e280]
+                        - toolbar [ref=e282]:
+                          - button "Reveal or hide additional toolbar items" [ref=e283] [cursor=pointer]:
+                            - img [ref=e285]
+                  - iframe [ref=e289]:
+                    - generic "Rich Text Area" [active] [ref=f10e1]:
+                      - text: Enter answer option...
+                      - paragraph [ref=f10e2]
+                - generic [ref=e290]:
+                  - generic [ref=e291]:
+                    - navigation [ref=e292]:
+                      - button "p" [ref=e293]
+                    - button "0 words" [ref=e295] [cursor=pointer]
+                  - generic "Press the Up and Down arrow keys to resize the editor." [ref=e296]:
+                    - img [ref=e297]
+              - button "🗑️ Remove" [ref=e300] [cursor=pointer]
+            - generic [ref=e301]:
+              - strong [ref=e302]: "📋 Instructions:"
+              - list [ref=e303]:
+                - listitem [ref=e304]: Add at least 2 answer options
+                - listitem [ref=e305]: Mark at least one answer as correct
+                - listitem [ref=e306]: "For single choice: only one answer can be correct"
+                - listitem [ref=e307]: "For multiple choice: multiple answers can be correct"
+          - generic [ref=e308]:
+            - link "Cancel" [ref=e309] [cursor=pointer]:
+              - /url: /quiz/admin
+            - button "✅ Create Question" [ref=e310] [cursor=pointer]
+  - contentinfo [ref=e313]:
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - paragraph
+        - link "www.devoriales.com" [ref=e317] [cursor=pointer]:
+          - /url: /home
+        - paragraph
+        - paragraph [ref=e318]: © 2025 Copyrights. All rights reserved.
+      - list [ref=e320]:
+        - listitem [ref=e321]:
+          - link "Terms" [ref=e322] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e323]:
+          - link "Privacy Policy" [ref=e324] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e325]:
+          - link "Blog" [ref=e326] [cursor=pointer]:
+            - /url: /blog
+      - list [ref=e328]:
+        - listitem [ref=e329]:
+          - link "Support" [ref=e330] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e331]:
+        - heading [level=5]
+        - paragraph [ref=e332]:
+          - link "Sign Up To Our Newsletter" [ref=e333] [cursor=pointer]:
+            - /url: /newsletter
+  - region "Cookies management panel":
+    - heading "Cookies management panel" [level=1] [ref=e334]
+    - text: ☑ ☐ ✛ ☑ ☐ ✛ ✛ ✛ ☑ ☐ ✛ ✛ ✛ ✛ ✛ ✛ ☝ 🍪 ☐ ☐

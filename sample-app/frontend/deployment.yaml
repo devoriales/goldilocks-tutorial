@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: metrics-app
+  labels:
+    app: frontend
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+        resources:
+          # INTENTIONALLY OVER-PROVISIONED for the tutorial.
+          # nginx:alpine idle typically uses ~2m CPU and ~10Mi memory.
+          # Requesting 500m CPU and 512Mi memory wastes significant cluster capacity.
+          # Goldilocks will recommend much lower values.
+          requests:
+            cpu: 500m
+            memory: 512Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+        # requests == limits → QoS class: Guaranteed

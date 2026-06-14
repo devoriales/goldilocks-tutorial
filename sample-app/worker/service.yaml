@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: worker
+  namespace: metrics-app
+  labels:
+    app: worker
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  selector:
+    app: worker
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+  clusterIP: None
+  # Headless service — worker does not expose HTTP but we define the service
+  # so Goldilocks creates a VPA for this deployment.

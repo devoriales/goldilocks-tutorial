@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Loading
+        - progressbar [ref=e8]
+      - main [ref=e91]:
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - img [ref=e97]
+              - generic [ref=e102]: Sign in with Google
+            - img "Devoriales" [ref=e103]
+          - generic [ref=e104]:
+            - heading "Hi Aleksandro" [level=1] [ref=e105]
+            - generic [ref=e112]: aleksandro.matejic@gmail.com
+        - generic [ref=e118]:
+          - heading "Verifying it’s you..." [level=2] [ref=e120]:
+            - generic [ref=e121]: Verifying it’s you...
+          - generic [ref=e124]: Complete sign-in using your passkey
+        - button "Try another way" [ref=e131]:
+          - generic [ref=e134]: Try another way
+    - contentinfo [ref=e76]:
+      - combobox "Change language English (United States)" [ref=e80] [cursor=pointer]:
+        - generic:
+          - generic: English (United States)
+        - generic:
+          - img
+      - list [ref=e82]:
+        - listitem [ref=e83]:
+          - link "Open Google Account Help Center (external, opens in a new window)" [ref=e84] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=en-US&p=account_iph
+            - text: Help
+        - listitem [ref=e85]:
+          - link "Privacy Policy (external, opens in a new window)" [ref=e86] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=SE&hl=en-US&privacy=true
+            - text: Privacy
+        - listitem [ref=e87]:
+          - link "Google Terms of Service (external, opens in a new window)" [ref=e88] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=SE&hl=en-US
+            - text: Terms
+  - iframe [ref=e89]:
+    
+  - generic [ref=e137]: Hi Aleksandro

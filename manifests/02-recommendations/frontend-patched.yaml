@@ -1,0 +1,41 @@
+# frontend deployment AFTER applying Goldilocks Guaranteed recommendations
+# These values are illustrative — use actual values from your Goldilocks dashboard.
+# Typical VPA recommendation for nginx:alpine under light load:
+#   CPU target:  ~4m (vs original 500m request)
+#   Memory target: ~12Mi (vs original 512Mi request)
+#
+# Using Guaranteed QoS: requests == limits
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: metrics-app
+  labels:
+    app: frontend
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+        resources:
+          # AFTER: Goldilocks Guaranteed recommendation applied
+          # Before: requests=500m/512Mi, limits=500m/512Mi
+          # After:  requests=4m/12Mi,    limits=4m/12Mi
+          # Result: QoS class unchanged (Guaranteed), but massive cost reduction
+          requests:
+            cpu: 4m        # Replace with your dashboard's Guaranteed CPU value
+            memory: 12Mi   # Replace with your dashboard's Guaranteed memory value
+          limits:
+            cpu: 4m        # Same as request = Guaranteed QoS
+            memory: 12Mi   # Same as request = Guaranteed QoS

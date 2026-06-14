@@ -1,0 +1,3157 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic: ×
+      - paragraph: Join Devoriales Today!
+      - paragraph:
+        - text: Get the latest insights on DevOps, programming, cloud computing, and Kubernetes directly to your inbox.
+        - text: You'll receive exclusive materials including posts, videos, and newsletters tailored to keep you ahead in your field.
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: "Register with:"
+            - link "Google":
+              - /url: /login/google
+              - text: Google
+            - link "GitHub":
+              - /url: /login/github
+              - text: GitHub
+      - link "Other Options":
+        - /url: /register
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Main navigation" [ref=e4]:
+        - generic [ref=e5]:
+          - link "Devoriales - Home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Devoriales Logo" [ref=e7]
+          - generic [ref=e8]:
+            - menubar [ref=e9]:
+              - menuitem "Home" [ref=e10] [cursor=pointer]
+              - menuitem "Blog" [ref=e11] [cursor=pointer]
+              - menuitem "Challenges" [ref=e12] [cursor=pointer]
+            - generic [ref=e13]:
+              - link "New Post" [ref=e14] [cursor=pointer]:
+                - /url: /post/new
+              - listitem [ref=e15]:
+                - button "Admin" [ref=e16] [cursor=pointer]
+              - listitem [ref=e17]:
+                - button "Create" [ref=e18] [cursor=pointer]
+              - link "My Account" [ref=e19] [cursor=pointer]:
+                - /url: /account
+              - link "Logout" [ref=e20] [cursor=pointer]:
+                - /url: /logout
+              - generic [ref=e21]: Hi Aleksandro
+              - 'generic "Build: 2026-06-13T18:02:30Z" [ref=e22]':
+                - generic [ref=e23]: v0.17.1
+              - button "Toggle dark mode" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]: 
+              - searchbox "Search" [ref=e28]
+      - separator [ref=e29]
+  - main [ref=e30]:
+    - generic [ref=e33]:
+      - link "← Back to Dashboard" [ref=e35] [cursor=pointer]:
+        - /url: /quiz/admin
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Manage Quiz Questions" [level=2] [ref=e38]
+          - heading "Goldilocks Tutorial" [level=4] [ref=e39]
+          - paragraph [ref=e40]: Organize questions for this quiz
+        - generic [ref=e41]:
+          - generic [ref=e42]: 144 Questions
+          - generic [ref=e43]: 144 Total Points
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Questions in this Quiz" [level=4] [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Drag items to reorder
+            - button "📁 Manage Categories" [ref=e49] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: "#1"
+            - generic [ref=e56]:
+              - strong [ref=e58]: A JVM application uses 2Gi of memory at startup and drops to 512Mi at steady state. VPA has been...
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Single Choice
+                  - generic [ref=e62]: 1 pts
+                - generic [ref=e63]:
+                  - text: "Category:"
+                  - combobox [ref=e64]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e65]:
+              - button "📝" [ref=e66] [cursor=pointer]
+              - button "🗑️" [ref=e68] [cursor=pointer]
+          - generic [ref=e70]:
+            - generic [ref=e73]: "#2"
+            - generic [ref=e74]:
+              - strong [ref=e76]: You want to integrate Goldilocks into a GitOps pipeline so that out-of-date resource settings...
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Single Choice
+                  - generic [ref=e80]: 1 pts
+                - generic [ref=e81]:
+                  - text: "Category:"
+                  - combobox [ref=e82]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e83]:
+              - button "📝" [ref=e84] [cursor=pointer]
+              - button "🗑️" [ref=e86] [cursor=pointer]
+          - generic [ref=e88]:
+            - generic [ref=e91]: "#3"
+            - generic [ref=e92]:
+              - strong [ref=e94]: Your e-commerce platform handles 10× normal traffic every Saturday. VPA has been running for 10...
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Single Choice
+                  - generic [ref=e98]: 1 pts
+                - generic [ref=e99]:
+                  - text: "Category:"
+                  - combobox [ref=e100]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e101]:
+              - button "📝" [ref=e102] [cursor=pointer]
+              - button "🗑️" [ref=e104] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic [ref=e109]: "#4"
+            - generic [ref=e110]:
+              - strong [ref=e112]: A VPA object was created 6 hours ago. The dashboard shows a Burstable recommendation with a CPU...
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Single Choice
+                  - generic [ref=e116]: 1 pts
+                - generic [ref=e117]:
+                  - text: "Category:"
+                  - combobox [ref=e118]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e119]:
+              - button "📝" [ref=e120] [cursor=pointer]
+              - button "🗑️" [ref=e122] [cursor=pointer]
+          - generic [ref=e124]:
+            - generic [ref=e127]: "#5"
+            - generic [ref=e128]:
+              - strong [ref=e130]: Your cluster uses Istio. Every pod has an istio-proxy sidecar. The Goldilocks dashboard shows...
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Single Choice
+                  - generic [ref=e134]: 1 pts
+                - generic [ref=e135]:
+                  - text: "Category:"
+                  - combobox [ref=e136]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e137]:
+              - button "📝" [ref=e138] [cursor=pointer]
+              - button "🗑️" [ref=e140] [cursor=pointer]
+          - generic [ref=e142]:
+            - generic [ref=e145]: "#6"
+            - generic [ref=e146]:
+              - strong [ref=e148]: You add a resourcePolicy.containerPolicies[].minAllowed to a VPA object created by Goldilocks....
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: Single Choice
+                  - generic [ref=e152]: 1 pts
+                - generic [ref=e153]:
+                  - text: "Category:"
+                  - combobox [ref=e154]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e155]:
+              - button "📝" [ref=e156] [cursor=pointer]
+              - button "🗑️" [ref=e158] [cursor=pointer]
+          - generic [ref=e160]:
+            - generic [ref=e163]: "#7"
+            - generic [ref=e164]:
+              - strong [ref=e166]: You want to exclude the load-generator Deployment from Goldilocks while keeping all other...
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Single Choice
+                  - generic [ref=e170]: 1 pts
+                - generic [ref=e171]:
+                  - text: "Category:"
+                  - combobox [ref=e172]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e173]:
+              - button "📝" [ref=e174] [cursor=pointer]
+              - button "🗑️" [ref=e176] [cursor=pointer]
+          - generic [ref=e178]:
+            - generic [ref=e181]: "#8"
+            - generic [ref=e182]:
+              - strong [ref=e184]: "You enable on-by-default: true on your cluster but forget to set exclude-namespaces. What happens?"
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Single Choice
+                  - generic [ref=e188]: 1 pts
+                - generic [ref=e189]:
+                  - text: "Category:"
+                  - combobox [ref=e190]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e191]:
+              - button "📝" [ref=e192] [cursor=pointer]
+              - button "🗑️" [ref=e194] [cursor=pointer]
+          - generic [ref=e196]:
+            - generic [ref=e199]: "#9"
+            - generic [ref=e200]:
+              - strong [ref=e202]: You want to apply recommendations to a StatefulSet. You open the Goldilocks dashboard, but the...
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Single Choice
+                  - generic [ref=e206]: 1 pts
+                - generic [ref=e207]:
+                  - text: "Category:"
+                  - combobox [ref=e208]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e209]:
+              - button "📝" [ref=e210] [cursor=pointer]
+              - button "🗑️" [ref=e212] [cursor=pointer]
+          - generic [ref=e214]:
+            - generic [ref=e217]: "#10"
+            - generic [ref=e218]:
+              - strong [ref=e220]: What happens to a deployment's resources if the VPA recommendation changes after you've already...
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]: Single Choice
+                  - generic [ref=e224]: 1 pts
+                - generic [ref=e225]:
+                  - text: "Category:"
+                  - combobox [ref=e226]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e227]:
+              - button "📝" [ref=e228] [cursor=pointer]
+              - button "🗑️" [ref=e230] [cursor=pointer]
+          - generic [ref=e232]:
+            - generic [ref=e235]: "#11"
+            - generic [ref=e236]:
+              - strong [ref=e238]: "You apply Burstable QoS with requests: 19m CPU and limits: 9658m CPU (copied directly from the..."
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]: Single Choice
+                  - generic [ref=e242]: 1 pts
+                - generic [ref=e243]:
+                  - text: "Category:"
+                  - combobox [ref=e244]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e245]:
+              - button "📝" [ref=e246] [cursor=pointer]
+              - button "🗑️" [ref=e248] [cursor=pointer]
+          - generic [ref=e250]:
+            - generic [ref=e253]: "#12"
+            - generic [ref=e254]:
+              - strong [ref=e256]: You apply Goldilocks's Guaranteed recommendation to your nginx deployment, reducing memory from...
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Single Choice
+                  - generic [ref=e260]: 1 pts
+                - generic [ref=e261]:
+                  - text: "Category:"
+                  - combobox [ref=e262]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e263]:
+              - button "📝" [ref=e264] [cursor=pointer]
+              - button "🗑️" [ref=e266] [cursor=pointer]
+          - generic [ref=e268]:
+            - generic [ref=e271]: "#13"
+            - generic [ref=e272]:
+              - strong [ref=e274]: You navigate to http://localhost:8080/namespaces and see no namespaces listed. Goldilocks pods...
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e277]: Single Choice
+                  - generic [ref=e278]: 1 pts
+                - generic [ref=e279]:
+                  - text: "Category:"
+                  - combobox [ref=e280]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e281]:
+              - button "📝" [ref=e282] [cursor=pointer]
+              - button "🗑️" [ref=e284] [cursor=pointer]
+          - generic [ref=e286]:
+            - generic [ref=e289]: "#14"
+            - generic [ref=e290]:
+              - strong [ref=e292]: What is the difference between the Guaranteed and Burstable YAML snippets the dashboard generates?
+              - generic [ref=e293]:
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Single Choice
+                  - generic [ref=e296]: 1 pts
+                - generic [ref=e297]:
+                  - text: "Category:"
+                  - combobox [ref=e298]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e299]:
+              - button "📝" [ref=e300] [cursor=pointer]
+              - button "🗑️" [ref=e302] [cursor=pointer]
+          - generic [ref=e304]:
+            - generic [ref=e307]: "#15"
+            - generic [ref=e308]:
+              - strong [ref=e310]: You copy the Burstable YAML from the dashboard for a pod that has only been running for 2 hours....
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]: Single Choice
+                  - generic [ref=e314]: 1 pts
+                - generic [ref=e315]:
+                  - text: "Category:"
+                  - combobox [ref=e316]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e317]:
+              - button "📝" [ref=e318] [cursor=pointer]
+              - button "🗑️" [ref=e320] [cursor=pointer]
+          - generic [ref=e322]:
+            - generic [ref=e325]: "#16"
+            - generic [ref=e326]:
+              - strong [ref=e328]: The Goldilocks dashboard shows a > icon next to your CPU request for a deployment. What does this mean?
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]: Single Choice
+                  - generic [ref=e332]: 1 pts
+                - generic [ref=e333]:
+                  - text: "Category:"
+                  - combobox [ref=e334]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e335]:
+              - button "📝" [ref=e336] [cursor=pointer]
+              - button "🗑️" [ref=e338] [cursor=pointer]
+          - generic [ref=e340]:
+            - generic [ref=e343]: "#17"
+            - generic [ref=e344]:
+              - strong [ref=e346]: You need resource recommendations for a StatefulSet named postgres in the db namespace. You...
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]: Single Choice
+                  - generic [ref=e350]: 1 pts
+                - generic [ref=e351]:
+                  - text: "Category:"
+                  - combobox [ref=e352]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e353]:
+              - button "📝" [ref=e354] [cursor=pointer]
+              - button "🗑️" [ref=e356] [cursor=pointer]
+          - generic [ref=e358]:
+            - generic [ref=e361]: "#18"
+            - generic [ref=e362]:
+              - strong [ref=e364]: After labeling a namespace, the VPA PROVIDED column shows False for several minutes. What should you do?
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Single Choice
+                  - generic [ref=e368]: 1 pts
+                - generic [ref=e369]:
+                  - text: "Category:"
+                  - combobox [ref=e370]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e371]:
+              - button "📝" [ref=e372] [cursor=pointer]
+              - button "🗑️" [ref=e374] [cursor=pointer]
+          - generic [ref=e376]:
+            - generic [ref=e379]: "#19"
+            - generic [ref=e380]:
+              - strong [ref=e382]: You label the payments namespace and wait 5 minutes, but kubectl get vpa -n payments returns 'No...
+              - generic [ref=e383]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]: Single Choice
+                  - generic [ref=e386]: 1 pts
+                - generic [ref=e387]:
+                  - text: "Category:"
+                  - combobox [ref=e388]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e389]:
+              - button "📝" [ref=e390] [cursor=pointer]
+              - button "🗑️" [ref=e392] [cursor=pointer]
+          - generic [ref=e394]:
+            - generic [ref=e397]: "#20"
+            - generic [ref=e398]:
+              - strong [ref=e400]: What label do you add to a namespace to activate Goldilocks?
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]: Single Choice
+                  - generic [ref=e404]: 1 pts
+                - generic [ref=e405]:
+                  - text: "Category:"
+                  - combobox [ref=e406]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e407]:
+              - button "📝" [ref=e408] [cursor=pointer]
+              - button "🗑️" [ref=e410] [cursor=pointer]
+          - generic [ref=e412]:
+            - generic [ref=e415]: "#21"
+            - generic [ref=e416]:
+              - strong [ref=e418]: "Why does the values.yaml set vpa.enabled: false and metrics-server.enabled: false?"
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - generic [ref=e421]: Single Choice
+                  - generic [ref=e422]: 1 pts
+                - generic [ref=e423]:
+                  - text: "Category:"
+                  - combobox [ref=e424]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e425]:
+              - button "📝" [ref=e426] [cursor=pointer]
+              - button "🗑️" [ref=e428] [cursor=pointer]
+          - generic [ref=e430]:
+            - generic [ref=e433]: "#22"
+            - generic [ref=e434]:
+              - strong [ref=e436]: Your Goldilocks pod shows ImagePullBackOff. The describe output shows it is trying to pull...
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]: Single Choice
+                  - generic [ref=e440]: 1 pts
+                - generic [ref=e441]:
+                  - text: "Category:"
+                  - combobox [ref=e442]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e443]:
+              - button "📝" [ref=e444] [cursor=pointer]
+              - button "🗑️" [ref=e446] [cursor=pointer]
+          - generic [ref=e448]:
+            - generic [ref=e451]: "#23"
+            - generic [ref=e452]:
+              - strong [ref=e454]: What happens immediately after you install Goldilocks but before labeling any namespace?
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - generic [ref=e457]: Single Choice
+                  - generic [ref=e458]: 1 pts
+                - generic [ref=e459]:
+                  - text: "Category:"
+                  - combobox [ref=e460]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e461]:
+              - button "📝" [ref=e462] [cursor=pointer]
+              - button "🗑️" [ref=e464] [cursor=pointer]
+          - generic [ref=e466]:
+            - generic [ref=e469]: "#24"
+            - generic [ref=e470]:
+              - strong [ref=e472]: What are the two components that Goldilocks installs?
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e475]: Single Choice
+                  - generic [ref=e476]: 1 pts
+                - generic [ref=e477]:
+                  - text: "Category:"
+                  - combobox [ref=e478]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e479]:
+              - button "📝" [ref=e480] [cursor=pointer]
+              - button "🗑️" [ref=e482] [cursor=pointer]
+          - generic [ref=e484]:
+            - generic [ref=e487]: "#25"
+            - generic [ref=e488]:
+              - strong [ref=e490]: You enable both HPA (Horizontal Pod Autoscaler) and VPA in Auto mode on the same deployment....
+              - generic [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]: Single Choice
+                  - generic [ref=e494]: 1 pts
+                - generic [ref=e495]:
+                  - text: "Category:"
+                  - combobox [ref=e496]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e497]:
+              - button "📝" [ref=e498] [cursor=pointer]
+              - button "🗑️" [ref=e500] [cursor=pointer]
+          - generic [ref=e502]:
+            - generic [ref=e505]: "#26"
+            - generic [ref=e506]:
+              - strong [ref=e508]: Your VPA object targets a deployment named api, but the recommendation shows Container Name:...
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]: Single Choice
+                  - generic [ref=e512]: 1 pts
+                - generic [ref=e513]:
+                  - text: "Category:"
+                  - combobox [ref=e514]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e515]:
+              - button "📝" [ref=e516] [cursor=pointer]
+              - button "🗑️" [ref=e518] [cursor=pointer]
+          - generic [ref=e520]:
+            - generic [ref=e523]: "#27"
+            - generic [ref=e524]:
+              - strong [ref=e526]: A VPA object's lowerBound for CPU is 17m and upperBound is 19955m after 2 minutes of data. Which...
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - generic [ref=e529]: Single Choice
+                  - generic [ref=e530]: 1 pts
+                - generic [ref=e531]:
+                  - text: "Category:"
+                  - combobox [ref=e532]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e533]:
+              - button "📝" [ref=e534] [cursor=pointer]
+              - button "🗑️" [ref=e536] [cursor=pointer]
+          - generic [ref=e538]:
+            - generic [ref=e541]: "#28"
+            - generic [ref=e542]:
+              - strong [ref=e544]: You want to collect VPA recommendations without any risk of pods being restarted. Which update...
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]: Single Choice
+                  - generic [ref=e548]: 1 pts
+                - generic [ref=e549]:
+                  - text: "Category:"
+                  - combobox [ref=e550]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e551]:
+              - button "📝" [ref=e552] [cursor=pointer]
+              - button "🗑️" [ref=e554] [cursor=pointer]
+          - generic [ref=e556]:
+            - generic [ref=e559]: "#29"
+            - generic [ref=e560]:
+              - strong [ref=e562]: "After running kubectl top nodes, you see error: Metrics API not available. What should you do?"
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - generic [ref=e565]: Single Choice
+                  - generic [ref=e566]: 1 pts
+                - generic [ref=e567]:
+                  - text: "Category:"
+                  - combobox [ref=e568]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e569]:
+              - button "📝" [ref=e570] [cursor=pointer]
+              - button "🗑️" [ref=e572] [cursor=pointer]
+          - generic [ref=e574]:
+            - generic [ref=e577]: "#30"
+            - generic [ref=e578]:
+              - strong [ref=e580]: "VPA installs three components: recommender, updater, and admission-controller. Which one..."
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - generic [ref=e583]: Single Choice
+                  - generic [ref=e584]: 1 pts
+                - generic [ref=e585]:
+                  - text: "Category:"
+                  - combobox [ref=e586]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e587]:
+              - button "📝" [ref=e588] [cursor=pointer]
+              - button "🗑️" [ref=e590] [cursor=pointer]
+          - generic [ref=e592]:
+            - generic [ref=e595]: "#31"
+            - generic [ref=e596]:
+              - strong [ref=e598]: Why does the metrics-server Helm installation require --set 'args[0]=--kubelet-insecure-tls'?
+              - generic [ref=e599]:
+                - generic [ref=e600]:
+                  - generic [ref=e601]: Single Choice
+                  - generic [ref=e602]: 1 pts
+                - generic [ref=e603]:
+                  - text: "Category:"
+                  - combobox [ref=e604]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e605]:
+              - button "📝" [ref=e606] [cursor=pointer]
+              - button "🗑️" [ref=e608] [cursor=pointer]
+          - generic [ref=e610]:
+            - generic [ref=e613]: "#32"
+            - generic [ref=e614]:
+              - strong [ref=e616]: Why do we pass --k3s-arg '--disable=metrics-server@server:0' when creating the k3d cluster?
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - generic [ref=e619]: Single Choice
+                  - generic [ref=e620]: 1 pts
+                - generic [ref=e621]:
+                  - text: "Category:"
+                  - combobox [ref=e622]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e623]:
+              - button "📝" [ref=e624] [cursor=pointer]
+              - button "🗑️" [ref=e626] [cursor=pointer]
+          - generic [ref=e628]:
+            - generic [ref=e631]: "#33"
+            - generic [ref=e632]:
+              - strong [ref=e634]: A node runs out of memory. It must evict pods to free resources. Which pods are evicted first?
+              - generic [ref=e635]:
+                - generic [ref=e636]:
+                  - generic [ref=e637]: Single Choice
+                  - generic [ref=e638]: 1 pts
+                - generic [ref=e639]:
+                  - text: "Category:"
+                  - combobox [ref=e640]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e641]:
+              - button "📝" [ref=e642] [cursor=pointer]
+              - button "🗑️" [ref=e644] [cursor=pointer]
+          - generic [ref=e646]:
+            - generic [ref=e649]: "#34"
+            - generic [ref=e650]:
+              - strong [ref=e652]: Which condition must be true for a pod to receive the Guaranteed QoS class?
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - generic [ref=e655]: Single Choice
+                  - generic [ref=e656]: 1 pts
+                - generic [ref=e657]:
+                  - text: "Category:"
+                  - combobox [ref=e658]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e659]:
+              - button "📝" [ref=e660] [cursor=pointer]
+              - button "🗑️" [ref=e662] [cursor=pointer]
+          - generic [ref=e664]:
+            - generic [ref=e667]: "#35"
+            - generic [ref=e668]:
+              - strong [ref=e670]: Your pod's CPU usage spikes to 800m, but its CPU limit is set to 200m. The pod does NOT get...
+              - generic [ref=e671]:
+                - generic [ref=e672]:
+                  - generic [ref=e673]: Single Choice
+                  - generic [ref=e674]: 1 pts
+                - generic [ref=e675]:
+                  - text: "Category:"
+                  - combobox [ref=e676]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e677]:
+              - button "📝" [ref=e678] [cursor=pointer]
+              - button "🗑️" [ref=e680] [cursor=pointer]
+          - generic [ref=e682]:
+            - generic [ref=e685]: "#36"
+            - generic [ref=e686]:
+              - strong [ref=e688]: A container in your pod is repeatedly restarting. kubectl describe pod shows OOMKilled as the...
+              - generic [ref=e689]:
+                - generic [ref=e690]:
+                  - generic [ref=e691]: Single Choice
+                  - generic [ref=e692]: 1 pts
+                - generic [ref=e693]:
+                  - text: "Category:"
+                  - combobox [ref=e694]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e695]:
+              - button "📝" [ref=e696] [cursor=pointer]
+              - button "🗑️" [ref=e698] [cursor=pointer]
+          - generic [ref=e700]:
+            - generic [ref=e703]: "#37"
+            - generic [ref=e704]:
+              - strong [ref=e706]: Scenario — Traefik Middlewares In this lab, you will create Traefik Middleware CRDs for rate...
+              - generic [ref=e707]:
+                - generic [ref=e708]:
+                  - generic [ref=e709]: Multiple Choice
+                  - generic [ref=e710]: 1 pts
+                - generic [ref=e711]:
+                  - text: "Category:"
+                  - combobox [ref=e712]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e713]:
+              - button "📝" [ref=e714] [cursor=pointer]
+              - button "🗑️" [ref=e716] [cursor=pointer]
+          - generic [ref=e718]:
+            - generic [ref=e721]: "#38"
+            - generic [ref=e722]:
+              - strong [ref=e724]: Scenario — Advanced Routing and Cutover In this lab, you will implement canary deployments...
+              - generic [ref=e725]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]: Multiple Choice
+                  - generic [ref=e728]: 1 pts
+                - generic [ref=e729]:
+                  - text: "Category:"
+                  - combobox [ref=e730]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e731]:
+              - button "📝" [ref=e732] [cursor=pointer]
+              - button "🗑️" [ref=e734] [cursor=pointer]
+          - generic [ref=e736]:
+            - generic [ref=e739]: "#39"
+            - generic [ref=e740]:
+              - strong [ref=e742]: Scenario — The Migration In this lab, you will install the Kubernetes Gateway API CRDs and...
+              - generic [ref=e743]:
+                - generic [ref=e744]:
+                  - generic [ref=e745]: Multiple Choice
+                  - generic [ref=e746]: 1 pts
+                - generic [ref=e747]:
+                  - text: "Category:"
+                  - combobox [ref=e748]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e749]:
+              - button "📝" [ref=e750] [cursor=pointer]
+              - button "🗑️" [ref=e752] [cursor=pointer]
+          - generic [ref=e754]:
+            - generic [ref=e757]: "#40"
+            - generic [ref=e758]:
+              - strong [ref=e760]: Scenario — Install ingress-nginx controller In this lab, you will install the ingress-nginx...
+              - generic [ref=e761]:
+                - generic [ref=e762]:
+                  - generic [ref=e763]: Multiple Choice
+                  - generic [ref=e764]: 1 pts
+                - generic [ref=e765]:
+                  - text: "Category:"
+                  - combobox [ref=e766]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e767]:
+              - button "📝" [ref=e768] [cursor=pointer]
+              - button "🗑️" [ref=e770] [cursor=pointer]
+          - generic [ref=e772]:
+            - generic [ref=e775]: "#41"
+            - generic [ref=e776]:
+              - strong [ref=e778]: "Lesson 12: Extending Traefik with Custom Plugins Duration: ~25 minutes | Level: Advanced..."
+              - generic [ref=e779]:
+                - generic [ref=e780]:
+                  - generic [ref=e781]: Multiple Choice
+                  - generic [ref=e782]: 1 pts
+                - generic [ref=e783]:
+                  - text: "Category:"
+                  - combobox [ref=e784]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e785]:
+              - button "📝" [ref=e786] [cursor=pointer]
+              - button "🗑️" [ref=e788] [cursor=pointer]
+          - generic [ref=e790]:
+            - generic [ref=e793]: "#42"
+            - generic [ref=e794]:
+              - strong [ref=e796]: "Lesson 11: Common Migration Pitfalls Duration: ~15 minutes | Level: Intermediate Overview The..."
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - generic [ref=e799]: Multiple Choice
+                  - generic [ref=e800]: 1 pts
+                - generic [ref=e801]:
+                  - text: "Category:"
+                  - combobox [ref=e802]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e803]:
+              - button "📝" [ref=e804] [cursor=pointer]
+              - button "🗑️" [ref=e806] [cursor=pointer]
+          - generic [ref=e808]:
+            - generic [ref=e811]: "#43"
+            - generic [ref=e812]:
+              - strong [ref=e814]: "Lesson 08: Advanced Routing Patterns Duration: ~30 minutesfolder:..."
+              - generic [ref=e815]:
+                - generic [ref=e816]:
+                  - generic [ref=e817]: Multiple Choice
+                  - generic [ref=e818]: 1 pts
+                - generic [ref=e819]:
+                  - text: "Category:"
+                  - combobox [ref=e820]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e821]:
+              - button "📝" [ref=e822] [cursor=pointer]
+              - button "🗑️" [ref=e824] [cursor=pointer]
+          - generic [ref=e826]:
+            - generic [ref=e829]: "#44"
+            - generic [ref=e830]:
+              - strong [ref=e832]: "Lesson 10: Production Considerations Duration: ~20 minutes | Level: Intermediate Overview Your..."
+              - generic [ref=e833]:
+                - generic [ref=e834]:
+                  - generic [ref=e835]: Multiple Choice
+                  - generic [ref=e836]: 1 pts
+                - generic [ref=e837]:
+                  - text: "Category:"
+                  - combobox [ref=e838]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e839]:
+              - button "📝" [ref=e840] [cursor=pointer]
+              - button "🗑️" [ref=e842] [cursor=pointer]
+          - generic [ref=e844]:
+            - generic [ref=e847]: "#45"
+            - generic [ref=e848]:
+              - strong [ref=e850]: "Lesson 09: Completing the Migration Duration: ~20 minutes Overview You have built the new..."
+              - generic [ref=e851]:
+                - generic [ref=e852]:
+                  - generic [ref=e853]: Multiple Choice
+                  - generic [ref=e854]: 1 pts
+                - generic [ref=e855]:
+                  - text: "Category:"
+                  - combobox [ref=e856]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e857]:
+              - button "📝" [ref=e858] [cursor=pointer]
+              - button "🗑️" [ref=e860] [cursor=pointer]
+          - generic [ref=e862]:
+            - generic [ref=e865]: "#46"
+            - generic [ref=e866]:
+              - strong [ref=e868]: "Lesson 07: Securing Routes with TLS Duration: ~25 minutesfolder:..."
+              - generic [ref=e869]:
+                - generic [ref=e870]:
+                  - generic [ref=e871]: Multiple Choice
+                  - generic [ref=e872]: 1 pts
+                - generic [ref=e873]:
+                  - text: "Category:"
+                  - combobox [ref=e874]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e875]:
+              - button "📝" [ref=e876] [cursor=pointer]
+              - button "🗑️" [ref=e878] [cursor=pointer]
+          - generic [ref=e880]:
+            - generic [ref=e883]: "#47"
+            - generic [ref=e884]:
+              - strong [ref=e886]: "Lesson 06: Your First HTTPRoute Duration: ~30 minutes folder:..."
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - generic [ref=e889]: Multiple Choice
+                  - generic [ref=e890]: 1 pts
+                - generic [ref=e891]:
+                  - text: "Category:"
+                  - combobox [ref=e892]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e893]:
+              - button "📝" [ref=e894] [cursor=pointer]
+              - button "🗑️" [ref=e896] [cursor=pointer]
+          - generic [ref=e898]:
+            - generic [ref=e901]: "#48"
+            - generic [ref=e902]:
+              - strong [ref=e904]: "Lesson 05: Installing Traefik as Gateway API Controller Duration: ~25 minutesfolder:..."
+              - generic [ref=e905]:
+                - generic [ref=e906]:
+                  - generic [ref=e907]: Multiple Choice
+                  - generic [ref=e908]: 1 pts
+                - generic [ref=e909]:
+                  - text: "Category:"
+                  - combobox [ref=e910]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e911]:
+              - button "📝" [ref=e912] [cursor=pointer]
+              - button "🗑️" [ref=e914] [cursor=pointer]
+          - generic [ref=e916]:
+            - generic [ref=e919]: "#49"
+            - generic [ref=e920]:
+              - strong [ref=e922]: "Lesson 04: The Old Way — Ingress-NGINX Controller Duration: ~25 minutes folder:..."
+              - generic [ref=e923]:
+                - generic [ref=e924]:
+                  - generic [ref=e925]: Multiple Choice
+                  - generic [ref=e926]: 1 pts
+                - generic [ref=e927]:
+                  - text: "Category:"
+                  - combobox [ref=e928]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e929]:
+              - button "📝" [ref=e930] [cursor=pointer]
+              - button "🗑️" [ref=e932] [cursor=pointer]
+          - generic [ref=e934]:
+            - generic [ref=e937]: "#50"
+            - generic [ref=e938]:
+              - strong [ref=e940]: "Lesson 03: Deploying the Bookstore Application Duration: ~20 minutes Folder:..."
+              - generic [ref=e941]:
+                - generic [ref=e942]:
+                  - generic [ref=e943]: Multiple Choice
+                  - generic [ref=e944]: 1 pts
+                - generic [ref=e945]:
+                  - text: "Category:"
+                  - combobox [ref=e946]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e947]:
+              - button "📝" [ref=e948] [cursor=pointer]
+              - button "🗑️" [ref=e950] [cursor=pointer]
+          - generic [ref=e952]:
+            - generic [ref=e955]: "#51"
+            - generic [ref=e956]:
+              - strong [ref=e958]: "Lesson 02: Setting Up Local Kubernetes with k3d Duration: ~20 minutes Overview Before you can..."
+              - generic [ref=e959]:
+                - generic [ref=e960]:
+                  - generic [ref=e961]: Multiple Choice
+                  - generic [ref=e962]: 1 pts
+                - generic [ref=e963]:
+                  - text: "Category:"
+                  - combobox [ref=e964]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e965]:
+              - button "📝" [ref=e966] [cursor=pointer]
+              - button "🗑️" [ref=e968] [cursor=pointer]
+          - generic [ref=e970]:
+            - generic [ref=e973]: "#52"
+            - generic [ref=e974]:
+              - strong [ref=e976]: "Lesson 01: Understanding Gateway API Architecture Duration: ~15 minutes Overview Before..."
+              - generic [ref=e977]:
+                - generic [ref=e978]:
+                  - generic [ref=e979]: Multiple Choice
+                  - generic [ref=e980]: 1 pts
+                - generic [ref=e981]:
+                  - text: "Category:"
+                  - combobox [ref=e982]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e983]:
+              - button "📝" [ref=e984] [cursor=pointer]
+              - button "🗑️" [ref=e986] [cursor=pointer]
+          - generic [ref=e988]:
+            - generic [ref=e991]: "#53"
+            - generic [ref=e992]:
+              - strong [ref=e994]: "Gateway API vs Ingress: What's Different? The old way in ingress configurations:..."
+              - generic [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e997]: Single Choice
+                  - generic [ref=e998]: 1 pts
+                - generic [ref=e999]:
+                  - text: "Category:"
+                  - combobox [ref=e1000]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1001]:
+              - button "📝" [ref=e1002] [cursor=pointer]
+              - button "🗑️" [ref=e1004] [cursor=pointer]
+          - generic [ref=e1006]:
+            - generic [ref=e1009]: "#54"
+            - generic [ref=e1010]:
+              - strong [ref=e1012]: "Gateway API vs Ingress: What's Different? The Old Way: Ingress with nginx..."
+              - generic [ref=e1013]:
+                - generic [ref=e1014]:
+                  - generic [ref=e1015]: Single Choice
+                  - generic [ref=e1016]: 1 pts
+                - generic [ref=e1017]:
+                  - text: "Category:"
+                  - combobox [ref=e1018]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1019]:
+              - button "📝" [ref=e1020] [cursor=pointer]
+              - button "🗑️" [ref=e1022] [cursor=pointer]
+          - generic [ref=e1024]:
+            - generic [ref=e1027]: "#55"
+            - generic [ref=e1028]:
+              - strong [ref=e1030]: "Foundation: Understanding the Problem What Are We Trying to Solve? Imagine you have multiple..."
+              - generic [ref=e1031]:
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]: Single Choice
+                  - generic [ref=e1034]: 1 pts
+                - generic [ref=e1035]:
+                  - text: "Category:"
+                  - combobox [ref=e1036]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1037]:
+              - button "📝" [ref=e1038] [cursor=pointer]
+              - button "🗑️" [ref=e1040] [cursor=pointer]
+          - generic [ref=e1042]:
+            - generic [ref=e1045]: "#56"
+            - generic [ref=e1046]:
+              - strong [ref=e1048]: "The Technology Stack: Choosing the Right Tools for the Job <div class=\"col-md-9\">Main..."
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - generic [ref=e1051]: Single Choice
+                  - generic [ref=e1052]: 1 pts
+                - generic [ref=e1053]:
+                  - text: "Category:"
+                  - combobox [ref=e1054]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1055]:
+              - button "📝" [ref=e1056] [cursor=pointer]
+              - button "🗑️" [ref=e1058] [cursor=pointer]
+          - generic [ref=e1060]:
+            - generic [ref=e1063]: "#57"
+            - generic [ref=e1064]:
+              - strong [ref=e1066]: You are the Lead Architect for a global news platform. A breaking story is published at 2:00 PM....
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]: Single Choice
+                  - generic [ref=e1070]: 1 pts
+                - generic [ref=e1071]:
+                  - text: "Category:"
+                  - combobox [ref=e1072]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1073]:
+              - button "📝" [ref=e1074] [cursor=pointer]
+              - button "🗑️" [ref=e1076] [cursor=pointer]
+          - generic [ref=e1078]:
+            - generic [ref=e1081]: "#58"
+            - generic [ref=e1082]:
+              - strong [ref=e1084]: "Understanding RAG: Making Chatbots Actually Smart About Your Content What is RAG? The Library..."
+              - generic [ref=e1085]:
+                - generic [ref=e1086]:
+                  - generic [ref=e1087]: Single Choice
+                  - generic [ref=e1088]: 1 pts
+                - generic [ref=e1089]:
+                  - text: "Category:"
+                  - combobox [ref=e1090]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1091]:
+              - button "📝" [ref=e1092] [cursor=pointer]
+              - button "🗑️" [ref=e1094] [cursor=pointer]
+          - generic [ref=e1096]:
+            - generic [ref=e1099]: "#59"
+            - generic [ref=e1100]:
+              - strong [ref=e1102]: You want to see a line-by-line comparison of what will change in your YAML manifests before...
+              - generic [ref=e1103]:
+                - generic [ref=e1104]:
+                  - generic [ref=e1105]: Single Choice
+                  - generic [ref=e1106]: 1 pts
+                - generic [ref=e1107]:
+                  - text: "Category:"
+                  - combobox [ref=e1108]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1109]:
+              - button "📝" [ref=e1110] [cursor=pointer]
+              - button "🗑️" [ref=e1112] [cursor=pointer]
+          - generic [ref=e1114]:
+            - generic [ref=e1117]: "#60"
+            - generic [ref=e1118]:
+              - strong [ref=e1120]: You have a chart URL stored in an OCI registry (oci://ghcr.io/user/charts/mychart). You want to...
+              - generic [ref=e1121]:
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]: Single Choice
+                  - generic [ref=e1124]: 1 pts
+                - generic [ref=e1125]:
+                  - text: "Category:"
+                  - combobox [ref=e1126]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1127]:
+              - button "📝" [ref=e1128] [cursor=pointer]
+              - button "🗑️" [ref=e1130] [cursor=pointer]
+          - generic [ref=e1132]:
+            - generic [ref=e1135]: "#61"
+            - generic [ref=e1136]:
+              - strong [ref=e1138]: What is the primary purpose of the '_helpers.tpl' file created by 'helm create'?
+              - generic [ref=e1139]:
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: Single Choice
+                  - generic [ref=e1142]: 1 pts
+                - generic [ref=e1143]:
+                  - text: "Category:"
+                  - combobox [ref=e1144]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1145]:
+              - button "📝" [ref=e1146] [cursor=pointer]
+              - button "🗑️" [ref=e1148] [cursor=pointer]
+          - generic [ref=e1150]:
+            - generic [ref=e1153]: "#62"
+            - generic [ref=e1154]:
+              - strong [ref=e1156]: You need to find a specific older version of the 'wordpress' chart because the latest version...
+              - generic [ref=e1157]:
+                - generic [ref=e1158]:
+                  - generic [ref=e1159]: Single Choice
+                  - generic [ref=e1160]: 1 pts
+                - generic [ref=e1161]:
+                  - text: "Category:"
+                  - combobox [ref=e1162]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1163]:
+              - button "📝" [ref=e1164] [cursor=pointer]
+              - button "🗑️" [ref=e1166] [cursor=pointer]
+          - generic [ref=e1168]:
+            - generic [ref=e1171]: "#63"
+            - generic [ref=e1172]:
+              - strong [ref=e1174]: You need to uninstall a release named 'broken-app', but you want to retain the release records...
+              - generic [ref=e1175]:
+                - generic [ref=e1176]:
+                  - generic [ref=e1177]: Single Choice
+                  - generic [ref=e1178]: 1 pts
+                - generic [ref=e1179]:
+                  - text: "Category:"
+                  - combobox [ref=e1180]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1181]:
+              - button "📝" [ref=e1182] [cursor=pointer]
+              - button "🗑️" [ref=e1184] [cursor=pointer]
+          - generic [ref=e1186]:
+            - generic [ref=e1189]: "#64"
+            - generic [ref=e1190]:
+              - strong [ref=e1192]: In your 'deployment.yaml' template, you need to access the 'tag' value defined under the 'image'...
+              - generic [ref=e1193]:
+                - generic [ref=e1194]:
+                  - generic [ref=e1195]: Single Choice
+                  - generic [ref=e1196]: 1 pts
+                - generic [ref=e1197]:
+                  - text: "Category:"
+                  - combobox [ref=e1198]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1199]:
+              - button "📝" [ref=e1200] [cursor=pointer]
+              - button "🗑️" [ref=e1202] [cursor=pointer]
+          - generic [ref=e1204]:
+            - generic [ref=e1207]: "#65"
+            - generic [ref=e1208]:
+              - strong [ref=e1210]: You have just added a new repository using 'helm repo add', but when you search for a specific...
+              - generic [ref=e1211]:
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]: Single Choice
+                  - generic [ref=e1214]: 1 pts
+                - generic [ref=e1215]:
+                  - text: "Category:"
+                  - combobox [ref=e1216]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1217]:
+              - button "📝" [ref=e1218] [cursor=pointer]
+              - button "🗑️" [ref=e1220] [cursor=pointer]
+          - generic [ref=e1222]:
+            - generic [ref=e1225]: "#66"
+            - generic [ref=e1226]:
+              - strong [ref=e1228]: You are developing a chart and want to see the exact Kubernetes YAML manifests that will be...
+              - generic [ref=e1229]:
+                - generic [ref=e1230]:
+                  - generic [ref=e1231]: Single Choice
+                  - generic [ref=e1232]: 1 pts
+                - generic [ref=e1233]:
+                  - text: "Category:"
+                  - combobox [ref=e1234]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1235]:
+              - button "📝" [ref=e1236] [cursor=pointer]
+              - button "🗑️" [ref=e1238] [cursor=pointer]
+          - generic [ref=e1240]:
+            - generic [ref=e1243]: "#67"
+            - generic [ref=e1244]:
+              - strong [ref=e1246]: You are writing a CI/CD script. You want the script to upgrade an existing release if it is...
+              - generic [ref=e1247]:
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]: Single Choice
+                  - generic [ref=e1250]: 1 pts
+                - generic [ref=e1251]:
+                  - text: "Category:"
+                  - combobox [ref=e1252]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1253]:
+              - button "📝" [ref=e1254] [cursor=pointer]
+              - button "🗑️" [ref=e1256] [cursor=pointer]
+          - generic [ref=e1258]:
+            - generic [ref=e1261]: "#68"
+            - generic [ref=e1262]:
+              - strong [ref=e1264]: You need to deploy the 'bitnami/wordpress' chart but want to override the 'blogName' setting to...
+              - generic [ref=e1265]:
+                - generic [ref=e1266]:
+                  - generic [ref=e1267]: Single Choice
+                  - generic [ref=e1268]: 1 pts
+                - generic [ref=e1269]:
+                  - text: "Category:"
+                  - combobox [ref=e1270]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1271]:
+              - button "📝" [ref=e1272] [cursor=pointer]
+              - button "🗑️" [ref=e1274] [cursor=pointer]
+          - generic [ref=e1276]:
+            - generic [ref=e1279]: "#69"
+            - generic [ref=e1280]:
+              - strong [ref=e1282]: Kubernetes Streaming Protocol Your security team is reviewing Kubernetes dependencies and...
+              - generic [ref=e1283]:
+                - generic [ref=e1284]:
+                  - generic [ref=e1285]: Single Choice
+                  - generic [ref=e1286]: 1 pts
+                - generic [ref=e1287]:
+                  - text: "Category:"
+                  - combobox [ref=e1288]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1289]:
+              - button "📝" [ref=e1290] [cursor=pointer]
+              - button "🗑️" [ref=e1292] [cursor=pointer]
+          - generic [ref=e1294]:
+            - generic [ref=e1297]: "#70"
+            - generic [ref=e1298]:
+              - strong [ref=e1300]: Multi-Tenant Image Security You run a shared Kubernetes cluster for multiple customers. Customer...
+              - generic [ref=e1301]:
+                - generic [ref=e1302]:
+                  - generic [ref=e1303]: Single Choice
+                  - generic [ref=e1304]: 1 pts
+                - generic [ref=e1305]:
+                  - text: "Category:"
+                  - combobox [ref=e1306]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1307]:
+              - button "📝" [ref=e1308] [cursor=pointer]
+              - button "🗑️" [ref=e1310] [cursor=pointer]
+          - generic [ref=e1312]:
+            - generic [ref=e1315]: "#71"
+            - generic [ref=e1316]:
+              - strong [ref=e1318]: Advanced Traffic Distribution Scenario You're designing a multi-region e-commerce platform on...
+              - generic [ref=e1319]:
+                - generic [ref=e1320]:
+                  - generic [ref=e1321]: Single Choice
+                  - generic [ref=e1322]: 1 pts
+                - generic [ref=e1323]:
+                  - text: "Category:"
+                  - combobox [ref=e1324]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1325]:
+              - button "📝" [ref=e1326] [cursor=pointer]
+              - button "🗑️" [ref=e1328] [cursor=pointer]
+          - generic [ref=e1330]:
+            - generic [ref=e1333]: "#72"
+            - generic [ref=e1334]:
+              - strong [ref=e1336]: Feature Gate Management You're preparing to test Kubernetes 1.35 beta features in your staging...
+              - generic [ref=e1337]:
+                - generic [ref=e1338]:
+                  - generic [ref=e1339]: Multiple Choice
+                  - generic [ref=e1340]: 1 pts
+                - generic [ref=e1341]:
+                  - text: "Category:"
+                  - combobox [ref=e1342]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1343]:
+              - button "📝" [ref=e1344] [cursor=pointer]
+              - button "🗑️" [ref=e1346] [cursor=pointer]
+          - generic [ref=e1348]:
+            - generic [ref=e1351]: "#73"
+            - generic [ref=e1352]:
+              - strong [ref=e1354]: Storage Version Migration Your cluster has 50,000 Secrets stored in etcd using an old API...
+              - generic [ref=e1355]:
+                - generic [ref=e1356]:
+                  - generic [ref=e1357]: Single Choice
+                  - generic [ref=e1358]: 1 pts
+                - generic [ref=e1359]:
+                  - text: "Category:"
+                  - combobox [ref=e1360]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1361]:
+              - button "📝" [ref=e1362] [cursor=pointer]
+              - button "🗑️" [ref=e1364] [cursor=pointer]
+          - generic [ref=e1366]:
+            - generic [ref=e1369]: "#74"
+            - generic [ref=e1370]:
+              - strong [ref=e1372]: NUMA Topology Manager Your company just purchased AMD EPYC 9754 servers with 32 NUMA nodes for...
+              - generic [ref=e1373]:
+                - generic [ref=e1374]:
+                  - generic [ref=e1375]: Single Choice
+                  - generic [ref=e1376]: 1 pts
+                - generic [ref=e1377]:
+                  - text: "Category:"
+                  - combobox [ref=e1378]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1379]:
+              - button "📝" [ref=e1380] [cursor=pointer]
+              - button "🗑️" [ref=e1382] [cursor=pointer]
+          - generic [ref=e1384]:
+            - generic [ref=e1387]: "#75"
+            - generic [ref=e1388]:
+              - strong [ref=e1390]: Pod Certificates Features You're implementing zero-trust networking for microservices. You heard...
+              - generic [ref=e1391]:
+                - generic [ref=e1392]:
+                  - generic [ref=e1393]: Multiple Choice
+                  - generic [ref=e1394]: 1 pts
+                - generic [ref=e1395]:
+                  - text: "Category:"
+                  - combobox [ref=e1396]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1397]:
+              - button "📝" [ref=e1398] [cursor=pointer]
+              - button "🗑️" [ref=e1400] [cursor=pointer]
+          - generic [ref=e1402]:
+            - generic [ref=e1405]: "#76"
+            - generic [ref=e1406]:
+              - strong [ref=e1408]: Job API ManagedBy You're using Kueue's MultiKueue to run batch jobs across multiple Kubernetes...
+              - generic [ref=e1409]:
+                - generic [ref=e1410]:
+                  - generic [ref=e1411]: Single Choice
+                  - generic [ref=e1412]: 1 pts
+                - generic [ref=e1413]:
+                  - text: "Category:"
+                  - combobox [ref=e1414]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1415]:
+              - button "📝" [ref=e1416] [cursor=pointer]
+              - button "🗑️" [ref=e1418] [cursor=pointer]
+          - generic [ref=e1420]:
+            - generic [ref=e1423]: "#77"
+            - generic [ref=e1424]:
+              - strong [ref=e1426]: Traffic Distribution Your Redis cache runs as a DaemonSet (one Pod per node). Applications on...
+              - generic [ref=e1427]:
+                - generic [ref=e1428]:
+                  - generic [ref=e1429]: Single Choice
+                  - generic [ref=e1430]: 1 pts
+                - generic [ref=e1431]:
+                  - text: "Category:"
+                  - combobox [ref=e1432]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1433]:
+              - button "📝" [ref=e1434] [cursor=pointer]
+              - button "🗑️" [ref=e1436] [cursor=pointer]
+          - generic [ref=e1438]:
+            - generic [ref=e1441]: "#78"
+            - generic [ref=e1442]:
+              - strong [ref=e1444]: You're writing a blog post about Kubernetes 1.35 and need accurate statistics. Which of the...
+              - generic [ref=e1445]:
+                - generic [ref=e1446]:
+                  - generic [ref=e1447]: Multiple Choice
+                  - generic [ref=e1448]: 1 pts
+                - generic [ref=e1449]:
+                  - text: "Category:"
+                  - combobox [ref=e1450]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1451]:
+              - button "📝" [ref=e1452] [cursor=pointer]
+              - button "🗑️" [ref=e1454] [cursor=pointer]
+          - generic [ref=e1456]:
+            - generic [ref=e1459]: "#79"
+            - generic [ref=e1460]:
+              - strong [ref=e1462]: In-Place Pod Resource Updates Your AI training job needs more memory mid-execution. Previously,...
+              - generic [ref=e1463]:
+                - generic [ref=e1464]:
+                  - generic [ref=e1465]: Single Choice
+                  - generic [ref=e1466]: 1 pts
+                - generic [ref=e1467]:
+                  - text: "Category:"
+                  - combobox [ref=e1468]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1469]:
+              - button "📝" [ref=e1470] [cursor=pointer]
+              - button "🗑️" [ref=e1472] [cursor=pointer]
+          - generic [ref=e1474]:
+            - generic [ref=e1477]: "#80"
+            - generic [ref=e1478]:
+              - strong [ref=e1480]: You're preparing a presentation for your team about the Kubernetes 1.35 release. Your manager...
+              - generic [ref=e1481]:
+                - generic [ref=e1482]:
+                  - generic [ref=e1483]: Single Choice
+                  - generic [ref=e1484]: 1 pts
+                - generic [ref=e1485]:
+                  - text: "Category:"
+                  - combobox [ref=e1486]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1487]:
+              - button "📝" [ref=e1488] [cursor=pointer]
+              - button "🗑️" [ref=e1490] [cursor=pointer]
+          - generic [ref=e1492]:
+            - generic [ref=e1495]: "#81"
+            - generic [ref=e1496]:
+              - strong [ref=e1498]: Mike created a BackupSchedule CRD that defines backup frequency, retention days, and target...
+              - generic [ref=e1499]:
+                - generic [ref=e1500]:
+                  - generic [ref=e1501]: Single Choice
+                  - generic [ref=e1502]: 1 pts
+                - generic [ref=e1503]:
+                  - text: "Category:"
+                  - combobox [ref=e1504]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1505]:
+              - button "📝" [ref=e1506] [cursor=pointer]
+              - button "🗑️" [ref=e1508] [cursor=pointer]
+          - generic [ref=e1510]:
+            - generic [ref=e1513]: "#82"
+            - generic [ref=e1514]:
+              - strong [ref=e1516]: Sarah installed cert-manager in her cluster. She can now run kubectl get certificates and see...
+              - generic [ref=e1517]:
+                - generic [ref=e1518]:
+                  - generic [ref=e1519]: Multiple Choice
+                  - generic [ref=e1520]: 1 pts
+                - generic [ref=e1521]:
+                  - text: "Category:"
+                  - combobox [ref=e1522]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1523]:
+              - button "📝" [ref=e1524] [cursor=pointer]
+              - button "🗑️" [ref=e1526] [cursor=pointer]
+          - generic [ref=e1528]:
+            - generic [ref=e1531]: "#83"
+            - generic [ref=e1532]:
+              - strong [ref=e1534]: Alex is designing two CRDs for his organization. The first, TenantQuota, should limit resources...
+              - generic [ref=e1535]:
+                - generic [ref=e1536]:
+                  - generic [ref=e1537]: Single Choice
+                  - generic [ref=e1538]: 1 pts
+                - generic [ref=e1539]:
+                  - text: "Category:"
+                  - combobox [ref=e1540]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1541]:
+              - button "📝" [ref=e1542] [cursor=pointer]
+              - button "🗑️" [ref=e1544] [cursor=pointer]
+          - generic [ref=e1546]:
+            - generic [ref=e1549]: "#84"
+            - generic [ref=e1550]:
+              - strong [ref=e1552]: Lisa is creating a DatabaseCluster CRD where the spec.nodeCount must be an odd number between 3...
+              - generic [ref=e1553]:
+                - generic [ref=e1554]:
+                  - generic [ref=e1555]: Single Choice
+                  - generic [ref=e1556]: 1 pts
+                - generic [ref=e1557]:
+                  - text: "Category:"
+                  - combobox [ref=e1558]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1559]:
+              - button "📝" [ref=e1560] [cursor=pointer]
+              - button "🗑️" [ref=e1562] [cursor=pointer]
+          - generic [ref=e1564]:
+            - generic [ref=e1567]: "#85"
+            - generic [ref=e1568]:
+              - strong [ref=e1570]: Tom's team initially released a ConfigTemplate CRD with version v1alpha1. After gathering...
+              - generic [ref=e1571]:
+                - generic [ref=e1572]:
+                  - generic [ref=e1573]: Single Choice
+                  - generic [ref=e1574]: 1 pts
+                - generic [ref=e1575]:
+                  - text: "Category:"
+                  - combobox [ref=e1576]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1577]:
+              - button "📝" [ref=e1578] [cursor=pointer]
+              - button "🗑️" [ref=e1580] [cursor=pointer]
+          - generic [ref=e1582]:
+            - generic [ref=e1585]: "#86"
+            - generic [ref=e1586]:
+              - strong [ref=e1588]: Maria is a DevOps engineer tasked with creating a custom resource for managing database backups...
+              - generic [ref=e1589]:
+                - generic [ref=e1590]:
+                  - generic [ref=e1591]: Multiple Choice
+                  - generic [ref=e1592]: 1 pts
+                - generic [ref=e1593]:
+                  - text: "Category:"
+                  - combobox [ref=e1594]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1595]:
+              - button "📝" [ref=e1596] [cursor=pointer]
+              - button "🗑️" [ref=e1598] [cursor=pointer]
+          - generic [ref=e1600]:
+            - generic [ref=e1603]: "#87"
+            - generic [ref=e1604]:
+              - strong [ref=e1606]: "You have a microservices architecture with: ┌─────────────────────────────────┐ │ web-tier..."
+              - generic [ref=e1607]:
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]: Single Choice
+                  - generic [ref=e1610]: 1 pts
+                - generic [ref=e1611]:
+                  - text: "Category:"
+                  - combobox [ref=e1612]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1613]:
+              - button "📝" [ref=e1614] [cursor=pointer]
+              - button "🗑️" [ref=e1616] [cursor=pointer]
+          - generic [ref=e1618]:
+            - generic [ref=e1621]: "#88"
+            - generic [ref=e1622]:
+              - strong [ref=e1624]: "You have a multi-tenant architecture with namespaces: app-team-a (team: team-a) app-team-b..."
+              - generic [ref=e1625]:
+                - generic [ref=e1626]:
+                  - generic [ref=e1627]: Single Choice
+                  - generic [ref=e1628]: 1 pts
+                - generic [ref=e1629]:
+                  - text: "Category:"
+                  - combobox [ref=e1630]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1631]:
+              - button "📝" [ref=e1632] [cursor=pointer]
+              - button "🗑️" [ref=e1634] [cursor=pointer]
+          - generic [ref=e1636]:
+            - generic [ref=e1639]: "#89"
+            - generic [ref=e1640]:
+              - strong [ref=e1642]: "You have a microservices architecture with: API Service (app: api-service) - needs database..."
+              - generic [ref=e1643]:
+                - generic [ref=e1644]:
+                  - generic [ref=e1645]: Multiple Choice
+                  - generic [ref=e1646]: 1 pts
+                - generic [ref=e1647]:
+                  - text: "Category:"
+                  - combobox [ref=e1648]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1649]:
+              - button "📝" [ref=e1650] [cursor=pointer]
+              - button "🗑️" [ref=e1652] [cursor=pointer]
+          - generic [ref=e1654]:
+            - generic [ref=e1657]: "#90"
+            - generic [ref=e1658]:
+              - strong [ref=e1660]: "Assume the following scenario: Client → Web Service (port 80) Web Service → API Service (port..."
+              - generic [ref=e1661]:
+                - generic [ref=e1662]:
+                  - generic [ref=e1663]: Single Choice
+                  - generic [ref=e1664]: 1 pts
+                - generic [ref=e1665]:
+                  - text: "Category:"
+                  - combobox [ref=e1666]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1667]:
+              - button "📝" [ref=e1668] [cursor=pointer]
+              - button "🗑️" [ref=e1670] [cursor=pointer]
+          - generic [ref=e1672]:
+            - generic [ref=e1675]: "#91"
+            - generic [ref=e1676]:
+              - strong [ref=e1678]: "10:30 AM - Coffee Break Learning Sarah continues: \"Let's talk about what happens when things go..."
+              - generic [ref=e1679]:
+                - generic [ref=e1680]:
+                  - generic [ref=e1681]: Single Choice
+                  - generic [ref=e1682]: 1 pts
+                - generic [ref=e1683]:
+                  - text: "Category:"
+                  - combobox [ref=e1684]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1685]:
+              - button "📝" [ref=e1686] [cursor=pointer]
+              - button "🗑️" [ref=e1688] [cursor=pointer]
+          - generic [ref=e1690]:
+            - generic [ref=e1693]: "#92"
+            - generic [ref=e1694]:
+              - strong [ref=e1696]: 9:00 AM - Your First Day as Senior DevOps Your manager, Sarah, walks you through the...
+              - generic [ref=e1697]:
+                - generic [ref=e1698]:
+                  - generic [ref=e1699]: Multiple Choice
+                  - generic [ref=e1700]: 1 pts
+                - generic [ref=e1701]:
+                  - text: "Category:"
+                  - combobox [ref=e1702]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1703]:
+              - button "📝" [ref=e1704] [cursor=pointer]
+              - button "🗑️" [ref=e1706] [cursor=pointer]
+          - generic [ref=e1708]:
+            - generic [ref=e1711]: "#93"
+            - generic [ref=e1712]:
+              - strong [ref=e1714]: Which of the following statements about probe mechanisms are TRUE? (Select all that apply)
+              - generic [ref=e1715]:
+                - generic [ref=e1716]:
+                  - generic [ref=e1717]: Multiple Choice
+                  - generic [ref=e1718]: 1 pts
+                - generic [ref=e1719]:
+                  - text: "Category:"
+                  - combobox [ref=e1720]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1721]:
+              - button "📝" [ref=e1722] [cursor=pointer]
+              - button "🗑️" [ref=e1724] [cursor=pointer]
+          - generic [ref=e1726]:
+            - generic [ref=e1729]: "#94"
+            - generic [ref=e1730]:
+              - strong [ref=e1732]: Installation k3d
+              - generic [ref=e1733]:
+                - generic [ref=e1734]:
+                  - generic [ref=e1735]: Single Choice
+                  - generic [ref=e1736]: 1 pts
+                - generic [ref=e1737]:
+                  - text: "Category:"
+                  - combobox [ref=e1738]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1739]:
+              - button "📝" [ref=e1740] [cursor=pointer]
+              - button "🗑️" [ref=e1742] [cursor=pointer]
+          - generic [ref=e1744]:
+            - generic [ref=e1747]: "#95"
+            - generic [ref=e1748]:
+              - strong [ref=e1750]: Installation of Colima
+              - generic [ref=e1751]:
+                - generic [ref=e1752]:
+                  - generic [ref=e1753]: Single Choice
+                  - generic [ref=e1754]: 1 pts
+                - generic [ref=e1755]:
+                  - text: "Category:"
+                  - combobox [ref=e1756]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1757]:
+              - button "📝" [ref=e1758] [cursor=pointer]
+              - button "🗑️" [ref=e1760] [cursor=pointer]
+          - generic [ref=e1762]:
+            - generic [ref=e1765]: "#96"
+            - generic [ref=e1766]:
+              - strong [ref=e1768]: Introduction to this course
+              - generic [ref=e1769]:
+                - generic [ref=e1770]:
+                  - generic [ref=e1771]: Single Choice
+                  - generic [ref=e1772]: 1 pts
+                - generic [ref=e1773]:
+                  - text: "Category:"
+                  - combobox [ref=e1774]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1775]:
+              - button "📝" [ref=e1776] [cursor=pointer]
+              - button "🗑️" [ref=e1778] [cursor=pointer]
+          - generic [ref=e1780]:
+            - generic [ref=e1783]: "#97"
+            - generic [ref=e1784]:
+              - strong [ref=e1786]: Which are valid HTTP status codes for successful HTTP GET probes?
+              - generic [ref=e1787]:
+                - generic [ref=e1788]:
+                  - generic [ref=e1789]: Multiple Choice
+                  - generic [ref=e1790]: 1 pts
+                - generic [ref=e1791]:
+                  - text: "Category:"
+                  - combobox [ref=e1792]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1793]:
+              - button "📝" [ref=e1794] [cursor=pointer]
+              - button "🗑️" [ref=e1796] [cursor=pointer]
+          - generic [ref=e1798]:
+            - generic [ref=e1801]: "#98"
+            - generic [ref=e1802]:
+              - strong [ref=e1804]: The abbrevation "OOP" stands for "Object-Oriented-Programming"
+              - generic [ref=e1805]:
+                - generic [ref=e1806]:
+                  - generic [ref=e1807]: Single Choice
+                  - generic [ref=e1808]: 1 pts
+                - generic [ref=e1809]:
+                  - text: "Category:"
+                  - combobox [ref=e1810]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1811]:
+              - button "📝" [ref=e1812] [cursor=pointer]
+              - button "🗑️" [ref=e1814] [cursor=pointer]
+          - generic [ref=e1816]:
+            - generic [ref=e1819]: "#99"
+            - generic [ref=e1820]:
+              - strong [ref=e1822]: "Which of the following statements correctly describe how trafficDistribution: PreferClose works?..."
+              - generic [ref=e1823]:
+                - generic [ref=e1824]:
+                  - generic [ref=e1825]: Multiple Choice
+                  - generic [ref=e1826]: 1 pts
+                - generic [ref=e1827]:
+                  - text: "Category:"
+                  - combobox [ref=e1828]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1829]:
+              - button "📝" [ref=e1830] [cursor=pointer]
+              - button "🗑️" [ref=e1832] [cursor=pointer]
+          - generic [ref=e1834]:
+            - generic [ref=e1837]: "#100"
+            - generic [ref=e1838]:
+              - strong [ref=e1840]: What’s a good monitoring strategy to detect imbalanced cross-zone traffic?
+              - generic [ref=e1841]:
+                - generic [ref=e1842]:
+                  - generic [ref=e1843]: Single Choice
+                  - generic [ref=e1844]: 1 pts
+                - generic [ref=e1845]:
+                  - text: "Category:"
+                  - combobox [ref=e1846]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1847]:
+              - button "📝" [ref=e1848] [cursor=pointer]
+              - button "🗑️" [ref=e1850] [cursor=pointer]
+          - generic [ref=e1852]:
+            - generic [ref=e1855]: "#101"
+            - generic [ref=e1856]:
+              - strong [ref=e1858]: "What does the trafficDistribution: PreferClose field in a Kubernetes Service do?"
+              - generic [ref=e1859]:
+                - generic [ref=e1860]:
+                  - generic [ref=e1861]: Single Choice
+                  - generic [ref=e1862]: 1 pts
+                - generic [ref=e1863]:
+                  - text: "Category:"
+                  - combobox [ref=e1864]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1865]:
+              - button "📝" [ref=e1866] [cursor=pointer]
+              - button "🗑️" [ref=e1868] [cursor=pointer]
+          - generic [ref=e1870]:
+            - generic [ref=e1873]: "#102"
+            - generic [ref=e1874]:
+              - strong [ref=e1876]: In a 3-AZ Kubernetes cluster, what percentage of inter-service traffic typically crosses zones...
+              - generic [ref=e1877]:
+                - generic [ref=e1878]:
+                  - generic [ref=e1879]: Single Choice
+                  - generic [ref=e1880]: 1 pts
+                - generic [ref=e1881]:
+                  - text: "Category:"
+                  - combobox [ref=e1882]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1883]:
+              - button "📝" [ref=e1884] [cursor=pointer]
+              - button "🗑️" [ref=e1886] [cursor=pointer]
+          - generic [ref=e1888]:
+            - generic [ref=e1891]: "#103"
+            - generic [ref=e1892]:
+              - strong [ref=e1894]: What is the effective cost per GB of cross-AZ traffic in AWS when considering ingress and egress charges?
+              - generic [ref=e1895]:
+                - generic [ref=e1896]:
+                  - generic [ref=e1897]: Single Choice
+                  - generic [ref=e1898]: 1 pts
+                - generic [ref=e1899]:
+                  - text: "Category:"
+                  - combobox [ref=e1900]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1901]:
+              - button "📝" [ref=e1902] [cursor=pointer]
+              - button "🗑️" [ref=e1904] [cursor=pointer]
+          - generic [ref=e1906]:
+            - generic [ref=e1909]: "#104"
+            - generic [ref=e1910]:
+              - strong [ref=e1912]: Kubernetes 1.34 introduces CEL-based Mutating Admission Policies. What is the main advantage of...
+              - generic [ref=e1913]:
+                - generic [ref=e1914]:
+                  - generic [ref=e1915]: Single Choice
+                  - generic [ref=e1916]: 1 pts
+                - generic [ref=e1917]:
+                  - text: "Category:"
+                  - combobox [ref=e1918]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1919]:
+              - button "📝" [ref=e1920] [cursor=pointer]
+              - button "🗑️" [ref=e1922] [cursor=pointer]
+          - generic [ref=e1924]:
+            - generic [ref=e1927]: "#105"
+            - generic [ref=e1928]:
+              - strong [ref=e1930]: "You run the following command: kubectl get service my-app -o kyaml Which of the following..."
+              - generic [ref=e1931]:
+                - generic [ref=e1932]:
+                  - generic [ref=e1933]: Single Choice
+                  - generic [ref=e1934]: 1 pts
+                - generic [ref=e1935]:
+                  - text: "Category:"
+                  - combobox [ref=e1936]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1937]:
+              - button "📝" [ref=e1938] [cursor=pointer]
+              - button "🗑️" [ref=e1940] [cursor=pointer]
+          - generic [ref=e1942]:
+            - generic [ref=e1945]: "#106"
+            - generic [ref=e1946]:
+              - strong [ref=e1948]: What problem does the new KYAML output format (alpha in Kubernetes 1.34) aim to solve?
+              - generic [ref=e1949]:
+                - generic [ref=e1950]:
+                  - generic [ref=e1951]: Single Choice
+                  - generic [ref=e1952]: 1 pts
+                - generic [ref=e1953]:
+                  - text: "Category:"
+                  - combobox [ref=e1954]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1955]:
+              - button "📝" [ref=e1956] [cursor=pointer]
+              - button "🗑️" [ref=e1958] [cursor=pointer]
+          - generic [ref=e1960]:
+            - generic [ref=e1963]: "#107"
+            - generic [ref=e1964]:
+              - strong [ref=e1966]: Which security enhancements are introduced or improved in Kubernetes 1.34?
+              - generic [ref=e1967]:
+                - generic [ref=e1968]:
+                  - generic [ref=e1969]: Multiple Choice
+                  - generic [ref=e1970]: 1 pts
+                - generic [ref=e1971]:
+                  - text: "Category:"
+                  - combobox [ref=e1972]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1973]:
+              - button "📝" [ref=e1974] [cursor=pointer]
+              - button "🗑️" [ref=e1976] [cursor=pointer]
+          - generic [ref=e1978]:
+            - generic [ref=e1981]: "#108"
+            - generic [ref=e1982]:
+              - strong [ref=e1984]: Which API version do CEL-based Mutating Admission Policies use when graduating to Beta in...
+              - generic [ref=e1985]:
+                - generic [ref=e1986]:
+                  - generic [ref=e1987]: Single Choice
+                  - generic [ref=e1988]: 1 pts
+                - generic [ref=e1989]:
+                  - text: "Category:"
+                  - combobox [ref=e1990]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e1991]:
+              - button "📝" [ref=e1992] [cursor=pointer]
+              - button "🗑️" [ref=e1994] [cursor=pointer]
+          - generic [ref=e1996]:
+            - generic [ref=e1999]: "#109"
+            - generic [ref=e2000]:
+              - strong [ref=e2002]: Which alpha features in Kubernetes 1.34 require manual feature gate enablement?
+              - generic [ref=e2003]:
+                - generic [ref=e2004]:
+                  - generic [ref=e2005]: Multiple Choice
+                  - generic [ref=e2006]: 1 pts
+                - generic [ref=e2007]:
+                  - text: "Category:"
+                  - combobox [ref=e2008]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2009]:
+              - button "📝" [ref=e2010] [cursor=pointer]
+              - button "🗑️" [ref=e2012] [cursor=pointer]
+          - generic [ref=e2014]:
+            - generic [ref=e2017]: "#110"
+            - generic [ref=e2018]:
+              - strong [ref=e2020]: What is unprecedented about Kubernetes 1.34 regarding API changes and backwards compatibility?
+              - generic [ref=e2021]:
+                - generic [ref=e2022]:
+                  - generic [ref=e2023]: Single Choice
+                  - generic [ref=e2024]: 1 pts
+                - generic [ref=e2025]:
+                  - text: "Category:"
+                  - combobox [ref=e2026]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2027]:
+              - button "📝" [ref=e2028] [cursor=pointer]
+              - button "🗑️" [ref=e2030] [cursor=pointer]
+          - generic [ref=e2032]:
+            - generic [ref=e2035]: "#111"
+            - generic [ref=e2036]:
+              - strong [ref=e2038]: Which features graduate to Stable in Kubernetes 1.34?
+              - generic [ref=e2039]:
+                - generic [ref=e2040]:
+                  - generic [ref=e2041]: Multiple Choice
+                  - generic [ref=e2042]: 1 pts
+                - generic [ref=e2043]:
+                  - text: "Category:"
+                  - combobox [ref=e2044]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2045]:
+              - button "📝" [ref=e2046] [cursor=pointer]
+              - button "🗑️" [ref=e2048] [cursor=pointer]
+          - generic [ref=e2050]:
+            - generic [ref=e2053]: "#112"
+            - generic [ref=e2054]:
+              - strong [ref=e2056]: You want to measure checkout duration with a Histogram. Which is correct? from prometheus_client...
+              - generic [ref=e2057]:
+                - generic [ref=e2058]:
+                  - generic [ref=e2059]: Single Choice
+                  - generic [ref=e2060]: 1 pts
+                - generic [ref=e2061]:
+                  - text: "Category:"
+                  - combobox [ref=e2062]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2063]:
+              - button "📝" [ref=e2064] [cursor=pointer]
+              - button "🗑️" [ref=e2066] [cursor=pointer]
+          - generic [ref=e2068]:
+            - generic [ref=e2071]: "#113"
+            - generic [ref=e2072]:
+              - strong [ref=e2074]: "You want to rename a label before storing it. Given this config: scrape_configs: - job_name:..."
+              - generic [ref=e2075]:
+                - generic [ref=e2076]:
+                  - generic [ref=e2077]: Single Choice
+                  - generic [ref=e2078]: 1 pts
+                - generic [ref=e2079]:
+                  - text: "Category:"
+                  - combobox [ref=e2080]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2081]:
+              - button "📝" [ref=e2082] [cursor=pointer]
+              - button "🗑️" [ref=e2084] [cursor=pointer]
+          - generic [ref=e2086]:
+            - generic [ref=e2089]: "#114"
+            - generic [ref=e2090]:
+              - strong [ref=e2092]: "You configure your prometheus.yml like this: global: scrape_interval: 30s scrape_configs: -..."
+              - generic [ref=e2093]:
+                - generic [ref=e2094]:
+                  - generic [ref=e2095]: Single Choice
+                  - generic [ref=e2096]: 1 pts
+                - generic [ref=e2097]:
+                  - text: "Category:"
+                  - combobox [ref=e2098]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2099]:
+              - button "📝" [ref=e2100] [cursor=pointer]
+              - button "🗑️" [ref=e2102] [cursor=pointer]
+          - generic [ref=e2104]:
+            - generic [ref=e2107]: "#115"
+            - generic [ref=e2108]:
+              - strong [ref=e2110]: You want to verify that data persists after restarting the Prometheus container and that your...
+              - generic [ref=e2111]:
+                - generic [ref=e2112]:
+                  - generic [ref=e2113]: Multiple Choice
+                  - generic [ref=e2114]: 1 pts
+                - generic [ref=e2115]:
+                  - text: "Category:"
+                  - combobox [ref=e2116]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2117]:
+              - button "📝" [ref=e2118] [cursor=pointer]
+              - button "🗑️" [ref=e2120] [cursor=pointer]
+          - generic [ref=e2122]:
+            - generic [ref=e2125]: "#116"
+            - generic [ref=e2126]:
+              - strong [ref=e2128]: In Python’s prometheus_client, which statement is accurate?
+              - generic [ref=e2129]:
+                - generic [ref=e2130]:
+                  - generic [ref=e2131]: Single Choice
+                  - generic [ref=e2132]: 1 pts
+                - generic [ref=e2133]:
+                  - text: "Category:"
+                  - combobox [ref=e2134]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2135]:
+              - button "📝" [ref=e2136] [cursor=pointer]
+              - button "🗑️" [ref=e2138] [cursor=pointer]
+          - generic [ref=e2140]:
+            - generic [ref=e2143]: "#117"
+            - generic [ref=e2144]:
+              - strong [ref=e2146]: Which PromQL is the recommended way to compute the P90 checkout duration from histogram buckets...
+              - generic [ref=e2147]:
+                - generic [ref=e2148]:
+                  - generic [ref=e2149]: Single Choice
+                  - generic [ref=e2150]: 1 pts
+                - generic [ref=e2151]:
+                  - text: "Category:"
+                  - combobox [ref=e2152]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2153]:
+              - button "📝" [ref=e2154] [cursor=pointer]
+              - button "🗑️" [ref=e2156] [cursor=pointer]
+          - generic [ref=e2158]:
+            - generic [ref=e2161]: "#118"
+            - generic [ref=e2162]:
+              - strong [ref=e2164]: You configured targets like host.docker.internal:5000 and it works on Docker Desktop...
+              - generic [ref=e2165]:
+                - generic [ref=e2166]:
+                  - generic [ref=e2167]: Multiple Choice
+                  - generic [ref=e2168]: 1 pts
+                - generic [ref=e2169]:
+                  - text: "Category:"
+                  - combobox [ref=e2170]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2171]:
+              - button "📝" [ref=e2172] [cursor=pointer]
+              - button "🗑️" [ref=e2174] [cursor=pointer]
+          - generic [ref=e2176]:
+            - generic [ref=e2179]: "#119"
+            - generic [ref=e2180]:
+              - strong [ref=e2182]: Which statement is true about scrape_interval and scrape_timeout?
+              - generic [ref=e2183]:
+                - generic [ref=e2184]:
+                  - generic [ref=e2185]: Single Choice
+                  - generic [ref=e2186]: 1 pts
+                - generic [ref=e2187]:
+                  - text: "Category:"
+                  - combobox [ref=e2188]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2189]:
+              - button "📝" [ref=e2190] [cursor=pointer]
+              - button "🗑️" [ref=e2192] [cursor=pointer]
+          - generic [ref=e2194]:
+            - generic [ref=e2197]: "#120"
+            - generic [ref=e2198]:
+              - strong [ref=e2200]: "Given the following scraping configuration: scrape_configs: - job_name: 'flask_app'..."
+              - generic [ref=e2201]:
+                - generic [ref=e2202]:
+                  - generic [ref=e2203]: Single Choice
+                  - generic [ref=e2204]: 1 pts
+                - generic [ref=e2205]:
+                  - text: "Category:"
+                  - combobox [ref=e2206]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2207]:
+              - button "📝" [ref=e2208] [cursor=pointer]
+              - button "🗑️" [ref=e2210] [cursor=pointer]
+          - generic [ref=e2212]:
+            - generic [ref=e2215]: "#121"
+            - generic [ref=e2216]:
+              - strong [ref=e2218]: "Given your command: docker run -p 9090:9090 \\ -v..."
+              - generic [ref=e2219]:
+                - generic [ref=e2220]:
+                  - generic [ref=e2221]: Multiple Choice
+                  - generic [ref=e2222]: 1 pts
+                - generic [ref=e2223]:
+                  - text: "Category:"
+                  - combobox [ref=e2224]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2225]:
+              - button "📝" [ref=e2226] [cursor=pointer]
+              - button "🗑️" [ref=e2228] [cursor=pointer]
+          - generic [ref=e2230]:
+            - generic [ref=e2233]: "#122"
+            - generic [ref=e2234]:
+              - strong [ref=e2236]: "A Summary metric shows: _sum=1500, _count=100, {quantile=\"0.99\"}=45. What can you definitively conclude?"
+              - generic [ref=e2237]:
+                - generic [ref=e2238]:
+                  - generic [ref=e2239]: Single Choice
+                  - generic [ref=e2240]: 1 pts
+                - generic [ref=e2241]:
+                  - text: "Category:"
+                  - combobox [ref=e2242]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2243]:
+              - button "📝" [ref=e2244] [cursor=pointer]
+              - button "🗑️" [ref=e2246] [cursor=pointer]
+          - generic [ref=e2248]:
+            - generic [ref=e2251]: "#123"
+            - generic [ref=e2252]:
+              - strong [ref=e2254]: You're monitoring memory usage on a server that fluctuates between 2GB and 8GB throughout the...
+              - generic [ref=e2255]:
+                - generic [ref=e2256]:
+                  - generic [ref=e2257]: Single Choice
+                  - generic [ref=e2258]: 1 pts
+                - generic [ref=e2259]:
+                  - text: "Category:"
+                  - combobox [ref=e2260]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2261]:
+              - button "📝" [ref=e2262] [cursor=pointer]
+              - button "🗑️" [ref=e2264] [cursor=pointer]
+          - generic [ref=e2266]:
+            - generic [ref=e2269]: "#124"
+            - generic [ref=e2270]:
+              - strong [ref=e2272]: Which statements about Histogram buckets is CORRECT?
+              - generic [ref=e2273]:
+                - generic [ref=e2274]:
+                  - generic [ref=e2275]: Multiple Choice
+                  - generic [ref=e2276]: 1 pts
+                - generic [ref=e2277]:
+                  - text: "Category:"
+                  - combobox [ref=e2278]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2279]:
+              - button "📝" [ref=e2280] [cursor=pointer]
+              - button "🗑️" [ref=e2282] [cursor=pointer]
+          - generic [ref=e2284]:
+            - generic [ref=e2287]: "#125"
+            - generic [ref=e2288]:
+              - strong [ref=e2290]: What information does a Summary metric provide that a Histogram does NOT provide directly?
+              - generic [ref=e2291]:
+                - generic [ref=e2292]:
+                  - generic [ref=e2293]: Single Choice
+                  - generic [ref=e2294]: 1 pts
+                - generic [ref=e2295]:
+                  - text: "Category:"
+                  - combobox [ref=e2296]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2297]:
+              - button "📝" [ref=e2298] [cursor=pointer]
+              - button "🗑️" [ref=e2300] [cursor=pointer]
+          - generic [ref=e2302]:
+            - generic [ref=e2305]: "#126"
+            - generic [ref=e2306]:
+              - strong [ref=e2308]: Your application handles file uploads, and you want to monitor both the total number of uploads...
+              - generic [ref=e2309]:
+                - generic [ref=e2310]:
+                  - generic [ref=e2311]: Single Choice
+                  - generic [ref=e2312]: 1 pts
+                - generic [ref=e2313]:
+                  - text: "Category:"
+                  - combobox [ref=e2314]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2315]:
+              - button "📝" [ref=e2316] [cursor=pointer]
+              - button "🗑️" [ref=e2318] [cursor=pointer]
+          - generic [ref=e2320]:
+            - generic [ref=e2323]: "#127"
+            - generic [ref=e2324]:
+              - strong [ref=e2326]: In the context of a Summary metric tracking API response times, what does a quantile value of...
+              - generic [ref=e2327]:
+                - generic [ref=e2328]:
+                  - generic [ref=e2329]: Single Choice
+                  - generic [ref=e2330]: 1 pts
+                - generic [ref=e2331]:
+                  - text: "Category:"
+                  - combobox [ref=e2332]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2333]:
+              - button "📝" [ref=e2334] [cursor=pointer]
+              - button "🗑️" [ref=e2336] [cursor=pointer]
+          - generic [ref=e2338]:
+            - generic [ref=e2341]: "#128"
+            - generic [ref=e2342]:
+              - strong [ref=e2344]: You want to track the total number of failed login attempts across your application. Over a...
+              - generic [ref=e2345]:
+                - generic [ref=e2346]:
+                  - generic [ref=e2347]: Single Choice
+                  - generic [ref=e2348]: 1 pts
+                - generic [ref=e2349]:
+                  - text: "Category:"
+                  - combobox [ref=e2350]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2351]:
+              - button "📝" [ref=e2352] [cursor=pointer]
+              - button "🗑️" [ref=e2354] [cursor=pointer]
+          - generic [ref=e2356]:
+            - generic [ref=e2359]: "#129"
+            - generic [ref=e2360]:
+              - strong [ref=e2362]: In a Histogram metric, if an observation has a value of 4.2 seconds and your buckets are...
+              - generic [ref=e2363]:
+                - generic [ref=e2364]:
+                  - generic [ref=e2365]: Single Choice
+                  - generic [ref=e2366]: 1 pts
+                - generic [ref=e2367]:
+                  - text: "Category:"
+                  - combobox [ref=e2368]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2369]:
+              - button "📝" [ref=e2370] [cursor=pointer]
+              - button "🗑️" [ref=e2372] [cursor=pointer]
+          - generic [ref=e2374]:
+            - generic [ref=e2377]: "#130"
+            - generic [ref=e2378]:
+              - strong [ref=e2380]: You're monitoring a web server and want to track the current number of active WebSocket...
+              - generic [ref=e2381]:
+                - generic [ref=e2382]:
+                  - generic [ref=e2383]: Single Choice
+                  - generic [ref=e2384]: 1 pts
+                - generic [ref=e2385]:
+                  - text: "Category:"
+                  - combobox [ref=e2386]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2387]:
+              - button "📝" [ref=e2388] [cursor=pointer]
+              - button "🗑️" [ref=e2390] [cursor=pointer]
+          - generic [ref=e2392]:
+            - generic [ref=e2395]: "#131"
+            - generic [ref=e2396]:
+              - strong [ref=e2398]: What is the primary characteristic that distinguishes a Counter metric from other Prometheus...
+              - generic [ref=e2399]:
+                - generic [ref=e2400]:
+                  - generic [ref=e2401]: Single Choice
+                  - generic [ref=e2402]: 1 pts
+                - generic [ref=e2403]:
+                  - text: "Category:"
+                  - combobox [ref=e2404]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2405]:
+              - button "📝" [ref=e2406] [cursor=pointer]
+              - button "🗑️" [ref=e2408] [cursor=pointer]
+          - generic [ref=e2410]:
+            - generic [ref=e2413]: "#132"
+            - generic [ref=e2414]:
+              - strong [ref=e2416]: Which Docker commands are essential for basic container lifecycle management? (Select all that apply)
+              - generic [ref=e2417]:
+                - generic [ref=e2418]:
+                  - generic [ref=e2419]: Multiple Choice
+                  - generic [ref=e2420]: 1 pts
+                - generic [ref=e2421]:
+                  - text: "Category:"
+                  - combobox [ref=e2422]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2423]:
+              - button "📝" [ref=e2424] [cursor=pointer]
+              - button "🗑️" [ref=e2426] [cursor=pointer]
+          - generic [ref=e2428]:
+            - generic [ref=e2431]: "#133"
+            - generic [ref=e2432]:
+              - strong [ref=e2434]: What are the benefits of Docker's layered image architecture? (Select all that apply)
+              - generic [ref=e2435]:
+                - generic [ref=e2436]:
+                  - generic [ref=e2437]: Multiple Choice
+                  - generic [ref=e2438]: 1 pts
+                - generic [ref=e2439]:
+                  - text: "Category:"
+                  - combobox [ref=e2440]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2441]:
+              - button "📝" [ref=e2442] [cursor=pointer]
+              - button "🗑️" [ref=e2444] [cursor=pointer]
+          - generic [ref=e2446]:
+            - generic [ref=e2449]: "#134"
+            - generic [ref=e2450]:
+              - strong [ref=e2452]: Which scenario best demonstrates Docker's value proposition for application deployment?
+              - generic [ref=e2453]:
+                - generic [ref=e2454]:
+                  - generic [ref=e2455]: Single Choice
+                  - generic [ref=e2456]: 1 pts
+                - generic [ref=e2457]:
+                  - text: "Category:"
+                  - combobox [ref=e2458]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2459]:
+              - button "📝" [ref=e2460] [cursor=pointer]
+              - button "🗑️" [ref=e2462] [cursor=pointer]
+          - generic [ref=e2464]:
+            - generic [ref=e2467]: "#135"
+            - generic [ref=e2468]:
+              - strong [ref=e2470]: How do Docker containers differ fundamentally from traditional virtual machines in terms of architecture?
+              - generic [ref=e2471]:
+                - generic [ref=e2472]:
+                  - generic [ref=e2473]: Single Choice
+                  - generic [ref=e2474]: 1 pts
+                - generic [ref=e2475]:
+                  - text: "Category:"
+                  - combobox [ref=e2476]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2477]:
+              - button "📝" [ref=e2478] [cursor=pointer]
+              - button "🗑️" [ref=e2480] [cursor=pointer]
+          - generic [ref=e2482]:
+            - generic [ref=e2485]: "#136"
+            - generic [ref=e2486]:
+              - strong [ref=e2488]: What is the primary problem Docker containers solve that traditional deployment methods struggle with?
+              - generic [ref=e2489]:
+                - generic [ref=e2490]:
+                  - generic [ref=e2491]: Single Choice
+                  - generic [ref=e2492]: 1 pts
+                - generic [ref=e2493]:
+                  - text: "Category:"
+                  - combobox [ref=e2494]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2495]:
+              - button "📝" [ref=e2496] [cursor=pointer]
+              - button "🗑️" [ref=e2498] [cursor=pointer]
+          - generic [ref=e2500]:
+            - generic [ref=e2503]: "#137"
+            - generic [ref=e2504]:
+              - strong [ref=e2506]: You're running a global application with Istio service mesh across 3 regions. Your user-profile...
+              - generic [ref=e2507]:
+                - generic [ref=e2508]:
+                  - generic [ref=e2509]: Single Choice
+                  - generic [ref=e2510]: 1 pts
+                - generic [ref=e2511]:
+                  - text: "Category:"
+                  - combobox [ref=e2512]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2513]:
+              - button "📝" [ref=e2514] [cursor=pointer]
+              - button "🗑️" [ref=e2516] [cursor=pointer]
+          - generic [ref=e2518]:
+            - generic [ref=e2521]: "#138"
+            - generic [ref=e2522]:
+              - strong [ref=e2524]: Your high-throughput order processing service handles long-running transactions (up to 2 minutes...
+              - generic [ref=e2525]:
+                - generic [ref=e2526]:
+                  - generic [ref=e2527]: Single Choice
+                  - generic [ref=e2528]: 1 pts
+                - generic [ref=e2529]:
+                  - text: "Category:"
+                  - combobox [ref=e2530]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2531]:
+              - button "📝" [ref=e2532] [cursor=pointer]
+              - button "🗑️" [ref=e2534] [cursor=pointer]
+          - generic [ref=e2536]:
+            - generic [ref=e2539]: "#139"
+            - generic [ref=e2540]:
+              - strong [ref=e2542]: Your e-commerce platform is performing a rolling update during Black Friday traffic. The new...
+              - generic [ref=e2543]:
+                - generic [ref=e2544]:
+                  - generic [ref=e2545]: Single Choice
+                  - generic [ref=e2546]: 1 pts
+                - generic [ref=e2547]:
+                  - text: "Category:"
+                  - combobox [ref=e2548]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2549]:
+              - button "📝" [ref=e2550] [cursor=pointer]
+              - button "🗑️" [ref=e2552] [cursor=pointer]
+          - generic [ref=e2554]:
+            - generic [ref=e2557]: "#140"
+            - generic [ref=e2558]:
+              - strong [ref=e2560]: You have a web application with the following probe configuration running in production:...
+              - generic [ref=e2561]:
+                - generic [ref=e2562]:
+                  - generic [ref=e2563]: Single Choice
+                  - generic [ref=e2564]: 1 pts
+                - generic [ref=e2565]:
+                  - text: "Category:"
+                  - combobox [ref=e2566]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2567]:
+              - button "📝" [ref=e2568] [cursor=pointer]
+              - button "🗑️" [ref=e2570] [cursor=pointer]
+          - generic [ref=e2572]:
+            - generic [ref=e2575]: "#141"
+            - generic [ref=e2576]:
+              - strong [ref=e2578]: A DevOps engineer is trying to configure probes for a microservice and wants to make the health...
+              - generic [ref=e2579]:
+                - generic [ref=e2580]:
+                  - generic [ref=e2581]: Single Choice
+                  - generic [ref=e2582]: 1 pts
+                - generic [ref=e2583]:
+                  - text: "Category:"
+                  - combobox [ref=e2584]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2585]:
+              - button "📝" [ref=e2586] [cursor=pointer]
+              - button "🗑️" [ref=e2588] [cursor=pointer]
+          - generic [ref=e2590]:
+            - generic [ref=e2593]: "#142"
+            - generic [ref=e2594]:
+              - strong [ref=e2596]: Your team is configuring a liveness probe for a Java application that takes 25 seconds to fully...
+              - generic [ref=e2597]:
+                - generic [ref=e2598]:
+                  - generic [ref=e2599]: Single Choice
+                  - generic [ref=e2600]: 1 pts
+                - generic [ref=e2601]:
+                  - text: "Category:"
+                  - combobox [ref=e2602]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2603]:
+              - button "📝" [ref=e2604] [cursor=pointer]
+              - button "🗑️" [ref=e2606] [cursor=pointer]
+          - generic [ref=e2608]:
+            - generic [ref=e2611]: "#143"
+            - generic [ref=e2612]:
+              - strong [ref=e2614]: Your team is running a Node.js microservice in production that handles payment processing. The...
+              - generic [ref=e2615]:
+                - generic [ref=e2616]:
+                  - generic [ref=e2617]: Single Choice
+                  - generic [ref=e2618]: 1 pts
+                - generic [ref=e2619]:
+                  - text: "Category:"
+                  - combobox [ref=e2620]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2621]:
+              - button "📝" [ref=e2622] [cursor=pointer]
+              - button "🗑️" [ref=e2624] [cursor=pointer]
+          - generic [ref=e2626]:
+            - generic [ref=e2629]: "#144"
+            - generic [ref=e2630]:
+              - strong [ref=e2632]: You're deploying a Java Spring Boot application with complex startup dependencies in your...
+              - generic [ref=e2633]:
+                - generic [ref=e2634]:
+                  - generic [ref=e2635]: Multiple Choice
+                  - generic [ref=e2636]: 1 pts
+                - generic [ref=e2637]:
+                  - text: "Category:"
+                  - combobox [ref=e2638]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e2639]:
+              - button "📝" [ref=e2640] [cursor=pointer]
+              - button "🗑️" [ref=e2642] [cursor=pointer]
+      - generic [ref=e2643]:
+        - generic [ref=e2644]:
+          - heading "Available Questions" [level=4] [ref=e2645]
+          - link "+ Create New Question" [ref=e2646] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+        - generic [ref=e2647]:
+          - generic [ref=e2648]: ✅
+          - heading "All Questions Added" [level=5] [ref=e2649]
+          - paragraph [ref=e2650]: All available questions have been added to this quiz, or no other questions exist.
+          - link "Create New Question" [ref=e2651] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+      - generic [ref=e2652]:
+        - heading "Quiz Management" [level=4] [ref=e2653]
+        - generic [ref=e2655]:
+          - link "📝 Create New Question" [ref=e2657] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+          - link "👁️ Preview Quiz" [ref=e2659] [cursor=pointer]:
+            - /url: /quiz/21/goldilocks-tutorial
+          - button "▶️ Activate Quiz" [ref=e2661] [cursor=pointer]
+      - generic [ref=e2662]:
+        - heading "Quiz Summary" [level=5] [ref=e2663]
+        - generic [ref=e2664]:
+          - generic [ref=e2666]:
+            - generic [ref=e2667]: "144"
+            - generic [ref=e2668]: Questions
+          - generic [ref=e2670]:
+            - generic [ref=e2671]: "144"
+            - generic [ref=e2672]: Total Points
+          - generic [ref=e2674]:
+            - generic [ref=e2675]: ∞
+            - generic [ref=e2676]: Time Limit
+          - generic [ref=e2678]:
+            - generic [ref=e2679]: Draft
+            - generic [ref=e2680]: Status
+  - contentinfo [ref=e2683]:
+    - generic [ref=e2685]:
+      - generic [ref=e2686]:
+        - paragraph
+        - link "www.devoriales.com" [ref=e2687] [cursor=pointer]:
+          - /url: /home
+        - paragraph
+        - paragraph [ref=e2688]: © 2025 Copyrights. All rights reserved.
+      - list [ref=e2690]:
+        - listitem [ref=e2691]:
+          - link "Terms" [ref=e2692] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e2693]:
+          - link "Privacy Policy" [ref=e2694] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e2695]:
+          - link "Blog" [ref=e2696] [cursor=pointer]:
+            - /url: /blog
+      - list [ref=e2698]:
+        - listitem [ref=e2699]:
+          - link "Support" [ref=e2700] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e2701]:
+        - heading [level=5]
+        - paragraph [ref=e2702]:
+          - link "Sign Up To Our Newsletter" [ref=e2703] [cursor=pointer]:
+            - /url: /newsletter
+  - region "Cookies management panel":
+    - heading "Cookies management panel" [level=1] [ref=e2704]
+    - text: ☑ ☐ ✛ ☑ ☐ ✛ ✛ ✛ ☑ ☐ ✛ ✛ ✛ ✛ ✛ ✛ ☝ 🍪 ☐ ☐

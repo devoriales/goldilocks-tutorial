@@ -1,0 +1,38 @@
+# Goldilocks Helm values for the tutorial
+# Usage:
+#   helm install goldilocks fairwinds-stable/goldilocks \
+#     --namespace goldilocks \
+#     --version 10.4.0 \
+#     --values manifests/01-goldilocks/values.yaml
+
+image:
+  # IMPORTANT: Use new registry path. Old quay.io path deprecated in v4.15.0.
+  repository: us-docker.pkg.dev/fairwinds-ops/oss/goldilocks
+  tag: v4.15.1
+  pullPolicy: IfNotPresent
+
+controller:
+  enabled: true
+  logVerbosity: "2"
+  flags: {}
+  # To enable all namespaces by default (used in Lesson 08):
+  # flags:
+  #   on-by-default: true
+  #   exclude-namespaces: kube-system,kube-public,vpa,goldilocks
+
+dashboard:
+  enabled: true
+  replicaCount: 1
+  service:
+    type: ClusterIP
+    port: 80
+  # Exclude common sidecar containers from recommendations
+  excludeContainers: "linkerd-proxy,istio-proxy"
+
+# VPA is installed separately (fairwinds-stable/vpa)
+vpa:
+  enabled: false
+
+# metrics-server is installed separately
+metrics-server:
+  enabled: false

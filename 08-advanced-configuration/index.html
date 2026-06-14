@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 08: Advanced Configuration — Goldilocks Tutorial</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Configure Goldilocks at scale: on-by-default mode, namespace exclusions, dashboard container filtering, and resource policy minimums on VPA objects.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root { --theme-color: #f5a623; --theme-color-dark: #d4891a; }
+    .markdown-section code { background-color: #f8f8f8; border-radius: 2px; color: #e96900; font-size: .9em; padding: 2px 4px; }
+    .markdown-section pre > code { background-color: #f8f8f8; color: #525252; }
+    .sidebar-toggle { background-color: transparent; }
+    .return-button { position: fixed; top: 20px; left: 320px; z-index: 9999; background: #f5a623; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.3s ease; }
+    .return-button:hover { background: #d4891a; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+  <a href="../" class="return-button" onclick="window.location.href='../'; return false;">← All Lessons</a>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'Lesson 08: Advanced Configuration',
+      repo: '', loadSidebar: false, subMaxLevel: 3, auto2top: true, homepage: 'README.md',
+      search: { maxAge: 86400000, paths: 'auto', placeholder: 'Search...', noData: 'No results.', depth: 6 },
+      copyCode: { buttonText: 'Copy', errorText: 'Error', successText: 'Copied!' },
+      pagination: { previousText: 'Previous', nextText: 'Next', crossChapter: true, crossChapterText: true }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+</body>
+</html>

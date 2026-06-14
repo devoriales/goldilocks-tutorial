@@ -1,0 +1,43 @@
+# api deployment AFTER applying Goldilocks Burstable recommendations
+# These values are illustrative — use actual values from your Goldilocks dashboard.
+# Typical VPA recommendation for kennethreitz/httpbin:
+#   CPU lowerBound: ~25m (vs original 10m request)
+#   CPU upperBound: ~150m
+#   Memory lowerBound: ~60Mi (vs original 32Mi request)
+#   Memory upperBound: ~200Mi
+#
+# Using Burstable QoS: request = lowerBound, limit = upperBound
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: metrics-app
+  labels:
+    app: api
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+      - name: httpbin
+        image: kennethreitz/httpbin
+        ports:
+        - containerPort: 80
+        resources:
+          # AFTER: Goldilocks Burstable recommendation applied
+          # Before: requests=10m/32Mi,   limits=200m/128Mi
+          # After:  requests=25m/60Mi,   limits=150m/200Mi
+          # Result: QoS class unchanged (Burstable), but requests now reflect actual usage
+          requests:
+            cpu: 25m       # Replace with your dashboard's Burstable lowerBound CPU
+            memory: 60Mi   # Replace with your dashboard's Burstable lowerBound memory
+          limits:
+            cpu: 150m      # Replace with your dashboard's Burstable upperBound CPU
+            memory: 200Mi  # Replace with your dashboard's Burstable upperBound memory

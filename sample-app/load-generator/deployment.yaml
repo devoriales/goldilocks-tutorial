@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: load-generator
+  namespace: metrics-app
+  labels:
+    app: load-generator
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: load-generator
+  template:
+    metadata:
+      labels:
+        app: load-generator
+    spec:
+      containers:
+      - name: load-generator
+        image: busybox
+        command:
+        - sh
+        - -c
+        # Sends requests to frontend and api continuously so VPA has traffic data.
+        # Without load, VPA recommendations may take longer to appear.
+        - |
+          while true; do
+            wget -q -O /dev/null http://frontend/ 2>/dev/null || true
+            wget -q -O /dev/null http://api/get 2>/dev/null || true
+            sleep 1
+          done
+        resources:
+          requests:
+            cpu: 10m
+            memory: 8Mi
+          limits:
+            cpu: 50m
+            memory: 32Mi

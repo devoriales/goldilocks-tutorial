@@ -1,0 +1,9 @@
+[     140ms] [ERROR] Failed to find a valid digest in the 'integrity' attribute for resource 'https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447' with computed SHA-512 integrity 'z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=='. The resource has been blocked. @ https://devoriales.com/quiz/admin/questions/create:1074
+[     146ms] [LOG] JavaScript loaded successfully @ https://devoriales.com/quiz/admin/questions/create:586
+[     150ms] [LOG] Adding answer #1 @ https://devoriales.com/quiz/admin/questions/create:655
+[     230ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://devoriales.com/static/node_modules/tinymce/tinymce.min.js:10
+[     234ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://devoriales.com/static/node_modules/tinymce/tinymce.min.js:10
+[     240ms] [LOG] Question TinyMCE initialized @ https://devoriales.com/quiz/admin/questions/create:647
+[     267ms] [LOG] Question TinyMCE initialized @ https://devoriales.com/quiz/admin/questions/create:647
+[     368ms] [WARNING] TinyMCE is running in evaluation mode. Provide a valid license key or add license_key: 'gpl' to the init config to agree to the open source license terms. Read more at https://www.tiny.cloud/license-key/ @ https://devoriales.com/static/node_modules/tinymce/tinymce.min.js:10
+[     370ms] [LOG] Answer 1 TinyMCE initialized @ https://devoriales.com/quiz/admin/questions/create:723

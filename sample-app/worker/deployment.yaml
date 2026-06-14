@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+  namespace: metrics-app
+  labels:
+    app: worker
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worker
+  template:
+    metadata:
+      labels:
+        app: worker
+    spec:
+      containers:
+      - name: worker
+        image: python:3.11-alpine
+        command:
+        - python3
+        - -c
+        # Runs CPU-intensive work in bursts with short pauses.
+        # This creates a variable CPU profile that VPA's lowerBound/upperBound
+        # will capture differently — illustrating the Burstable recommendation pattern.
+        - |
+          import math, time
+          while True:
+              for _ in range(500):
+                  math.factorial(5000)
+              time.sleep(2)
+        resources:
+          # INTENTIONALLY MISMATCHED for the tutorial.
+          # Low request (50m) with high limit (1000m) = Burstable QoS.
+          # The worker bursts above its request during computation cycles.
+          # Goldilocks will recommend values between lowerBound and upperBound.
+          requests:
+            cpu: 50m
+            memory: 32Mi
+          limits:
+            cpu: 1000m
+            memory: 128Mi
+        # requests != limits → QoS class: Burstable

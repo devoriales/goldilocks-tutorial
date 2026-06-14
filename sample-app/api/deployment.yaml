@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: metrics-app
+  labels:
+    app: api
+    app.kubernetes.io/part-of: metrics-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+      - name: httpbin
+        image: kennethreitz/httpbin
+        ports:
+        - containerPort: 80
+        resources:
+          # INTENTIONALLY UNDER-PROVISIONED REQUESTS for the tutorial.
+          # httpbin (Python/Gunicorn) typically uses ~50m CPU and ~80Mi memory.
+          # Requesting only 10m CPU causes aggressive throttling under load.
+          # Memory request (32Mi) is below actual usage (~80Mi) — VPA will recommend higher.
+          # Limits are generous enough for the pod to run stably.
+          # Goldilocks will recommend significantly higher request values.
+          requests:
+            cpu: 10m
+            memory: 32Mi
+          limits:
+            cpu: 200m
+            memory: 128Mi
+        # requests != limits → QoS class: Burstable

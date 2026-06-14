@@ -1,0 +1,2996 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic: ×
+      - paragraph: Join Devoriales Today!
+      - paragraph:
+        - text: Get the latest insights on DevOps, programming, cloud computing, and Kubernetes directly to your inbox.
+        - text: You'll receive exclusive materials including posts, videos, and newsletters tailored to keep you ahead in your field.
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: "Register with:"
+            - link "Google":
+              - /url: /login/google
+              - text: Google
+            - link "GitHub":
+              - /url: /login/github
+              - text: GitHub
+      - link "Other Options":
+        - /url: /register
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation "Main navigation" [ref=e4]:
+        - generic [ref=e5]:
+          - link "Devoriales - Home" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Devoriales Logo" [ref=e7]
+          - generic [ref=e8]:
+            - menubar [ref=e9]:
+              - menuitem "Home" [ref=e10] [cursor=pointer]
+              - menuitem "Blog" [ref=e11] [cursor=pointer]
+              - menuitem "Challenges" [ref=e12] [cursor=pointer]
+            - generic [ref=e13]:
+              - link "New Post" [ref=e14] [cursor=pointer]:
+                - /url: /post/new
+              - listitem [ref=e15]:
+                - button "Admin" [ref=e16] [cursor=pointer]
+              - listitem [ref=e17]:
+                - button "Create" [ref=e18] [cursor=pointer]
+              - link "My Account" [ref=e19] [cursor=pointer]:
+                - /url: /account
+              - link "Logout" [ref=e20] [cursor=pointer]:
+                - /url: /logout
+              - generic [ref=e21]: Hi Aleksandro
+              - 'generic "Build: 2026-06-13T18:02:30Z" [ref=e22]':
+                - generic [ref=e23]: v0.17.1
+              - button "Toggle dark mode" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]: 
+              - searchbox "Search" [ref=e28]
+      - separator [ref=e29]
+  - main [ref=e30]:
+    - generic [ref=e33]:
+      - link "← Back to Dashboard" [ref=e35] [cursor=pointer]:
+        - /url: /quiz/admin
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Manage Quiz Questions" [level=2] [ref=e38]
+          - heading "Goldilocks Tutorial" [level=4] [ref=e39]
+          - paragraph [ref=e40]: Organize questions for this quiz
+        - generic [ref=e41]:
+          - generic [ref=e42]: 36 Questions
+          - generic [ref=e43]: 36 Total Points
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Questions in this Quiz" [level=4] [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Drag items to reorder
+            - button "📁 Manage Categories" [ref=e49] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: "#1"
+            - generic [ref=e56]:
+              - strong [ref=e58]: A JVM application uses 2Gi of memory at startup and drops to 512Mi at steady state. VPA has been...
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Single Choice
+                  - generic [ref=e62]: 1 pts
+                - generic [ref=e63]:
+                  - text: "Category:"
+                  - combobox [ref=e64]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e65]:
+              - button "📝" [ref=e66] [cursor=pointer]
+              - button "🗑️" [ref=e68] [cursor=pointer]
+          - generic [ref=e70]:
+            - generic [ref=e73]: "#2"
+            - generic [ref=e74]:
+              - strong [ref=e76]: You want to integrate Goldilocks into a GitOps pipeline so that out-of-date resource settings...
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Single Choice
+                  - generic [ref=e80]: 1 pts
+                - generic [ref=e81]:
+                  - text: "Category:"
+                  - combobox [ref=e82]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e83]:
+              - button "📝" [ref=e84] [cursor=pointer]
+              - button "🗑️" [ref=e86] [cursor=pointer]
+          - generic [ref=e88]:
+            - generic [ref=e91]: "#3"
+            - generic [ref=e92]:
+              - strong [ref=e94]: Your e-commerce platform handles 10× normal traffic every Saturday. VPA has been running for 10...
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e97]: Single Choice
+                  - generic [ref=e98]: 1 pts
+                - generic [ref=e99]:
+                  - text: "Category:"
+                  - combobox [ref=e100]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e101]:
+              - button "📝" [ref=e102] [cursor=pointer]
+              - button "🗑️" [ref=e104] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic [ref=e109]: "#4"
+            - generic [ref=e110]:
+              - strong [ref=e112]: A VPA object was created 6 hours ago. The dashboard shows a Burstable recommendation with a CPU...
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Single Choice
+                  - generic [ref=e116]: 1 pts
+                - generic [ref=e117]:
+                  - text: "Category:"
+                  - combobox [ref=e118]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e119]:
+              - button "📝" [ref=e120] [cursor=pointer]
+              - button "🗑️" [ref=e122] [cursor=pointer]
+          - generic [ref=e124]:
+            - generic [ref=e127]: "#5"
+            - generic [ref=e128]:
+              - strong [ref=e130]: Your cluster uses Istio. Every pod has an istio-proxy sidecar. The Goldilocks dashboard shows...
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Single Choice
+                  - generic [ref=e134]: 1 pts
+                - generic [ref=e135]:
+                  - text: "Category:"
+                  - combobox [ref=e136]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e137]:
+              - button "📝" [ref=e138] [cursor=pointer]
+              - button "🗑️" [ref=e140] [cursor=pointer]
+          - generic [ref=e142]:
+            - generic [ref=e145]: "#6"
+            - generic [ref=e146]:
+              - strong [ref=e148]: You add a resourcePolicy.containerPolicies[].minAllowed to a VPA object created by Goldilocks....
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: Single Choice
+                  - generic [ref=e152]: 1 pts
+                - generic [ref=e153]:
+                  - text: "Category:"
+                  - combobox [ref=e154]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e155]:
+              - button "📝" [ref=e156] [cursor=pointer]
+              - button "🗑️" [ref=e158] [cursor=pointer]
+          - generic [ref=e160]:
+            - generic [ref=e163]: "#7"
+            - generic [ref=e164]:
+              - strong [ref=e166]: You want to exclude the load-generator Deployment from Goldilocks while keeping all other...
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]: Single Choice
+                  - generic [ref=e170]: 1 pts
+                - generic [ref=e171]:
+                  - text: "Category:"
+                  - combobox [ref=e172]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e173]:
+              - button "📝" [ref=e174] [cursor=pointer]
+              - button "🗑️" [ref=e176] [cursor=pointer]
+          - generic [ref=e178]:
+            - generic [ref=e181]: "#8"
+            - generic [ref=e182]:
+              - strong [ref=e184]: "You enable on-by-default: true on your cluster but forget to set exclude-namespaces. What happens?"
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Single Choice
+                  - generic [ref=e188]: 1 pts
+                - generic [ref=e189]:
+                  - text: "Category:"
+                  - combobox [ref=e190]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e191]:
+              - button "📝" [ref=e192] [cursor=pointer]
+              - button "🗑️" [ref=e194] [cursor=pointer]
+          - generic [ref=e196]:
+            - generic [ref=e199]: "#9"
+            - generic [ref=e200]:
+              - strong [ref=e202]: You want to apply recommendations to a StatefulSet. You open the Goldilocks dashboard, but the...
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Single Choice
+                  - generic [ref=e206]: 1 pts
+                - generic [ref=e207]:
+                  - text: "Category:"
+                  - combobox [ref=e208]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e209]:
+              - button "📝" [ref=e210] [cursor=pointer]
+              - button "🗑️" [ref=e212] [cursor=pointer]
+          - generic [ref=e214]:
+            - generic [ref=e217]: "#10"
+            - generic [ref=e218]:
+              - strong [ref=e220]: What happens to a deployment's resources if the VPA recommendation changes after you've already...
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]: Single Choice
+                  - generic [ref=e224]: 1 pts
+                - generic [ref=e225]:
+                  - text: "Category:"
+                  - combobox [ref=e226]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e227]:
+              - button "📝" [ref=e228] [cursor=pointer]
+              - button "🗑️" [ref=e230] [cursor=pointer]
+          - generic [ref=e232]:
+            - generic [ref=e235]: "#11"
+            - generic [ref=e236]:
+              - strong [ref=e238]: "You apply Burstable QoS with requests: 19m CPU and limits: 9658m CPU (copied directly from the..."
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]: Single Choice
+                  - generic [ref=e242]: 1 pts
+                - generic [ref=e243]:
+                  - text: "Category:"
+                  - combobox [ref=e244]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e245]:
+              - button "📝" [ref=e246] [cursor=pointer]
+              - button "🗑️" [ref=e248] [cursor=pointer]
+          - generic [ref=e250]:
+            - generic [ref=e253]: "#12"
+            - generic [ref=e254]:
+              - strong [ref=e256]: You apply Goldilocks's Guaranteed recommendation to your nginx deployment, reducing memory from...
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - generic [ref=e259]: Single Choice
+                  - generic [ref=e260]: 1 pts
+                - generic [ref=e261]:
+                  - text: "Category:"
+                  - combobox [ref=e262]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e263]:
+              - button "📝" [ref=e264] [cursor=pointer]
+              - button "🗑️" [ref=e266] [cursor=pointer]
+          - generic [ref=e268]:
+            - generic [ref=e271]: "#13"
+            - generic [ref=e272]:
+              - strong [ref=e274]: You navigate to http://localhost:8080/namespaces and see no namespaces listed. Goldilocks pods...
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e277]: Single Choice
+                  - generic [ref=e278]: 1 pts
+                - generic [ref=e279]:
+                  - text: "Category:"
+                  - combobox [ref=e280]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e281]:
+              - button "📝" [ref=e282] [cursor=pointer]
+              - button "🗑️" [ref=e284] [cursor=pointer]
+          - generic [ref=e286]:
+            - generic [ref=e289]: "#14"
+            - generic [ref=e290]:
+              - strong [ref=e292]: What is the difference between the Guaranteed and Burstable YAML snippets the dashboard generates?
+              - generic [ref=e293]:
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Single Choice
+                  - generic [ref=e296]: 1 pts
+                - generic [ref=e297]:
+                  - text: "Category:"
+                  - combobox [ref=e298]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e299]:
+              - button "📝" [ref=e300] [cursor=pointer]
+              - button "🗑️" [ref=e302] [cursor=pointer]
+          - generic [ref=e304]:
+            - generic [ref=e307]: "#15"
+            - generic [ref=e308]:
+              - strong [ref=e310]: You copy the Burstable YAML from the dashboard for a pod that has only been running for 2 hours....
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]: Single Choice
+                  - generic [ref=e314]: 1 pts
+                - generic [ref=e315]:
+                  - text: "Category:"
+                  - combobox [ref=e316]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e317]:
+              - button "📝" [ref=e318] [cursor=pointer]
+              - button "🗑️" [ref=e320] [cursor=pointer]
+          - generic [ref=e322]:
+            - generic [ref=e325]: "#16"
+            - generic [ref=e326]:
+              - strong [ref=e328]: The Goldilocks dashboard shows a > icon next to your CPU request for a deployment. What does this mean?
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]: Single Choice
+                  - generic [ref=e332]: 1 pts
+                - generic [ref=e333]:
+                  - text: "Category:"
+                  - combobox [ref=e334]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e335]:
+              - button "📝" [ref=e336] [cursor=pointer]
+              - button "🗑️" [ref=e338] [cursor=pointer]
+          - generic [ref=e340]:
+            - generic [ref=e343]: "#17"
+            - generic [ref=e344]:
+              - strong [ref=e346]: You need resource recommendations for a StatefulSet named postgres in the db namespace. You...
+              - generic [ref=e347]:
+                - generic [ref=e348]:
+                  - generic [ref=e349]: Single Choice
+                  - generic [ref=e350]: 1 pts
+                - generic [ref=e351]:
+                  - text: "Category:"
+                  - combobox [ref=e352]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e353]:
+              - button "📝" [ref=e354] [cursor=pointer]
+              - button "🗑️" [ref=e356] [cursor=pointer]
+          - generic [ref=e358]:
+            - generic [ref=e361]: "#18"
+            - generic [ref=e362]:
+              - strong [ref=e364]: After labeling a namespace, the VPA PROVIDED column shows False for several minutes. What should you do?
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - generic [ref=e367]: Single Choice
+                  - generic [ref=e368]: 1 pts
+                - generic [ref=e369]:
+                  - text: "Category:"
+                  - combobox [ref=e370]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e371]:
+              - button "📝" [ref=e372] [cursor=pointer]
+              - button "🗑️" [ref=e374] [cursor=pointer]
+          - generic [ref=e376]:
+            - generic [ref=e379]: "#19"
+            - generic [ref=e380]:
+              - strong [ref=e382]: You label the payments namespace and wait 5 minutes, but kubectl get vpa -n payments returns 'No...
+              - generic [ref=e383]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]: Single Choice
+                  - generic [ref=e386]: 1 pts
+                - generic [ref=e387]:
+                  - text: "Category:"
+                  - combobox [ref=e388]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e389]:
+              - button "📝" [ref=e390] [cursor=pointer]
+              - button "🗑️" [ref=e392] [cursor=pointer]
+          - generic [ref=e394]:
+            - generic [ref=e397]: "#20"
+            - generic [ref=e398]:
+              - strong [ref=e400]: What label do you add to a namespace to activate Goldilocks?
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]: Single Choice
+                  - generic [ref=e404]: 1 pts
+                - generic [ref=e405]:
+                  - text: "Category:"
+                  - combobox [ref=e406]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e407]:
+              - button "📝" [ref=e408] [cursor=pointer]
+              - button "🗑️" [ref=e410] [cursor=pointer]
+          - generic [ref=e412]:
+            - generic [ref=e415]: "#21"
+            - generic [ref=e416]:
+              - strong [ref=e418]: "Why does the values.yaml set vpa.enabled: false and metrics-server.enabled: false?"
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - generic [ref=e421]: Single Choice
+                  - generic [ref=e422]: 1 pts
+                - generic [ref=e423]:
+                  - text: "Category:"
+                  - combobox [ref=e424]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e425]:
+              - button "📝" [ref=e426] [cursor=pointer]
+              - button "🗑️" [ref=e428] [cursor=pointer]
+          - generic [ref=e430]:
+            - generic [ref=e433]: "#22"
+            - generic [ref=e434]:
+              - strong [ref=e436]: Your Goldilocks pod shows ImagePullBackOff. The describe output shows it is trying to pull...
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]: Single Choice
+                  - generic [ref=e440]: 1 pts
+                - generic [ref=e441]:
+                  - text: "Category:"
+                  - combobox [ref=e442]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e443]:
+              - button "📝" [ref=e444] [cursor=pointer]
+              - button "🗑️" [ref=e446] [cursor=pointer]
+          - generic [ref=e448]:
+            - generic [ref=e451]: "#23"
+            - generic [ref=e452]:
+              - strong [ref=e454]: What happens immediately after you install Goldilocks but before labeling any namespace?
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - generic [ref=e457]: Single Choice
+                  - generic [ref=e458]: 1 pts
+                - generic [ref=e459]:
+                  - text: "Category:"
+                  - combobox [ref=e460]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e461]:
+              - button "📝" [ref=e462] [cursor=pointer]
+              - button "🗑️" [ref=e464] [cursor=pointer]
+          - generic [ref=e466]:
+            - generic [ref=e469]: "#24"
+            - generic [ref=e470]:
+              - strong [ref=e472]: What are the two components that Goldilocks installs?
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - generic [ref=e475]: Single Choice
+                  - generic [ref=e476]: 1 pts
+                - generic [ref=e477]:
+                  - text: "Category:"
+                  - combobox [ref=e478]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e479]:
+              - button "📝" [ref=e480] [cursor=pointer]
+              - button "🗑️" [ref=e482] [cursor=pointer]
+          - generic [ref=e484]:
+            - generic [ref=e487]: "#25"
+            - generic [ref=e488]:
+              - strong [ref=e490]: You enable both HPA (Horizontal Pod Autoscaler) and VPA in Auto mode on the same deployment....
+              - generic [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]: Single Choice
+                  - generic [ref=e494]: 1 pts
+                - generic [ref=e495]:
+                  - text: "Category:"
+                  - combobox [ref=e496]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e497]:
+              - button "📝" [ref=e498] [cursor=pointer]
+              - button "🗑️" [ref=e500] [cursor=pointer]
+          - generic [ref=e502]:
+            - generic [ref=e505]: "#26"
+            - generic [ref=e506]:
+              - strong [ref=e508]: Your VPA object targets a deployment named api, but the recommendation shows Container Name:...
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]: Single Choice
+                  - generic [ref=e512]: 1 pts
+                - generic [ref=e513]:
+                  - text: "Category:"
+                  - combobox [ref=e514]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e515]:
+              - button "📝" [ref=e516] [cursor=pointer]
+              - button "🗑️" [ref=e518] [cursor=pointer]
+          - generic [ref=e520]:
+            - generic [ref=e523]: "#27"
+            - generic [ref=e524]:
+              - strong [ref=e526]: A VPA object's lowerBound for CPU is 17m and upperBound is 19955m after 2 minutes of data. Which...
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - generic [ref=e529]: Single Choice
+                  - generic [ref=e530]: 1 pts
+                - generic [ref=e531]:
+                  - text: "Category:"
+                  - combobox [ref=e532]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e533]:
+              - button "📝" [ref=e534] [cursor=pointer]
+              - button "🗑️" [ref=e536] [cursor=pointer]
+          - generic [ref=e538]:
+            - generic [ref=e541]: "#28"
+            - generic [ref=e542]:
+              - strong [ref=e544]: You want to collect VPA recommendations without any risk of pods being restarted. Which update...
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]: Single Choice
+                  - generic [ref=e548]: 1 pts
+                - generic [ref=e549]:
+                  - text: "Category:"
+                  - combobox [ref=e550]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e551]:
+              - button "📝" [ref=e552] [cursor=pointer]
+              - button "🗑️" [ref=e554] [cursor=pointer]
+          - generic [ref=e556]:
+            - generic [ref=e559]: "#29"
+            - generic [ref=e560]:
+              - strong [ref=e562]: "After running kubectl top nodes, you see error: Metrics API not available. What should you do?"
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - generic [ref=e565]: Single Choice
+                  - generic [ref=e566]: 1 pts
+                - generic [ref=e567]:
+                  - text: "Category:"
+                  - combobox [ref=e568]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e569]:
+              - button "📝" [ref=e570] [cursor=pointer]
+              - button "🗑️" [ref=e572] [cursor=pointer]
+          - generic [ref=e574]:
+            - generic [ref=e577]: "#30"
+            - generic [ref=e578]:
+              - strong [ref=e580]: "VPA installs three components: recommender, updater, and admission-controller. Which one..."
+              - generic [ref=e581]:
+                - generic [ref=e582]:
+                  - generic [ref=e583]: Single Choice
+                  - generic [ref=e584]: 1 pts
+                - generic [ref=e585]:
+                  - text: "Category:"
+                  - combobox [ref=e586]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e587]:
+              - button "📝" [ref=e588] [cursor=pointer]
+              - button "🗑️" [ref=e590] [cursor=pointer]
+          - generic [ref=e592]:
+            - generic [ref=e595]: "#31"
+            - generic [ref=e596]:
+              - strong [ref=e598]: Why does the metrics-server Helm installation require --set 'args[0]=--kubelet-insecure-tls'?
+              - generic [ref=e599]:
+                - generic [ref=e600]:
+                  - generic [ref=e601]: Single Choice
+                  - generic [ref=e602]: 1 pts
+                - generic [ref=e603]:
+                  - text: "Category:"
+                  - combobox [ref=e604]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e605]:
+              - button "📝" [ref=e606] [cursor=pointer]
+              - button "🗑️" [ref=e608] [cursor=pointer]
+          - generic [ref=e610]:
+            - generic [ref=e613]: "#32"
+            - generic [ref=e614]:
+              - strong [ref=e616]: Why do we pass --k3s-arg '--disable=metrics-server@server:0' when creating the k3d cluster?
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - generic [ref=e619]: Single Choice
+                  - generic [ref=e620]: 1 pts
+                - generic [ref=e621]:
+                  - text: "Category:"
+                  - combobox [ref=e622]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e623]:
+              - button "📝" [ref=e624] [cursor=pointer]
+              - button "🗑️" [ref=e626] [cursor=pointer]
+          - generic [ref=e628]:
+            - generic [ref=e631]: "#33"
+            - generic [ref=e632]:
+              - strong [ref=e634]: A node runs out of memory. It must evict pods to free resources. Which pods are evicted first?
+              - generic [ref=e635]:
+                - generic [ref=e636]:
+                  - generic [ref=e637]: Single Choice
+                  - generic [ref=e638]: 1 pts
+                - generic [ref=e639]:
+                  - text: "Category:"
+                  - combobox [ref=e640]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e641]:
+              - button "📝" [ref=e642] [cursor=pointer]
+              - button "🗑️" [ref=e644] [cursor=pointer]
+          - generic [ref=e646]:
+            - generic [ref=e649]: "#34"
+            - generic [ref=e650]:
+              - strong [ref=e652]: Which condition must be true for a pod to receive the Guaranteed QoS class?
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - generic [ref=e655]: Single Choice
+                  - generic [ref=e656]: 1 pts
+                - generic [ref=e657]:
+                  - text: "Category:"
+                  - combobox [ref=e658]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e659]:
+              - button "📝" [ref=e660] [cursor=pointer]
+              - button "🗑️" [ref=e662] [cursor=pointer]
+          - generic [ref=e664]:
+            - generic [ref=e667]: "#35"
+            - generic [ref=e668]:
+              - strong [ref=e670]: Your pod's CPU usage spikes to 800m, but its CPU limit is set to 200m. The pod does NOT get...
+              - generic [ref=e671]:
+                - generic [ref=e672]:
+                  - generic [ref=e673]: Single Choice
+                  - generic [ref=e674]: 1 pts
+                - generic [ref=e675]:
+                  - text: "Category:"
+                  - combobox [ref=e676]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e677]:
+              - button "📝" [ref=e678] [cursor=pointer]
+              - button "🗑️" [ref=e680] [cursor=pointer]
+          - generic [ref=e682]:
+            - generic [ref=e685]: "#36"
+            - generic [ref=e686]:
+              - strong [ref=e688]: A container in your pod is repeatedly restarting. kubectl describe pod shows OOMKilled as the...
+              - generic [ref=e689]:
+                - generic [ref=e690]:
+                  - generic [ref=e691]: Single Choice
+                  - generic [ref=e692]: 1 pts
+                - generic [ref=e693]:
+                  - text: "Category:"
+                  - combobox [ref=e694]:
+                    - option "No Category" [selected]
+                    - option "Introduction"
+                    - option "Basics"
+                    - option "Advanced"
+                    - option "Practice"
+                    - option "Review"
+                    - option "None"
+            - generic [ref=e695]:
+              - button "📝" [ref=e696] [cursor=pointer]
+              - button "🗑️" [ref=e698] [cursor=pointer]
+      - generic [ref=e699]:
+        - generic [ref=e700]:
+          - heading "Available Questions" [level=4] [ref=e701]
+          - link "+ Create New Question" [ref=e702] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+        - generic [ref=e703]:
+          - generic [ref=e705]:
+            - generic [ref=e706]:
+              - generic [ref=e707]:
+                - strong [ref=e708]: Scenario — Traefik Middlewares In this lab, you will create Traefik...
+                - generic [ref=e709]: Multiple
+                - generic [ref=e710]: gateway-api
+              - generic [ref=e712]:
+                - strong [ref=e713]: "1"
+                - text: point •
+                - strong [ref=e714]: "0"
+                - text: answers
+              - strong [ref=e717]: "Answers:"
+            - button "➕ Add to Quiz" [ref=e720] [cursor=pointer]
+          - generic [ref=e722]:
+            - generic [ref=e723]:
+              - generic [ref=e724]:
+                - strong [ref=e725]: Scenario — Advanced Routing and Cutover In this lab, you will implement...
+                - generic [ref=e726]: Multiple
+                - generic [ref=e727]: gateway-api
+              - generic [ref=e729]:
+                - strong [ref=e730]: "1"
+                - text: point •
+                - strong [ref=e731]: "0"
+                - text: answers
+              - strong [ref=e734]: "Answers:"
+            - button "➕ Add to Quiz" [ref=e737] [cursor=pointer]
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - generic [ref=e741]:
+                - strong [ref=e742]: Scenario — The Migration In this lab, you will install the Kubernetes...
+                - generic [ref=e743]: Multiple
+              - generic [ref=e745]:
+                - strong [ref=e746]: "1"
+                - text: point •
+                - strong [ref=e747]: "0"
+                - text: answers
+              - strong [ref=e750]: "Answers:"
+            - button "➕ Add to Quiz" [ref=e753] [cursor=pointer]
+          - generic [ref=e755]:
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - strong [ref=e758]: Scenario — Install ingress-nginx controller In this lab, you will install...
+                - generic [ref=e759]: Multiple
+                - generic [ref=e760]: Kubernetes Gateway API
+              - generic [ref=e762]:
+                - strong [ref=e763]: "1"
+                - text: point •
+                - strong [ref=e764]: "0"
+                - text: answers
+              - strong [ref=e767]: "Answers:"
+            - button "➕ Add to Quiz" [ref=e770] [cursor=pointer]
+          - generic [ref=e772]:
+            - generic [ref=e773]:
+              - generic [ref=e774]:
+                - strong [ref=e775]: "Lesson 12: Extending Traefik with Custom Plugins Duration: ~25 minutes |..."
+                - generic [ref=e776]: Multiple
+                - generic [ref=e777]: Kubernetes Gateway API
+              - generic [ref=e779]:
+                - strong [ref=e780]: "1"
+                - text: point •
+                - strong [ref=e781]: "5"
+                - text: answers
+              - generic [ref=e782]:
+                - strong [ref=e784]: "Answers:"
+                - generic [ref=e785]: ○ Traefik plugins are compiled into the Traefik...
+                - generic [ref=e787]:
+                  - text: ✓
+                  - strong [ref=e788]: The spec.plugin.tenantid field in the...
+                - generic [ref=e790]:
+                  - text: ✓
+                  - strong [ref=e791]: Traefik plugins are interpreted at runtime by...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e794] [cursor=pointer]
+          - generic [ref=e796]:
+            - generic [ref=e797]:
+              - generic [ref=e798]:
+                - strong [ref=e799]: "Lesson 11: Common Migration Pitfalls Duration: ~15 minutes | Level:..."
+                - generic [ref=e800]: Multiple
+                - generic [ref=e801]: Kubernetes Gateway API
+              - generic [ref=e803]:
+                - strong [ref=e804]: "1"
+                - text: point •
+                - strong [ref=e805]: "5"
+                - text: answers
+              - generic [ref=e806]:
+                - strong [ref=e808]: "Answers:"
+                - generic [ref=e810]:
+                  - text: ✓
+                  - strong [ref=e811]: Applying Traefik’s buffering middleware via an...
+                - generic [ref=e812]: ○ The issue can be fixed by increasing Traefik’s...
+                - generic [ref=e814]:
+                  - text: ✓
+                  - strong [ref=e815]: The root cause is that nginx defaults to...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e818] [cursor=pointer]
+          - generic [ref=e820]:
+            - generic [ref=e821]:
+              - generic [ref=e822]:
+                - strong [ref=e823]: "Lesson 08: Advanced Routing Patterns Duration: ~30 minutesfolder:..."
+                - generic [ref=e824]: Multiple
+                - generic [ref=e825]: Kubernetes Gateway API
+              - generic [ref=e827]:
+                - strong [ref=e828]: "1"
+                - text: point •
+                - strong [ref=e829]: "5"
+                - text: answers
+              - generic [ref=e830]:
+                - strong [ref=e832]: "Answers:"
+                - generic [ref=e833]: ○ In a weighted HTTPRoute...
+                - generic [ref=e835]:
+                  - text: ✓
+                  - strong [ref=e836]: A ReferenceGrant must be created in...
+                - generic [ref=e838]:
+                  - text: ✓
+                  - strong [ref=e839]: The Traefik Middleware CRD uses apiVersion:...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e842] [cursor=pointer]
+          - generic [ref=e844]:
+            - generic [ref=e845]:
+              - generic [ref=e846]:
+                - strong [ref=e847]: "Lesson 10: Production Considerations Duration: ~20 minutes | Level:..."
+                - generic [ref=e848]: Multiple
+                - generic [ref=e849]: Kubernetes Gateway API
+              - generic [ref=e851]:
+                - strong [ref=e852]: "1"
+                - text: point •
+                - strong [ref=e853]: "6"
+                - text: answers
+              - generic [ref=e854]:
+                - strong [ref=e856]: "Answers:"
+                - generic [ref=e858]:
+                  - text: ✓
+                  - strong [ref=e859]: cert-manager can integrate directly with the...
+                - generic [ref=e861]:
+                  - text: ✓
+                  - strong [ref=e862]: "A PodDisruptionBudget with minAvailable: 1..."
+                - generic [ref=e863]: ○ The RBAC separation model for Gateway API...
+                - text: ... and 3 more options
+            - button "➕ Add to Quiz" [ref=e866] [cursor=pointer]
+          - generic [ref=e868]:
+            - generic [ref=e869]:
+              - generic [ref=e870]:
+                - strong [ref=e871]: "Lesson 09: Completing the Migration Duration: ~20 minutes Overview You have..."
+                - generic [ref=e872]: Multiple
+                - generic [ref=e873]: Kubernetes Gateway API
+              - generic [ref=e875]:
+                - strong [ref=e876]: "1"
+                - text: point •
+                - strong [ref=e877]: "5"
+                - text: answers
+              - generic [ref=e878]:
+                - strong [ref=e880]: "Answers:"
+                - generic [ref=e881]: ○ Running helm uninstall ingress-nginx -n...
+                - generic [ref=e883]:
+                  - text: ✓
+                  - strong [ref=e884]: Scaling ingress-nginx to zero replicas...
+                - generic [ref=e885]: ○ After helm uninstall ingress-nginx, if a...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e888] [cursor=pointer]
+          - generic [ref=e890]:
+            - generic [ref=e891]:
+              - generic [ref=e892]:
+                - strong [ref=e893]: "Lesson 07: Securing Routes with TLS Duration: ~25 minutesfolder:..."
+                - generic [ref=e894]: Multiple
+                - generic [ref=e895]: Kubernetes Gateway API
+              - generic [ref=e897]:
+                - strong [ref=e898]: "1"
+                - text: point •
+                - strong [ref=e899]: "5"
+                - text: answers
+              - generic [ref=e900]:
+                - strong [ref=e902]: "Answers:"
+                - generic [ref=e904]:
+                  - text: ✓
+                  - strong [ref=e905]: "Setting tls.mode: Terminate on the HTTPS..."
+                - generic [ref=e906]: ○ A TLS certificate stored as a Kubernetes...
+                - generic [ref=e908]:
+                  - text: ✓
+                  - strong [ref=e909]: The RequestRedirect filter in an HTTPRoute...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e912] [cursor=pointer]
+          - generic [ref=e914]:
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - strong [ref=e917]: "Lesson 06: Your First HTTPRoute Duration: ~30 minutes folder:..."
+                - generic [ref=e918]: Multiple
+                - generic [ref=e919]: Kubernetes Gateway API
+              - generic [ref=e921]:
+                - strong [ref=e922]: "1"
+                - text: point •
+                - strong [ref=e923]: "5"
+                - text: answers
+              - generic [ref=e924]:
+                - strong [ref=e926]: "Answers:"
+                - generic [ref=e927]: ○ In a cloud environment where an AWS ALB sits...
+                - generic [ref=e929]:
+                  - text: ✓
+                  - strong [ref=e930]: The parentRefs field in an HTTPRoute is used...
+                - generic [ref=e932]:
+                  - text: ✓
+                  - strong [ref=e933]: HTTPRoute natively supports matching requests...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e936] [cursor=pointer]
+          - generic [ref=e938]:
+            - generic [ref=e939]:
+              - generic [ref=e940]:
+                - strong [ref=e941]: "Lesson 05: Installing Traefik as Gateway API Controller Duration: ~25..."
+                - generic [ref=e942]: Multiple
+                - generic [ref=e943]: Kubernetes Gateway API
+              - generic [ref=e945]:
+                - strong [ref=e946]: "1"
+                - text: point •
+                - strong [ref=e947]: "5"
+                - text: answers
+              - generic [ref=e948]:
+                - strong [ref=e950]: "Answers:"
+                - generic [ref=e952]:
+                  - text: ✓
+                  - strong [ref=e953]: The controllerName:...
+                - generic [ref=e954]: ○ Gateway API Custom Resource Definitions (CRDs)...
+                - generic [ref=e956]:
+                  - text: ✓
+                  - strong [ref=e957]: Setting providers.kubernetesGateway.enabled:...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e960] [cursor=pointer]
+          - generic [ref=e962]:
+            - generic [ref=e963]:
+              - generic [ref=e964]:
+                - strong [ref=e965]: "Lesson 04: The Old Way — Ingress-NGINX Controller Duration: ~25 minutes..."
+                - generic [ref=e966]: Multiple
+                - generic [ref=e967]: Kubernetes Gateway API
+              - generic [ref=e969]:
+                - strong [ref=e970]: "1"
+                - text: point •
+                - strong [ref=e971]: "5"
+                - text: answers
+              - generic [ref=e972]:
+                - strong [ref=e974]: "Answers:"
+                - generic [ref=e976]:
+                  - text: ✓
+                  - strong [ref=e977]: "The ingressClassName: nginx field in an..."
+                - generic [ref=e978]: ○ Annotations on an Ingress resource are...
+                - generic [ref=e980]:
+                  - text: ✓
+                  - strong [ref=e981]: Native traffic splitting (e.g., routing 10% of...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e984] [cursor=pointer]
+          - generic [ref=e986]:
+            - generic [ref=e987]:
+              - generic [ref=e988]:
+                - strong [ref=e989]: "Lesson 03: Deploying the Bookstore Application Duration: ~20 minutes Folder:..."
+                - generic [ref=e990]: Multiple
+                - generic [ref=e991]: Kubernetes Gateway API
+              - generic [ref=e993]:
+                - strong [ref=e994]: "1"
+                - text: point •
+                - strong [ref=e995]: "5"
+                - text: answers
+              - generic [ref=e996]:
+                - strong [ref=e998]: "Answers:"
+                - generic [ref=e1000]:
+                  - text: ✓
+                  - strong [ref=e1001]: "Setting imagePullPolicy: Never on the..."
+                - generic [ref=e1002]: ○ A ClusterIP Service assigns an external IP...
+                - generic [ref=e1004]:
+                  - text: ✓
+                  - strong [ref=e1005]: The readinessProbe controls whether a Pod...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1008] [cursor=pointer]
+          - generic [ref=e1010]:
+            - generic [ref=e1011]:
+              - generic [ref=e1012]:
+                - strong [ref=e1013]: "Lesson 02: Setting Up Local Kubernetes with k3d Duration: ~20 minutes..."
+                - generic [ref=e1014]: Multiple
+              - generic [ref=e1016]:
+                - strong [ref=e1017]: "1"
+                - text: point •
+                - strong [ref=e1018]: "5"
+                - text: answers
+              - generic [ref=e1019]:
+                - strong [ref=e1021]: "Answers:"
+                - generic [ref=e1023]:
+                  - text: ✓
+                  - strong [ref=e1024]: An Ingress controller such as ingress-nginx is...
+                - generic [ref=e1026]:
+                  - text: ✓
+                  - strong [ref=e1027]: Traefik can act as both a traditional Ingress...
+                - generic [ref=e1028]: ○ The Gateway API is a drop-in replacement for...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1031] [cursor=pointer]
+          - generic [ref=e1033]:
+            - generic [ref=e1034]:
+              - generic [ref=e1035]:
+                - strong [ref=e1036]: "Lesson 01: Understanding Gateway API Architecture Duration: ~15 minutes..."
+                - generic [ref=e1037]: Multiple
+                - generic [ref=e1038]: gateway-api
+              - generic [ref=e1040]:
+                - strong [ref=e1041]: "1"
+                - text: point •
+                - strong [ref=e1042]: "5"
+                - text: answers
+              - generic [ref=e1043]:
+                - strong [ref=e1045]: "Answers:"
+                - generic [ref=e1047]:
+                  - text: ✓
+                  - strong [ref=e1048]: The GatewayClass resource is typically managed...
+                - generic [ref=e1049]: ○ The Kubernetes Ingress API...
+                - generic [ref=e1051]:
+                  - text: ✓
+                  - strong [ref=e1052]: An HTTPRoute attaches to a Gateway using...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1055] [cursor=pointer]
+          - generic [ref=e1057]:
+            - generic [ref=e1058]:
+              - generic [ref=e1059]:
+                - strong [ref=e1060]: "Gateway API vs Ingress: What's Different? The old way in ingress..."
+                - generic [ref=e1061]: Single
+                - generic [ref=e1062]: gateway-api
+              - generic [ref=e1064]:
+                - strong [ref=e1065]: "1"
+                - text: point •
+                - strong [ref=e1066]: "1"
+                - text: answer
+              - generic [ref=e1067]:
+                - strong [ref=e1069]: "Answers:"
+                - generic [ref=e1071]:
+                  - text: ✓
+                  - strong [ref=e1072]: Select To Ackowledge
+            - button "➕ Add to Quiz" [ref=e1075] [cursor=pointer]
+          - generic [ref=e1077]:
+            - generic [ref=e1078]:
+              - generic [ref=e1079]:
+                - strong [ref=e1080]: "Gateway API vs Ingress: What's Different? The Old Way: Ingress with nginx..."
+                - generic [ref=e1081]: Single
+                - generic [ref=e1082]: gateway-api
+              - generic [ref=e1084]:
+                - strong [ref=e1085]: "1"
+                - text: point •
+                - strong [ref=e1086]: "1"
+                - text: answer
+              - generic [ref=e1087]:
+                - strong [ref=e1089]: "Answers:"
+                - generic [ref=e1091]:
+                  - text: ✓
+                  - strong [ref=e1092]: Click To Continue
+            - button "➕ Add to Quiz" [ref=e1095] [cursor=pointer]
+          - generic [ref=e1097]:
+            - generic [ref=e1098]:
+              - generic [ref=e1099]:
+                - strong [ref=e1100]: "Foundation: Understanding the Problem What Are We Trying to Solve? Imagine..."
+                - generic [ref=e1101]: Single
+                - generic [ref=e1102]: gateway-api
+              - generic [ref=e1104]:
+                - strong [ref=e1105]: "1"
+                - text: point •
+                - strong [ref=e1106]: "1"
+                - text: answer
+              - generic [ref=e1107]:
+                - strong [ref=e1109]: "Answers:"
+                - generic [ref=e1111]:
+                  - text: ✓
+                  - strong [ref=e1112]: Select To Continue
+            - button "➕ Add to Quiz" [ref=e1115] [cursor=pointer]
+          - generic [ref=e1117]:
+            - generic [ref=e1118]:
+              - generic [ref=e1119]:
+                - strong [ref=e1120]: "The Technology Stack: Choosing the Right Tools for the Job <div..."
+                - generic [ref=e1121]: Single
+                - generic [ref=e1122]: RAG (Retrieval-Augmented Generation)
+              - generic [ref=e1124]:
+                - strong [ref=e1125]: "1"
+                - text: point •
+                - strong [ref=e1126]: "1"
+                - text: answer
+              - generic [ref=e1127]:
+                - strong [ref=e1129]: "Answers:"
+                - generic [ref=e1131]:
+                  - text: ✓
+                  - strong [ref=e1132]: Select To Continue
+            - button "➕ Add to Quiz" [ref=e1135] [cursor=pointer]
+          - generic [ref=e1137]:
+            - generic [ref=e1138]:
+              - generic [ref=e1139]:
+                - strong [ref=e1140]: You are the Lead Architect for a global news platform. A breaking story is...
+                - generic [ref=e1141]: Single
+                - generic [ref=e1142]: RAG (Retrieval-Augmented Generation)
+              - generic [ref=e1144]:
+                - strong [ref=e1145]: "1"
+                - text: point •
+                - strong [ref=e1146]: "4"
+                - text: answers
+              - generic [ref=e1147]:
+                - strong [ref=e1149]: "Answers:"
+                - generic [ref=e1150]: ○ RAG enables the model to access...
+                - generic [ref=e1152]:
+                  - text: ✓
+                  - strong [ref=e1153]: RAG models are inherently smarter at logic...
+                - generic [ref=e1154]: ○ RAG allows the AI to predict the news before...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1157] [cursor=pointer]
+          - generic [ref=e1159]:
+            - generic [ref=e1160]:
+              - generic [ref=e1161]:
+                - strong [ref=e1162]: "Understanding RAG: Making Chatbots Actually Smart About Your Content What is..."
+                - generic [ref=e1163]: Single
+                - generic [ref=e1164]: RAG (Retrieval-Augmented Generation)
+              - generic [ref=e1166]:
+                - strong [ref=e1167]: "1"
+                - text: point •
+                - strong [ref=e1168]: "1"
+                - text: answer
+              - generic [ref=e1169]:
+                - strong [ref=e1171]: "Answers:"
+                - generic [ref=e1173]:
+                  - text: ✓
+                  - strong [ref=e1174]: Select to Continue
+            - button "➕ Add to Quiz" [ref=e1177] [cursor=pointer]
+          - generic [ref=e1179]:
+            - generic [ref=e1180]:
+              - generic [ref=e1181]:
+                - strong [ref=e1182]: You want to see a line-by-line comparison of what will change in your YAML...
+                - generic [ref=e1183]: Single
+              - generic [ref=e1185]:
+                - strong [ref=e1186]: "1"
+                - text: point •
+                - strong [ref=e1187]: "4"
+                - text: answers
+              - generic [ref=e1188]:
+                - strong [ref=e1190]: "Answers:"
+                - generic [ref=e1191]: ○ helm upgrade my-release my-chart --diff
+                - generic [ref=e1192]: ○ helm compare release my-release my-chart
+                - generic [ref=e1194]:
+                  - text: ✓
+                  - strong [ref=e1195]: helm diff upgrade my-release my-chart
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1198] [cursor=pointer]
+          - generic [ref=e1200]:
+            - generic [ref=e1201]:
+              - generic [ref=e1202]:
+                - strong [ref=e1203]: You have a chart URL stored in an OCI registry...
+                - generic [ref=e1204]: Single
+              - generic [ref=e1206]:
+                - strong [ref=e1207]: "1"
+                - text: point •
+                - strong [ref=e1208]: "4"
+                - text: answers
+              - generic [ref=e1209]:
+                - strong [ref=e1211]: "Answers:"
+                - generic [ref=e1212]: ○ helm fetch oci://ghcr.io/user/charts/mychart --unzip
+                - generic [ref=e1214]:
+                  - text: ✓
+                  - strong [ref=e1215]: helm pull oci://ghcr.io/user/charts/mychart --untar
+                - generic [ref=e1216]: ○ helm install oci://ghcr.io/user/charts/mychart...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1219] [cursor=pointer]
+          - generic [ref=e1221]:
+            - generic [ref=e1222]:
+              - generic [ref=e1223]:
+                - strong [ref=e1224]: What is the primary purpose of the '_helpers.tpl' file created by 'helm create'?
+                - generic [ref=e1225]: Single
+              - generic [ref=e1227]:
+                - strong [ref=e1228]: "1"
+                - text: point •
+                - strong [ref=e1229]: "4"
+                - text: answers
+              - generic [ref=e1230]:
+                - strong [ref=e1232]: "Answers:"
+                - generic [ref=e1233]: ○ To list the chart's dependencies on other charts.
+                - generic [ref=e1234]: ○ To set the default configuration values for the chart.
+                - generic [ref=e1236]:
+                  - text: ✓
+                  - strong [ref=e1237]: To define reusable template snippets to...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1240] [cursor=pointer]
+          - generic [ref=e1242]:
+            - generic [ref=e1243]:
+              - generic [ref=e1244]:
+                - strong [ref=e1245]: You need to find a specific older version of the 'wordpress' chart because...
+                - generic [ref=e1246]: Single
+              - generic [ref=e1248]:
+                - strong [ref=e1249]: "1"
+                - text: point •
+                - strong [ref=e1250]: "4"
+                - text: answers
+              - generic [ref=e1251]:
+                - strong [ref=e1253]: "Answers:"
+                - generic [ref=e1254]: ○ helm inspect versions wordpress
+                - generic [ref=e1255]: ○ helm search repo wordpress --all
+                - generic [ref=e1257]:
+                  - text: ✓
+                  - strong [ref=e1258]: helm search repo wordpress --versions
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1261] [cursor=pointer]
+          - generic [ref=e1263]:
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - strong [ref=e1266]: You need to uninstall a release named 'broken-app', but you want to retain...
+                - generic [ref=e1267]: Single
+              - generic [ref=e1269]:
+                - strong [ref=e1270]: "1"
+                - text: point •
+                - strong [ref=e1271]: "4"
+                - text: answers
+              - generic [ref=e1272]:
+                - strong [ref=e1274]: "Answers:"
+                - generic [ref=e1275]: ○ helm delete broken-app --soft
+                - generic [ref=e1276]: ○ helm uninstall broken-app --archive
+                - generic [ref=e1277]: ○ helm rollback broken-app 0
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1280] [cursor=pointer]
+          - generic [ref=e1282]:
+            - generic [ref=e1283]:
+              - generic [ref=e1284]:
+                - strong [ref=e1285]: In your 'deployment.yaml' template, you need to access the 'tag' value...
+                - generic [ref=e1286]: Single
+              - generic [ref=e1288]:
+                - strong [ref=e1289]: "1"
+                - text: point •
+                - strong [ref=e1290]: "4"
+                - text: answers
+              - generic [ref=e1291]:
+                - strong [ref=e1293]: "Answers:"
+                - generic [ref=e1294]: "○ {{ values.image.tag }}"
+                - generic [ref=e1295]: ○ $(values.image.tag)
+                - generic [ref=e1297]:
+                  - text: ✓
+                  - strong [ref=e1298]: "{{ .Values.image.tag }}"
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1301] [cursor=pointer]
+          - generic [ref=e1303]:
+            - generic [ref=e1304]:
+              - generic [ref=e1305]:
+                - strong [ref=e1306]: You have just added a new repository using 'helm repo add', but when you...
+                - generic [ref=e1307]: Single
+              - generic [ref=e1309]:
+                - strong [ref=e1310]: "1"
+                - text: point •
+                - strong [ref=e1311]: "4"
+                - text: answers
+              - generic [ref=e1312]:
+                - strong [ref=e1314]: "Answers:"
+                - generic [ref=e1315]: ○ helm search repo --refresh
+                - generic [ref=e1316]: ○ helm repo list
+                - generic [ref=e1317]: ○ helm repo index
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1320] [cursor=pointer]
+          - generic [ref=e1322]:
+            - generic [ref=e1323]:
+              - generic [ref=e1324]:
+                - strong [ref=e1325]: You are developing a chart and want to see the exact Kubernetes YAML...
+                - generic [ref=e1326]: Single
+              - generic [ref=e1328]:
+                - strong [ref=e1329]: "1"
+                - text: point •
+                - strong [ref=e1330]: "4"
+                - text: answers
+              - generic [ref=e1331]:
+                - strong [ref=e1333]: "Answers:"
+                - generic [ref=e1334]: ○ helm lint ./my-chart
+                - generic [ref=e1335]: ○ helm get manifest my-release
+                - generic [ref=e1337]:
+                  - text: ✓
+                  - strong [ref=e1338]: helm template my-release ./my-chart
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1341] [cursor=pointer]
+          - generic [ref=e1343]:
+            - generic [ref=e1344]:
+              - generic [ref=e1345]:
+                - strong [ref=e1346]: You are writing a CI/CD script. You want the script to upgrade an existing...
+                - generic [ref=e1347]: Single
+              - generic [ref=e1349]:
+                - strong [ref=e1350]: "1"
+                - text: point •
+                - strong [ref=e1351]: "4"
+                - text: answers
+              - generic [ref=e1352]:
+                - strong [ref=e1354]: "Answers:"
+                - generic [ref=e1355]: ○ helm install my-release my-chart --upgrade-if-exists
+                - generic [ref=e1356]: ○ helm update my-release my-chart --create
+                - generic [ref=e1357]: ○ helm install my-release my-chart --force
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1360] [cursor=pointer]
+          - generic [ref=e1362]:
+            - generic [ref=e1363]:
+              - generic [ref=e1364]:
+                - strong [ref=e1365]: You need to deploy the 'bitnami/wordpress' chart but want to override the...
+                - generic [ref=e1366]: Single
+              - generic [ref=e1368]:
+                - strong [ref=e1369]: "1"
+                - text: point •
+                - strong [ref=e1370]: "4"
+                - text: answers
+              - generic [ref=e1371]:
+                - strong [ref=e1373]: "Answers:"
+                - generic [ref=e1374]: ○ helm install my-release bitnami/wordpress...
+                - generic [ref=e1375]: ○ helm install my-release bitnami/wordpress...
+                - generic [ref=e1376]: ○ helm update my-release bitnami/wordpress --set...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1379] [cursor=pointer]
+          - generic [ref=e1381]:
+            - generic [ref=e1382]:
+              - generic [ref=e1383]:
+                - strong [ref=e1384]: Kubernetes Streaming Protocol Your security team is reviewing Kubernetes...
+                - generic [ref=e1385]: Single
+              - generic [ref=e1387]:
+                - strong [ref=e1388]: "1"
+                - text: point •
+                - strong [ref=e1389]: "5"
+                - text: answers
+              - generic [ref=e1390]:
+                - strong [ref=e1392]: "Answers:"
+                - generic [ref=e1393]: ○ SPDY/3.1 (no changes from previous versions)
+                - generic [ref=e1394]: ○ HTTP/2 with server-sent events
+                - generic [ref=e1396]:
+                  - text: ✓
+                  - strong [ref=e1397]: WebSockets (RFC 6455) with automatic SPDY fallback
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1400] [cursor=pointer]
+          - generic [ref=e1402]:
+            - generic [ref=e1403]:
+              - generic [ref=e1404]:
+                - strong [ref=e1405]: Multi-Tenant Image Security You run a shared Kubernetes cluster for multiple...
+                - generic [ref=e1406]: Single
+              - generic [ref=e1408]:
+                - strong [ref=e1409]: "1"
+                - text: point •
+                - strong [ref=e1410]: "5"
+                - text: answers
+              - generic [ref=e1411]:
+                - strong [ref=e1413]: "Answers:"
+                - generic [ref=e1414]: ○ Pod starts successfully using the cached image...
+                - generic [ref=e1416]:
+                  - text: ✓
+                  - strong [ref=e1417]: Kubelet verifies credentials and blocks...
+                - generic [ref=e1418]: ○ Pod starts but with read-only filesystem restrictions
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1421] [cursor=pointer]
+          - generic [ref=e1423]:
+            - generic [ref=e1424]:
+              - generic [ref=e1425]:
+                - strong [ref=e1426]: Advanced Traffic Distribution Scenario You're designing a multi-region...
+                - generic [ref=e1427]: Single
+              - generic [ref=e1429]:
+                - strong [ref=e1430]: "1"
+                - text: point •
+                - strong [ref=e1431]: "5"
+                - text: answers
+              - generic [ref=e1432]:
+                - strong [ref=e1434]: "Answers:"
+                - generic [ref=e1435]: "○ Payment Service: PreferSameNode, Redis Cache:..."
+                - generic [ref=e1437]:
+                  - text: ✓
+                  - strong [ref=e1438]: "Payment Service: PreferSameZone, Redis Cache:..."
+                - generic [ref=e1439]: "○ Both services: PreferSameNode"
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1442] [cursor=pointer]
+          - generic [ref=e1444]:
+            - generic [ref=e1445]:
+              - generic [ref=e1446]:
+                - strong [ref=e1447]: Feature Gate Management You're preparing to test Kubernetes 1.35 beta...
+                - generic [ref=e1448]: Multiple
+              - generic [ref=e1450]:
+                - strong [ref=e1451]: "1"
+                - text: point •
+                - strong [ref=e1452]: "5"
+                - text: answers
+              - generic [ref=e1453]:
+                - strong [ref=e1455]: "Answers:"
+                - generic [ref=e1457]:
+                  - text: ✓
+                  - strong [ref=e1458]: Alpha features are disabled by default and...
+                - generic [ref=e1460]:
+                  - text: ✓
+                  - strong [ref=e1461]: Beta features are enabled by default in Kubernetes 1.35
+                - generic [ref=e1462]: ○ GA (stable) features can be disabled via...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1465] [cursor=pointer]
+          - generic [ref=e1467]:
+            - generic [ref=e1468]:
+              - generic [ref=e1469]:
+                - strong [ref=e1470]: Storage Version Migration Your cluster has 50,000 Secrets stored in etcd...
+                - generic [ref=e1471]: Single
+              - generic [ref=e1473]:
+                - strong [ref=e1474]: "1"
+                - text: point •
+                - strong [ref=e1475]: "5"
+                - text: answers
+              - generic [ref=e1476]:
+                - strong [ref=e1478]: "Answers:"
+                - generic [ref=e1479]: ○ Use kubectl get/replace in a bash loop (manual...
+                - generic [ref=e1481]:
+                  - text: ✓
+                  - strong [ref=e1482]: Native Storage Version Migration controller (KEP-4192)
+                - generic [ref=e1483]: ○ etcd snapshot/restore with version conversion
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1486] [cursor=pointer]
+          - generic [ref=e1488]:
+            - generic [ref=e1489]:
+              - generic [ref=e1490]:
+                - strong [ref=e1491]: NUMA Topology Manager Your company just purchased AMD EPYC 9754 servers with...
+                - generic [ref=e1492]: Single
+              - generic [ref=e1494]:
+                - strong [ref=e1495]: "1"
+                - text: point •
+                - strong [ref=e1496]: "4"
+                - text: answers
+              - generic [ref=e1497]:
+                - strong [ref=e1499]: "Answers:"
+                - generic [ref=e1500]: ○ The 8 NUMA node limit still exists and cannot...
+                - generic [ref=e1502]:
+                  - text: ✓
+                  - strong [ref=e1503]: The maxAllowableNUMANodes option is now...
+                - generic [ref=e1504]: ○ NUMA support was removed entirely in favor of...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1507] [cursor=pointer]
+          - generic [ref=e1509]:
+            - generic [ref=e1510]:
+              - generic [ref=e1511]:
+                - strong [ref=e1512]: Pod Certificates Features You're implementing zero-trust networking for...
+                - generic [ref=e1513]: Multiple
+              - generic [ref=e1515]:
+                - strong [ref=e1516]: "1"
+                - text: point •
+                - strong [ref=e1517]: "5"
+                - text: answers
+              - generic [ref=e1518]:
+                - strong [ref=e1520]: "Answers:"
+                - generic [ref=e1522]:
+                  - text: ✓
+                  - strong [ref=e1523]: Automatic certificate generation by the kubelet
+                - generic [ref=e1525]:
+                  - text: ✓
+                  - strong [ref=e1526]: Automatic certificate rotation before expiry
+                - generic [ref=e1528]:
+                  - text: ✓
+                  - strong [ref=e1529]: Support for custom certificate signers (enterprise PKI)
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1532] [cursor=pointer]
+          - generic [ref=e1534]:
+            - generic [ref=e1535]:
+              - generic [ref=e1536]:
+                - strong [ref=e1537]: Job API ManagedBy You're using Kueue's MultiKueue to run batch jobs across...
+                - generic [ref=e1538]: Single
+              - generic [ref=e1540]:
+                - strong [ref=e1541]: "1"
+                - text: point •
+                - strong [ref=e1542]: "5"
+                - text: answers
+              - generic [ref=e1543]:
+                - strong [ref=e1545]: "Answers:"
+                - generic [ref=e1546]: ○ Delete the kube-controller-manager Pod
+                - generic [ref=e1547]: "○ Set spec.suspend: true on the Job"
+                - generic [ref=e1549]:
+                  - text: ✓
+                  - strong [ref=e1550]: Set spec.managedBy:...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1553] [cursor=pointer]
+          - generic [ref=e1555]:
+            - generic [ref=e1556]:
+              - generic [ref=e1557]:
+                - strong [ref=e1558]: Traffic Distribution Your Redis cache runs as a DaemonSet (one Pod per...
+                - generic [ref=e1559]: Single
+              - generic [ref=e1561]:
+                - strong [ref=e1562]: "1"
+                - text: point •
+                - strong [ref=e1563]: "4"
+                - text: answers
+              - generic [ref=e1564]:
+                - strong [ref=e1566]: "Answers:"
+                - generic [ref=e1567]: ○ PreferClose
+                - generic [ref=e1568]: ○ PreferSameZone
+                - generic [ref=e1570]:
+                  - text: ✓
+                  - strong [ref=e1571]: PreferSameNode
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1574] [cursor=pointer]
+          - generic [ref=e1576]:
+            - generic [ref=e1577]:
+              - generic [ref=e1578]:
+                - strong [ref=e1579]: You're writing a blog post about Kubernetes 1.35 and need accurate...
+                - generic [ref=e1580]: Multiple
+              - generic [ref=e1582]:
+                - strong [ref=e1583]: "1"
+                - text: point •
+                - strong [ref=e1584]: "5"
+                - text: answers
+              - generic [ref=e1585]:
+                - strong [ref=e1587]: "Answers:"
+                - generic [ref=e1589]:
+                  - text: ✓
+                  - strong [ref=e1590]: The release includes 60 total enhancements
+                - generic [ref=e1592]:
+                  - text: ✓
+                  - strong [ref=e1593]: 17 features graduated to Stable (GA)
+                - generic [ref=e1595]:
+                  - text: ✓
+                  - strong [ref=e1596]: The release was led by Drew Hagen
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1599] [cursor=pointer]
+          - generic [ref=e1601]:
+            - generic [ref=e1602]:
+              - generic [ref=e1603]:
+                - strong [ref=e1604]: In-Place Pod Resource Updates Your AI training job needs more memory...
+                - generic [ref=e1605]: Single
+              - generic [ref=e1607]:
+                - strong [ref=e1608]: "1"
+                - text: point •
+                - strong [ref=e1609]: "5"
+                - text: answers
+              - generic [ref=e1610]:
+                - strong [ref=e1612]: "Answers:"
+                - generic [ref=e1613]: ○ Nodes must run Kubernetes 1.34 or later
+                - generic [ref=e1614]: ○ Pods must be part of a StatefulSet
+                - generic [ref=e1616]:
+                  - text: ✓
+                  - strong [ref=e1617]: Nodes must use cgroups v2
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1620] [cursor=pointer]
+          - generic [ref=e1622]:
+            - generic [ref=e1623]:
+              - generic [ref=e1624]:
+                - strong [ref=e1625]: You're preparing a presentation for your team about the Kubernetes 1.35...
+                - generic [ref=e1626]: Single
+              - generic [ref=e1628]:
+                - strong [ref=e1629]: "1"
+                - text: point •
+                - strong [ref=e1630]: "4"
+                - text: answers
+              - generic [ref=e1631]:
+                - strong [ref=e1633]: "Answers:"
+                - generic [ref=e1634]: ○ It represents the logging improvements in this release
+                - generic [ref=e1636]:
+                  - text: ✓
+                  - strong [ref=e1637]: It's inspired by Yggdrasil, the World Tree...
+                - generic [ref=e1638]: ○ It references the deprecation of old features...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1641] [cursor=pointer]
+          - generic [ref=e1643]:
+            - generic [ref=e1644]:
+              - generic [ref=e1645]:
+                - strong [ref=e1646]: Mike created a BackupSchedule CRD that defines backup frequency, retention...
+                - generic [ref=e1647]: Single
+              - generic [ref=e1649]:
+                - strong [ref=e1650]: "1"
+                - text: point •
+                - strong [ref=e1651]: "3"
+                - text: answers
+              - generic [ref=e1652]:
+                - strong [ref=e1654]: "Answers:"
+                - generic [ref=e1655]: "○ He needs to set spec.autostart: true in the CRD"
+                - generic [ref=e1656]: ○ He forgot to enable the backup feature in...
+                - generic [ref=e1658]:
+                  - text: ✓
+                  - strong [ref=e1659]: He needs to write or install a controller that...
+            - button "➕ Add to Quiz" [ref=e1662] [cursor=pointer]
+          - generic [ref=e1664]:
+            - generic [ref=e1665]:
+              - generic [ref=e1666]:
+                - strong [ref=e1667]: Sarah installed cert-manager in her cluster. She can now run kubectl get...
+                - generic [ref=e1668]: Multiple
+              - generic [ref=e1670]:
+                - strong [ref=e1671]: "1"
+                - text: point •
+                - strong [ref=e1672]: "5"
+                - text: answers
+              - generic [ref=e1673]:
+                - strong [ref=e1675]: "Answers:"
+                - generic [ref=e1677]:
+                  - text: ✓
+                  - strong [ref=e1678]: The command kubectl get crd...
+                - generic [ref=e1679]: ○ The command kubectl get certificates shows...
+                - generic [ref=e1680]: ○ CRDs and Custom Resources are the same thing,...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1683] [cursor=pointer]
+          - generic [ref=e1685]:
+            - generic [ref=e1686]:
+              - generic [ref=e1687]:
+                - strong [ref=e1688]: Alex is designing two CRDs for his organization. The first, TenantQuota,...
+                - generic [ref=e1689]: Single
+              - generic [ref=e1691]:
+                - strong [ref=e1692]: "1"
+                - text: point •
+                - strong [ref=e1693]: "4"
+                - text: answers
+              - generic [ref=e1694]:
+                - strong [ref=e1696]: "Answers:"
+                - generic [ref=e1697]: "○ Both should be scope: Cluster to allow..."
+                - generic [ref=e1698]: ○ Scope doesn't matter since kubectl can access...
+                - generic [ref=e1699]: "○ Both should be scope: Namespaced since all..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1702] [cursor=pointer]
+          - generic [ref=e1704]:
+            - generic [ref=e1705]:
+              - generic [ref=e1706]:
+                - strong [ref=e1707]: Lisa is creating a DatabaseCluster CRD where the spec.nodeCount must be an...
+                - generic [ref=e1708]: Single
+              - generic [ref=e1710]:
+                - strong [ref=e1711]: "1"
+                - text: point •
+                - strong [ref=e1712]: "4"
+                - text: answers
+              - generic [ref=e1713]:
+                - strong [ref=e1715]: "Answers:"
+                - generic [ref=e1716]: ○ Use minimum, maximum, and enum constraints in...
+                - generic [ref=e1717]: ○ Use only pattern with regex for all fields
+                - generic [ref=e1719]:
+                  - text: ✓
+                  - strong [ref=e1720]: "Use minimum: 3, maximum: 9, enum for..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1723] [cursor=pointer]
+          - generic [ref=e1725]:
+            - generic [ref=e1726]:
+              - generic [ref=e1727]:
+                - strong [ref=e1728]: Tom's team initially released a ConfigTemplate CRD with version v1alpha1....
+                - generic [ref=e1729]: Single
+              - generic [ref=e1731]:
+                - strong [ref=e1732]: "1"
+                - text: point •
+                - strong [ref=e1733]: "4"
+                - text: answers
+              - generic [ref=e1734]:
+                - strong [ref=e1736]: "Answers:"
+                - generic [ref=e1737]: "○ Set both v1 and v1alpha1 to storage: true"
+                - generic [ref=e1739]:
+                  - text: ✓
+                  - strong [ref=e1740]: "Set v1 to storage: true and served: true, and..."
+                - generic [ref=e1741]: "○ Set v1 to storage: true and served: true, and..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1744] [cursor=pointer]
+          - generic [ref=e1746]:
+            - generic [ref=e1747]:
+              - generic [ref=e1748]:
+                - strong [ref=e1749]: Maria is a DevOps engineer tasked with creating a custom resource for...
+                - generic [ref=e1750]: Multiple
+              - generic [ref=e1752]:
+                - strong [ref=e1753]: "1"
+                - text: point •
+                - strong [ref=e1754]: "5"
+                - text: answers
+              - generic [ref=e1755]:
+                - strong [ref=e1757]: "Answers:"
+                - generic [ref=e1759]:
+                  - text: ✓
+                  - strong [ref=e1760]: spec.names.plural set to backups
+                - generic [ref=e1762]:
+                  - text: ✓
+                  - strong [ref=e1763]: spec.names.singular set to backup
+                - generic [ref=e1765]:
+                  - text: ✓
+                  - strong [ref=e1766]: spec.names.kind set to Backup
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1769] [cursor=pointer]
+          - generic [ref=e1771]:
+            - generic [ref=e1772]:
+              - generic [ref=e1773]:
+                - strong [ref=e1774]: You have a microservices architecture with:...
+                - generic [ref=e1775]: Single
+                - generic [ref=e1776]: Network
+              - generic [ref=e1778]:
+                - strong [ref=e1779]: "1"
+                - text: point •
+                - strong [ref=e1780]: "4"
+                - text: answers
+              - generic [ref=e1781]:
+                - strong [ref=e1783]: "Answers:"
+                - generic [ref=e1784]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1786]:
+                  - text: ✓
+                  - strong [ref=e1787]: "apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1788]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1791] [cursor=pointer]
+          - generic [ref=e1793]:
+            - generic [ref=e1794]:
+              - generic [ref=e1795]:
+                - strong [ref=e1796]: "You have a multi-tenant architecture with namespaces: app-team-a (team:..."
+                - generic [ref=e1797]: Single
+                - generic [ref=e1798]: Network
+              - generic [ref=e1800]:
+                - strong [ref=e1801]: "1"
+                - text: point •
+                - strong [ref=e1802]: "4"
+                - text: answers
+              - generic [ref=e1803]:
+                - strong [ref=e1805]: "Answers:"
+                - generic [ref=e1807]:
+                  - text: ✓
+                  - strong [ref=e1808]: "apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1809]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1810]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1813] [cursor=pointer]
+          - generic [ref=e1815]:
+            - generic [ref=e1816]:
+              - generic [ref=e1817]:
+                - strong [ref=e1818]: "You have a microservices architecture with: API Service (app: api-service) -..."
+                - generic [ref=e1819]: Multiple
+                - generic [ref=e1820]: Network
+              - generic [ref=e1822]:
+                - strong [ref=e1823]: "1"
+                - text: point •
+                - strong [ref=e1824]: "4"
+                - text: answers
+              - generic [ref=e1825]:
+                - strong [ref=e1827]: "Answers:"
+                - generic [ref=e1829]:
+                  - text: ✓
+                  - strong [ref=e1830]: "apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1831]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1833]:
+                  - text: ✓
+                  - strong [ref=e1834]: "apiVersion: networking.k8s.io/v1 kind:..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1837] [cursor=pointer]
+          - generic [ref=e1839]:
+            - generic [ref=e1840]:
+              - generic [ref=e1841]:
+                - strong [ref=e1842]: "Assume the following scenario: Client → Web Service (port 80) Web Service →..."
+                - generic [ref=e1843]: Single
+                - generic [ref=e1844]: Network
+              - generic [ref=e1846]:
+                - strong [ref=e1847]: "1"
+                - text: point •
+                - strong [ref=e1848]: "4"
+                - text: answers
+              - generic [ref=e1849]:
+                - strong [ref=e1851]: "Answers:"
+                - generic [ref=e1853]:
+                  - text: ✓
+                  - strong [ref=e1854]: "apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1855]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - generic [ref=e1856]: "○ apiVersion: networking.k8s.io/v1 kind:..."
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1859] [cursor=pointer]
+          - generic [ref=e1861]:
+            - generic [ref=e1862]:
+              - generic [ref=e1863]:
+                - strong [ref=e1864]: "10:30 AM - Coffee Break Learning Sarah continues: \"Let's talk about what..."
+                - generic [ref=e1865]: Single
+                - generic [ref=e1866]: Health Probes
+              - generic [ref=e1868]:
+                - strong [ref=e1869]: "1"
+                - text: point •
+                - strong [ref=e1870]: "2"
+                - text: answers
+              - generic [ref=e1871]:
+                - strong [ref=e1873]: "Answers:"
+                - generic [ref=e1874]: ○ TRUE
+                - generic [ref=e1876]:
+                  - text: ✓
+                  - strong [ref=e1877]: "FALSE"
+            - button "➕ Add to Quiz" [ref=e1880] [cursor=pointer]
+          - generic [ref=e1882]:
+            - generic [ref=e1883]:
+              - generic [ref=e1884]:
+                - strong [ref=e1885]: 9:00 AM - Your First Day as Senior DevOps Your manager, Sarah, walks you...
+                - generic [ref=e1886]: Multiple
+                - generic [ref=e1887]: Health Probes
+              - generic [ref=e1889]:
+                - strong [ref=e1890]: "1"
+                - text: point •
+                - strong [ref=e1891]: "4"
+                - text: answers
+              - generic [ref=e1892]:
+                - strong [ref=e1894]: "Answers:"
+                - generic [ref=e1895]: ○ All three probes start running simultaneously...
+                - generic [ref=e1897]:
+                  - text: ✓
+                  - strong [ref=e1898]: The startup probe runs first; after it...
+                - generic [ref=e1899]: ○ The liveness probe must succeed before...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e1902] [cursor=pointer]
+          - generic [ref=e1904]:
+            - generic [ref=e1905]:
+              - generic [ref=e1906]:
+                - strong [ref=e1907]: Which of the following statements about probe mechanisms are TRUE? (Select...
+                - generic [ref=e1908]: Multiple
+                - generic [ref=e1909]: Probes
+              - generic [ref=e1911]:
+                - strong [ref=e1912]: "1"
+                - text: point •
+                - strong [ref=e1913]: "5"
+                - text: answers
+              - generic [ref=e1914]:
+                - strong [ref=e1916]: "Answers:"
+                - generic [ref=e1918]:
+                  - text: ✓
+                  - strong [ref=e1919]: HTTP GET probes consider responses with status...
+                - generic [ref=e1920]: ○ TCP Socket probes can verify the application...
+                - generic [ref=e1922]:
+                  - text: ✓
+                  - strong [ref=e1923]: Exec probes may introduce CPU overhead in...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e1926] [cursor=pointer]
+          - generic [ref=e1928]:
+            - generic [ref=e1929]:
+              - generic [ref=e1930]:
+                - strong [ref=e1931]: Installation k3d
+                - generic [ref=e1932]: Single
+                - generic [ref=e1933]: Lab
+              - generic [ref=e1935]:
+                - strong [ref=e1936]: "1"
+                - text: point •
+                - strong [ref=e1937]: "1"
+                - text: answer
+              - generic [ref=e1938]:
+                - strong [ref=e1940]: "Answers:"
+                - generic [ref=e1942]:
+                  - text: ✓
+                  - strong [ref=e1943]: Submit
+            - button "➕ Add to Quiz" [ref=e1946] [cursor=pointer]
+          - generic [ref=e1948]:
+            - generic [ref=e1949]:
+              - generic [ref=e1950]:
+                - strong [ref=e1951]: Installation of Colima
+                - generic [ref=e1952]: Single
+              - generic [ref=e1954]:
+                - strong [ref=e1955]: "1"
+                - text: point •
+                - strong [ref=e1956]: "1"
+                - text: answer
+              - generic [ref=e1957]:
+                - strong [ref=e1959]: "Answers:"
+                - generic [ref=e1961]:
+                  - text: ✓
+                  - strong [ref=e1962]: Submit
+            - button "➕ Add to Quiz" [ref=e1965] [cursor=pointer]
+          - generic [ref=e1967]:
+            - generic [ref=e1968]:
+              - generic [ref=e1969]:
+                - strong [ref=e1970]: Introduction to this course
+                - generic [ref=e1971]: Single
+                - generic [ref=e1972]: Lab
+              - generic [ref=e1974]:
+                - strong [ref=e1975]: "1"
+                - text: point •
+                - strong [ref=e1976]: "1"
+                - text: answer
+              - generic [ref=e1977]:
+                - strong [ref=e1979]: "Answers:"
+                - generic [ref=e1981]:
+                  - text: ✓
+                  - strong [ref=e1982]: Submit
+            - button "➕ Add to Quiz" [ref=e1985] [cursor=pointer]
+          - generic [ref=e1987]:
+            - generic [ref=e1988]:
+              - generic [ref=e1989]:
+                - strong [ref=e1990]: Which are valid HTTP status codes for successful HTTP GET probes?
+                - generic [ref=e1991]: Multiple
+                - generic [ref=e1992]: Kubernetes Probes
+              - generic [ref=e1994]:
+                - strong [ref=e1995]: "1"
+                - text: point •
+                - strong [ref=e1996]: "5"
+                - text: answers
+              - generic [ref=e1997]:
+                - strong [ref=e1999]: "Answers:"
+                - generic [ref=e2001]:
+                  - text: ✓
+                  - strong [ref=e2002]: 200 OK
+                - generic [ref=e2004]:
+                  - text: ✓
+                  - strong [ref=e2005]: 201 Created
+                - generic [ref=e2007]:
+                  - text: ✓
+                  - strong [ref=e2008]: 301 Moved Permanently
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2011] [cursor=pointer]
+          - generic [ref=e2013]:
+            - generic [ref=e2014]:
+              - generic [ref=e2015]:
+                - strong [ref=e2016]: The abbrevation "OOP" stands for "Object-Oriented-Programming"
+                - generic [ref=e2017]: Single
+                - generic [ref=e2018]: Introduction
+              - generic [ref=e2020]:
+                - strong [ref=e2021]: "1"
+                - text: point •
+                - strong [ref=e2022]: "1"
+                - text: answer
+              - generic [ref=e2023]:
+                - strong [ref=e2025]: "Answers:"
+                - generic [ref=e2027]:
+                  - text: ✓
+                  - strong [ref=e2028]: Mark As Done
+            - button "➕ Add to Quiz" [ref=e2031] [cursor=pointer]
+          - generic [ref=e2033]:
+            - generic [ref=e2034]:
+              - generic [ref=e2035]:
+                - strong [ref=e2036]: Which of the following statements correctly describe how...
+                - generic [ref=e2037]: Multiple
+                - generic [ref=e2038]: Cost Optimization
+              - generic [ref=e2040]:
+                - strong [ref=e2041]: "1"
+                - text: point •
+                - strong [ref=e2042]: "5"
+                - text: answers
+              - generic [ref=e2043]:
+                - strong [ref=e2045]: "Answers:"
+                - generic [ref=e2047]:
+                  - text: ✓
+                  - strong [ref=e2048]: It prefers routing traffic to endpoints in the...
+                - generic [ref=e2050]:
+                  - text: ✓
+                  - strong [ref=e2051]: If no local endpoints exist, it fails over to other AZs
+                - generic [ref=e2052]: ○ It guarantees 100% local routing at all times
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2055] [cursor=pointer]
+          - generic [ref=e2057]:
+            - generic [ref=e2058]:
+              - generic [ref=e2059]:
+                - strong [ref=e2060]: What’s a good monitoring strategy to detect imbalanced cross-zone traffic?
+                - generic [ref=e2061]: Single
+              - generic [ref=e2063]:
+                - strong [ref=e2064]: "1"
+                - text: point •
+                - strong [ref=e2065]: "4"
+                - text: answers
+              - generic [ref=e2066]:
+                - strong [ref=e2068]: "Answers:"
+                - generic [ref=e2069]: ○ Check kube-proxy logs
+                - generic [ref=e2071]:
+                  - text: ✓
+                  - strong [ref=e2072]: Use Prometheus to alert when one zone handles...
+                - generic [ref=e2073]: ○ Count pods per AZ only
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2076] [cursor=pointer]
+          - generic [ref=e2078]:
+            - generic [ref=e2079]:
+              - generic [ref=e2080]:
+                - strong [ref=e2081]: "What does the trafficDistribution: PreferClose field in a Kubernetes Service do?"
+                - generic [ref=e2082]: Single
+                - generic [ref=e2083]: Cost Optimization
+              - generic [ref=e2085]:
+                - strong [ref=e2086]: "1"
+                - text: point •
+                - strong [ref=e2087]: "4"
+                - text: answers
+              - generic [ref=e2088]:
+                - strong [ref=e2090]: "Answers:"
+                - generic [ref=e2091]: ○ Forces traffic to always stay in the same AZ
+                - generic [ref=e2093]:
+                  - text: ✓
+                  - strong [ref=e2094]: Prefers endpoints in the same AZ, failing over...
+                - generic [ref=e2095]: ○ Routes traffic to the cheapest AZ
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2098] [cursor=pointer]
+          - generic [ref=e2100]:
+            - generic [ref=e2101]:
+              - generic [ref=e2102]:
+                - strong [ref=e2103]: In a 3-AZ Kubernetes cluster, what percentage of inter-service traffic...
+                - generic [ref=e2104]: Single
+                - generic [ref=e2105]: Cost Optimization
+              - generic [ref=e2107]:
+                - strong [ref=e2108]: "1"
+                - text: point •
+                - strong [ref=e2109]: "4"
+                - text: answers
+              - generic [ref=e2110]:
+                - strong [ref=e2112]: "Answers:"
+                - generic [ref=e2113]: ○ 33%
+                - generic [ref=e2114]: ○ 50%
+                - generic [ref=e2116]:
+                  - text: ✓
+                  - strong [ref=e2117]: 67%
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2120] [cursor=pointer]
+          - generic [ref=e2122]:
+            - generic [ref=e2123]:
+              - generic [ref=e2124]:
+                - strong [ref=e2125]: What is the effective cost per GB of cross-AZ traffic in AWS when...
+                - generic [ref=e2126]: Single
+              - generic [ref=e2128]:
+                - strong [ref=e2129]: "1"
+                - text: point •
+                - strong [ref=e2130]: "4"
+                - text: answers
+              - generic [ref=e2131]:
+                - strong [ref=e2133]: "Answers:"
+                - generic [ref=e2134]: ○ $0.01/GB
+                - generic [ref=e2136]:
+                  - text: ✓
+                  - strong [ref=e2137]: $0.02/GB
+                - generic [ref=e2138]: ○ $0.03/GB
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2141] [cursor=pointer]
+          - generic [ref=e2143]:
+            - generic [ref=e2144]:
+              - generic [ref=e2145]:
+                - strong [ref=e2146]: Kubernetes 1.34 introduces CEL-based Mutating Admission Policies. What is...
+                - generic [ref=e2147]: Single
+              - generic [ref=e2149]:
+                - strong [ref=e2150]: "1"
+                - text: point •
+                - strong [ref=e2151]: "4"
+                - text: answers
+              - generic [ref=e2152]:
+                - strong [ref=e2154]: "Answers:"
+                - generic [ref=e2155]: ○ CEL policies run faster because they are written in Go
+                - generic [ref=e2157]:
+                  - text: ✓
+                  - strong [ref=e2158]: CEL policies remove the need to maintain...
+                - generic [ref=e2159]: ○ CEL automatically fixes YAML formatting issues
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2162] [cursor=pointer]
+          - generic [ref=e2164]:
+            - generic [ref=e2165]:
+              - generic [ref=e2166]:
+                - strong [ref=e2167]: "You run the following command: kubectl get service my-app -o kyaml Which of..."
+                - generic [ref=e2168]: Single
+                - generic [ref=e2169]: Kubernetes
+              - generic [ref=e2171]:
+                - strong [ref=e2172]: "1"
+                - text: point •
+                - strong [ref=e2173]: "4"
+                - text: answers
+              - generic [ref=e2174]:
+                - strong [ref=e2176]: "Answers:"
+                - generic [ref=e2177]: "○ country: NO version: 3.10"
+                - generic [ref=e2179]:
+                  - text: ✓
+                  - strong [ref=e2180]: "country: \"NO\" version: \"3.10\""
+                - generic [ref=e2181]: "○ country: !!string NO version: !!string 3.10"
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2184] [cursor=pointer]
+          - generic [ref=e2186]:
+            - generic [ref=e2187]:
+              - generic [ref=e2188]:
+                - strong [ref=e2189]: What problem does the new KYAML output format (alpha in Kubernetes 1.34) aim...
+                - generic [ref=e2190]: Single
+                - generic [ref=e2191]: Kubernetes
+              - generic [ref=e2193]:
+                - strong [ref=e2194]: "1"
+                - text: point •
+                - strong [ref=e2195]: "4"
+                - text: answers
+              - generic [ref=e2196]:
+                - strong [ref=e2198]: "Answers:"
+                - generic [ref=e2199]: ○ Reduce etcd storage size by compressing YAML output
+                - generic [ref=e2201]:
+                  - text: ✓
+                  - strong [ref=e2202]: Prevent parsing errors and type coercion...
+                - generic [ref=e2203]: ○ Replace JSON as the default output format in kubectl
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2206] [cursor=pointer]
+          - generic [ref=e2208]:
+            - generic [ref=e2209]:
+              - generic [ref=e2210]:
+                - strong [ref=e2211]: Which security enhancements are introduced or improved in Kubernetes 1.34?
+                - generic [ref=e2212]: Multiple
+                - generic [ref=e2213]: Kubernetes
+              - generic [ref=e2215]:
+                - strong [ref=e2216]: "1"
+                - text: point •
+                - strong [ref=e2217]: "6"
+                - text: answers
+              - generic [ref=e2218]:
+                - strong [ref=e2220]: "Answers:"
+                - generic [ref=e2222]:
+                  - text: ✓
+                  - strong [ref=e2223]: ServiceAccount token integration for kubelet...
+                - generic [ref=e2225]:
+                  - text: ✓
+                  - strong [ref=e2226]: OCI volume mounts for secure artifact distribution
+                - generic [ref=e2228]:
+                  - text: ✓
+                  - strong [ref=e2229]: Enhanced anonymous authentication path controls
+                - text: ... and 3 more options
+            - button "➕ Add to Quiz" [ref=e2232] [cursor=pointer]
+          - generic [ref=e2234]:
+            - generic [ref=e2235]:
+              - generic [ref=e2236]:
+                - strong [ref=e2237]: Which API version do CEL-based Mutating Admission Policies use when...
+                - generic [ref=e2238]: Single
+              - generic [ref=e2240]:
+                - strong [ref=e2241]: "1"
+                - text: point •
+                - strong [ref=e2242]: "4"
+                - text: answers
+              - generic [ref=e2243]:
+                - strong [ref=e2245]: "Answers:"
+                - generic [ref=e2246]: ○ admissionregistration.k8s.io/v1alpha1
+                - generic [ref=e2248]:
+                  - text: ✓
+                  - strong [ref=e2249]: admissionregistration.k8s.io/v1beta1
+                - generic [ref=e2250]: ○ admissionregistration.k8s.io/v1
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2253] [cursor=pointer]
+          - generic [ref=e2255]:
+            - generic [ref=e2256]:
+              - generic [ref=e2257]:
+                - strong [ref=e2258]: Which alpha features in Kubernetes 1.34 require manual feature gate enablement?
+                - generic [ref=e2259]: Multiple
+                - generic [ref=e2260]: Kubernetes
+              - generic [ref=e2262]:
+                - strong [ref=e2263]: "1"
+                - text: point •
+                - strong [ref=e2264]: "6"
+                - text: answers
+              - generic [ref=e2265]:
+                - strong [ref=e2267]: "Answers:"
+                - generic [ref=e2269]:
+                  - text: ✓
+                  - strong [ref=e2270]: KYAML output format for kubectl
+                - generic [ref=e2272]:
+                  - text: ✓
+                  - strong [ref=e2273]: Pod Replacement Policy for Deployments
+                - generic [ref=e2275]:
+                  - text: ✓
+                  - strong [ref=e2276]: Device Binding Conditions for DRA
+                - text: ... and 3 more options
+            - button "➕ Add to Quiz" [ref=e2279] [cursor=pointer]
+          - generic [ref=e2281]:
+            - generic [ref=e2282]:
+              - generic [ref=e2283]:
+                - strong [ref=e2284]: What is unprecedented about Kubernetes 1.34 regarding API changes and...
+                - generic [ref=e2285]: Single
+              - generic [ref=e2287]:
+                - strong [ref=e2288]: "1"
+                - text: point •
+                - strong [ref=e2289]: "4"
+                - text: answers
+              - generic [ref=e2290]:
+                - strong [ref=e2292]: "Answers:"
+                - generic [ref=e2293]: ○ It includes the most feature removals in...
+                - generic [ref=e2295]:
+                  - text: ✓
+                  - strong [ref=e2296]: It has zero deprecations or removals, making...
+                - generic [ref=e2297]: ○ It deprecates Docker support entirely
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2300] [cursor=pointer]
+          - generic [ref=e2302]:
+            - generic [ref=e2303]:
+              - generic [ref=e2304]:
+                - strong [ref=e2305]: Which features graduate to Stable in Kubernetes 1.34?
+                - generic [ref=e2306]: Multiple
+                - generic [ref=e2307]: Kubernetes
+              - generic [ref=e2309]:
+                - strong [ref=e2310]: "1"
+                - text: point •
+                - strong [ref=e2311]: "6"
+                - text: answers
+              - generic [ref=e2312]:
+                - strong [ref=e2314]: "Answers:"
+                - generic [ref=e2316]:
+                  - text: ✓
+                  - strong [ref=e2317]: Dynamic Resource Allocation (DRA) core functionality
+                - generic [ref=e2319]:
+                  - text: ✓
+                  - strong [ref=e2320]: API Server Tracing (KEP-647)
+                - generic [ref=e2322]:
+                  - text: ✓
+                  - strong [ref=e2323]: Kubelet Tracing (KEP-2831)
+                - text: ... and 3 more options
+            - button "➕ Add to Quiz" [ref=e2326] [cursor=pointer]
+          - generic [ref=e2328]:
+            - generic [ref=e2329]:
+              - generic [ref=e2330]:
+                - strong [ref=e2331]: You want to measure checkout duration with a Histogram. Which is correct?...
+                - generic [ref=e2332]: Single
+              - generic [ref=e2334]:
+                - strong [ref=e2335]: "1"
+                - text: point •
+                - strong [ref=e2336]: "4"
+                - text: answers
+              - generic [ref=e2337]:
+                - strong [ref=e2339]: "Answers:"
+                - generic [ref=e2340]: ○ CHECKOUT_DURATION.inc(duration)
+                - generic [ref=e2342]:
+                  - text: ✓
+                  - strong [ref=e2343]: CHECKOUT_DURATION.observe(duration)
+                - generic [ref=e2344]: ○ CHECKOUT_DURATION.set(duration)
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2347] [cursor=pointer]
+          - generic [ref=e2349]:
+            - generic [ref=e2350]:
+              - generic [ref=e2351]:
+                - strong [ref=e2352]: You want to rename a label before storing it. Given this config:...
+                - generic [ref=e2353]: Single
+                - generic [ref=e2354]: Prometheus
+              - generic [ref=e2356]:
+                - strong [ref=e2357]: "1"
+                - text: point •
+                - strong [ref=e2358]: "4"
+                - text: answers
+              - generic [ref=e2359]:
+                - strong [ref=e2361]: "Answers:"
+                - generic [ref=e2362]: ○ Only environment="staging" (the original env...
+                - generic [ref=e2364]:
+                  - text: ✓
+                  - strong [ref=e2365]: Both env="staging" and environment="staging"
+                - generic [ref=e2366]: ○ No labels at all, relabeling overwrites everything
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2369] [cursor=pointer]
+          - generic [ref=e2371]:
+            - generic [ref=e2372]:
+              - generic [ref=e2373]:
+                - strong [ref=e2374]: "You configure your prometheus.yml like this: global: scrape_interval: 30s..."
+                - generic [ref=e2375]: Single
+                - generic [ref=e2376]: Prometheus
+              - generic [ref=e2378]:
+                - strong [ref=e2379]: "1"
+                - text: point •
+                - strong [ref=e2380]: "4"
+                - text: answers
+              - generic [ref=e2381]:
+                - strong [ref=e2383]: "Answers:"
+                - generic [ref=e2384]: ○ 30s (from global)
+                - generic [ref=e2386]:
+                  - text: ✓
+                  - strong [ref=e2387]: 10s (from job override)
+                - generic [ref=e2388]: ○ Both 30s and 10s at the same time
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2391] [cursor=pointer]
+          - generic [ref=e2393]:
+            - generic [ref=e2394]:
+              - generic [ref=e2395]:
+                - strong [ref=e2396]: You want to verify that data persists after restarting the Prometheus...
+                - generic [ref=e2397]: Multiple
+                - generic [ref=e2398]: Prometheus
+              - generic [ref=e2400]:
+                - strong [ref=e2401]: "1"
+                - text: point •
+                - strong [ref=e2402]: "4"
+                - text: answers
+              - generic [ref=e2403]:
+                - strong [ref=e2405]: "Answers:"
+                - generic [ref=e2407]:
+                  - text: ✓
+                  - strong [ref=e2408]: Restart Prometheus and confirm old time-series...
+                - generic [ref=e2410]:
+                  - text: ✓
+                  - strong [ref=e2411]: Temporarily rename a job in your host...
+                - generic [ref=e2412]: ○ Assume Docker keeps container filesystem...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2415] [cursor=pointer]
+          - generic [ref=e2417]:
+            - generic [ref=e2418]:
+              - generic [ref=e2419]:
+                - strong [ref=e2420]: In Python’s prometheus_client, which statement is accurate?
+                - generic [ref=e2421]: Single
+                - generic [ref=e2422]: Prometheus
+              - generic [ref=e2424]:
+                - strong [ref=e2425]: "1"
+                - text: point •
+                - strong [ref=e2426]: "3"
+                - text: answers
+              - generic [ref=e2427]:
+                - strong [ref=e2429]: "Answers:"
+                - generic [ref=e2430]: ○ Summary computes quantiles client-side in Python.
+                - generic [ref=e2432]:
+                  - text: ✓
+                  - strong [ref=e2433]: Summary in Python does not compute quantiles;...
+                - generic [ref=e2434]: ○ Histogram can’t be used for percentiles.
+            - button "➕ Add to Quiz" [ref=e2437] [cursor=pointer]
+          - generic [ref=e2439]:
+            - generic [ref=e2440]:
+              - generic [ref=e2441]:
+                - strong [ref=e2442]: Which PromQL is the recommended way to compute the P90 checkout duration...
+                - generic [ref=e2443]: Single
+                - generic [ref=e2444]: Prometheus
+              - generic [ref=e2446]:
+                - strong [ref=e2447]: "1"
+                - text: point •
+                - strong [ref=e2448]: "3"
+                - text: answers
+              - generic [ref=e2449]:
+                - strong [ref=e2451]: "Answers:"
+                - generic [ref=e2452]: ○ histogram_quantile(0.90,...
+                - generic [ref=e2454]:
+                  - text: ✓
+                  - strong [ref=e2455]: histogram_quantile(0.90,...
+                - generic [ref=e2456]: "○ avg(checkout_duration_seconds{quantile=\"0.90\"})"
+            - button "➕ Add to Quiz" [ref=e2459] [cursor=pointer]
+          - generic [ref=e2461]:
+            - generic [ref=e2462]:
+              - generic [ref=e2463]:
+                - strong [ref=e2464]: You configured targets like host.docker.internal:5000 and it works on Docker...
+                - generic [ref=e2465]: Multiple
+              - generic [ref=e2467]:
+                - strong [ref=e2468]: "1"
+                - text: point •
+                - strong [ref=e2469]: "4"
+                - text: answers
+              - generic [ref=e2470]:
+                - strong [ref=e2472]: "Answers:"
+                - generic [ref=e2474]:
+                  - text: ✓
+                  - strong [ref=e2475]: Add...
+                - generic [ref=e2477]:
+                  - text: ✓
+                  - strong [ref=e2478]: "In compose, use: extra_hosts: -..."
+                - generic [ref=e2480]:
+                  - text: ✓
+                  - strong [ref=e2481]: Use the default bridge gateway IP (often...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2484] [cursor=pointer]
+          - generic [ref=e2486]:
+            - generic [ref=e2487]:
+              - generic [ref=e2488]:
+                - strong [ref=e2489]: Which statement is true about scrape_interval and scrape_timeout?
+                - generic [ref=e2490]: Single
+                - generic [ref=e2491]: Prometheus
+              - generic [ref=e2493]:
+                - strong [ref=e2494]: "1"
+                - text: point •
+                - strong [ref=e2495]: "4"
+                - text: answers
+              - generic [ref=e2496]:
+                - strong [ref=e2498]: "Answers:"
+                - generic [ref=e2499]: ○ scrape_timeout may exceed scrape_interval.
+                - generic [ref=e2501]:
+                  - text: ✓
+                  - strong [ref=e2502]: scrape_timeout must be ≤ scrape_interval.
+                - generic [ref=e2503]: ○ They’re unrelated.
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2506] [cursor=pointer]
+          - generic [ref=e2508]:
+            - generic [ref=e2509]:
+              - generic [ref=e2510]:
+                - strong [ref=e2511]: "Given the following scraping configuration: scrape_configs: - job_name:..."
+                - generic [ref=e2512]: Single
+                - generic [ref=e2513]: Prometheus
+              - generic [ref=e2515]:
+                - strong [ref=e2516]: "1"
+                - text: point •
+                - strong [ref=e2517]: "4"
+                - text: answers
+              - generic [ref=e2518]:
+                - strong [ref=e2520]: "Answers:"
+                - generic [ref=e2521]: ○ /
+                - generic [ref=e2522]: ○ /custom-metrics
+                - generic [ref=e2523]: ○ /prometheus
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2526] [cursor=pointer]
+          - generic [ref=e2528]:
+            - generic [ref=e2529]:
+              - generic [ref=e2530]:
+                - strong [ref=e2531]: "Given your command: docker run -p 9090:9090 \\ -v..."
+                - generic [ref=e2532]: Multiple
+                - generic [ref=e2533]: Prometheus
+              - generic [ref=e2535]:
+                - strong [ref=e2536]: "1"
+                - text: point •
+                - strong [ref=e2537]: "4"
+                - text: answers
+              - generic [ref=e2538]:
+                - strong [ref=e2540]: "Answers:"
+                - generic [ref=e2541]: ○ They make Prometheus faster by using RAM
+                - generic [ref=e2543]:
+                  - text: ✓
+                  - strong [ref=e2544]: They replace the container’s config at...
+                - generic [ref=e2546]:
+                  - text: ✓
+                  - strong [ref=e2547]: They ensure scraped time-series persist across...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2550] [cursor=pointer]
+          - generic [ref=e2552]:
+            - generic [ref=e2553]:
+              - generic [ref=e2554]:
+                - strong [ref=e2555]: "A Summary metric shows: _sum=1500, _count=100, {quantile=\"0.99\"}=45. What..."
+                - generic [ref=e2556]: Single
+                - generic [ref=e2557]: Prometheus
+              - generic [ref=e2559]:
+                - strong [ref=e2560]: "1"
+                - text: point •
+                - strong [ref=e2561]: "4"
+                - text: answers
+              - generic [ref=e2562]:
+                - strong [ref=e2564]: "Answers:"
+                - generic [ref=e2565]: ○ The average value is 15, and 99% of...
+                - generic [ref=e2567]:
+                  - text: ✓
+                  - strong [ref=e2568]: The average value is 15, and 99% of...
+                - generic [ref=e2569]: ○ 99 observations had a value of 45
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2572] [cursor=pointer]
+          - generic [ref=e2574]:
+            - generic [ref=e2575]:
+              - generic [ref=e2576]:
+                - strong [ref=e2577]: You're monitoring memory usage on a server that fluctuates between 2GB and...
+                - generic [ref=e2578]: Single
+                - generic [ref=e2579]: Prometheus
+              - generic [ref=e2581]:
+                - strong [ref=e2582]: "1"
+                - text: point •
+                - strong [ref=e2583]: "4"
+                - text: answers
+              - generic [ref=e2584]:
+                - strong [ref=e2586]: "Answers:"
+                - generic [ref=e2587]: ○ Cumulative memory consumption since server startup
+                - generic [ref=e2589]:
+                  - text: ✓
+                  - strong [ref=e2590]: Current memory usage at each measurement time
+                - generic [ref=e2591]: ○ Average memory usage over time periods
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2594] [cursor=pointer]
+          - generic [ref=e2596]:
+            - generic [ref=e2597]:
+              - generic [ref=e2598]:
+                - strong [ref=e2599]: Which statements about Histogram buckets is CORRECT?
+                - generic [ref=e2600]: Multiple
+              - generic [ref=e2602]:
+                - strong [ref=e2603]: "1"
+                - text: point •
+                - strong [ref=e2604]: "4"
+                - text: answers
+              - generic [ref=e2605]:
+                - strong [ref=e2607]: "Answers:"
+                - generic [ref=e2609]:
+                  - text: ✓
+                  - strong [ref=e2610]: Buckets are cumulative - each bucket contains...
+                - generic [ref=e2612]:
+                  - text: ✓
+                  - strong [ref=e2613]: Buckets must be defined at metric creation time
+                - generic [ref=e2614]: ○ Each observation increments exactly one bucket
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2617] [cursor=pointer]
+          - generic [ref=e2619]:
+            - generic [ref=e2620]:
+              - generic [ref=e2621]:
+                - strong [ref=e2622]: What information does a Summary metric provide that a Histogram does NOT...
+                - generic [ref=e2623]: Single
+                - generic [ref=e2624]: Prometheus
+              - generic [ref=e2626]:
+                - strong [ref=e2627]: "1"
+                - text: point •
+                - strong [ref=e2628]: "4"
+                - text: answers
+              - generic [ref=e2629]:
+                - strong [ref=e2631]: "Answers:"
+                - generic [ref=e2632]: ○ Total count of observations
+                - generic [ref=e2633]: ○ Sum of all observed values
+                - generic [ref=e2635]:
+                  - text: ✓
+                  - strong [ref=e2636]: Pre-calculated quantile estimates (e.g., 95th...
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2639] [cursor=pointer]
+          - generic [ref=e2641]:
+            - generic [ref=e2642]:
+              - generic [ref=e2643]:
+                - strong [ref=e2644]: Your application handles file uploads, and you want to monitor both the...
+                - generic [ref=e2645]: Single
+                - generic [ref=e2646]: Prometheus
+              - generic [ref=e2648]:
+                - strong [ref=e2649]: "1"
+                - text: point •
+                - strong [ref=e2650]: "4"
+                - text: answers
+              - generic [ref=e2651]:
+                - strong [ref=e2653]: "Answers:"
+                - generic [ref=e2654]: ○ Two Counters
+                - generic [ref=e2656]:
+                  - text: ✓
+                  - strong [ref=e2657]: Counter for uploads, Histogram for file sizes
+                - generic [ref=e2658]: ○ Two Gauges
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2661] [cursor=pointer]
+          - generic [ref=e2663]:
+            - generic [ref=e2664]:
+              - generic [ref=e2665]:
+                - strong [ref=e2666]: In the context of a Summary metric tracking API response times, what does a...
+                - generic [ref=e2667]: Single
+                - generic [ref=e2668]: Prometheus
+              - generic [ref=e2670]:
+                - strong [ref=e2671]: "1"
+                - text: point •
+                - strong [ref=e2672]: "4"
+                - text: answers
+              - generic [ref=e2673]:
+                - strong [ref=e2675]: "Answers:"
+                - generic [ref=e2676]: ○ 95% of API calls take exactly 250ms
+                - generic [ref=e2678]:
+                  - text: ✓
+                  - strong [ref=e2679]: 95% of API calls take 250ms or less
+                - generic [ref=e2680]: ○ The average response time is 250ms for 95% of calls
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2683] [cursor=pointer]
+          - generic [ref=e2685]:
+            - generic [ref=e2686]:
+              - generic [ref=e2687]:
+                - strong [ref=e2688]: You want to track the total number of failed login attempts across your...
+                - generic [ref=e2689]: Single
+                - generic [ref=e2690]: Prometheus
+              - generic [ref=e2692]:
+                - strong [ref=e2693]: "1"
+                - text: point •
+                - strong [ref=e2694]: "4"
+                - text: answers
+              - generic [ref=e2695]:
+                - strong [ref=e2697]: "Answers:"
+                - generic [ref=e2698]: ○ The current number of users trying to log in
+                - generic [ref=e2700]:
+                  - text: ✓
+                  - strong [ref=e2701]: The cumulative total of failed attempts since...
+                - generic [ref=e2702]: ○ The average number of failures per minute
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2705] [cursor=pointer]
+          - generic [ref=e2707]:
+            - generic [ref=e2708]:
+              - generic [ref=e2709]:
+                - strong [ref=e2710]: In a Histogram metric, if an observation has a value of 4.2 seconds and your...
+                - generic [ref=e2711]: Single
+                - generic [ref=e2712]: Prometheus
+              - generic [ref=e2714]:
+                - strong [ref=e2715]: "1"
+                - text: point •
+                - strong [ref=e2716]: "4"
+                - text: answers
+              - generic [ref=e2717]:
+                - strong [ref=e2719]: "Answers:"
+                - generic [ref=e2720]: ○ Only the 5-second bucket
+                - generic [ref=e2722]:
+                  - text: ✓
+                  - strong [ref=e2723]: The 5, 10, and +Inf buckets
+                - generic [ref=e2724]: ○ The 1, 2, 5, 10, and +Inf buckets
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2727] [cursor=pointer]
+          - generic [ref=e2729]:
+            - generic [ref=e2730]:
+              - generic [ref=e2731]:
+                - strong [ref=e2732]: You're monitoring a web server and want to track the current number of...
+                - generic [ref=e2733]: Single
+                - generic [ref=e2734]: Prometheus
+              - generic [ref=e2736]:
+                - strong [ref=e2737]: "1"
+                - text: point •
+                - strong [ref=e2738]: "4"
+                - text: answers
+              - generic [ref=e2739]:
+                - strong [ref=e2741]: "Answers:"
+                - generic [ref=e2742]: ○ Counter
+                - generic [ref=e2744]:
+                  - text: ✓
+                  - strong [ref=e2745]: Gauge
+                - generic [ref=e2746]: ○ Histogram
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2749] [cursor=pointer]
+          - generic [ref=e2751]:
+            - generic [ref=e2752]:
+              - generic [ref=e2753]:
+                - strong [ref=e2754]: What is the primary characteristic that distinguishes a Counter metric from...
+                - generic [ref=e2755]: Single
+                - generic [ref=e2756]: Prometheus
+              - generic [ref=e2758]:
+                - strong [ref=e2759]: "1"
+                - text: point •
+                - strong [ref=e2760]: "4"
+                - text: answers
+              - generic [ref=e2761]:
+                - strong [ref=e2763]: "Answers:"
+                - generic [ref=e2764]: ○ It can increase and decrease over time
+                - generic [ref=e2766]:
+                  - text: ✓
+                  - strong [ref=e2767]: It only increases over time (monotonic)
+                - generic [ref=e2768]: ○ It provides quantile calculations
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e2771] [cursor=pointer]
+          - generic [ref=e2773]:
+            - generic [ref=e2774]:
+              - generic [ref=e2775]:
+                - strong [ref=e2776]: Which Docker commands are essential for basic container lifecycle...
+                - generic [ref=e2777]: Multiple
+                - generic [ref=e2778]: Docker
+              - generic [ref=e2780]:
+                - strong [ref=e2781]: "1"
+                - text: point •
+                - strong [ref=e2782]: "5"
+                - text: answers
+              - generic [ref=e2783]:
+                - strong [ref=e2785]: "Answers:"
+                - generic [ref=e2787]:
+                  - text: ✓
+                  - strong [ref=e2788]: docker run - to create and start containers
+                - generic [ref=e2790]:
+                  - text: ✓
+                  - strong [ref=e2791]: docker ps - to list running containers
+                - generic [ref=e2793]:
+                  - text: ✓
+                  - strong [ref=e2794]: docker exec - to execute commands in running containers
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2797] [cursor=pointer]
+          - generic [ref=e2799]:
+            - generic [ref=e2800]:
+              - generic [ref=e2801]:
+                - strong [ref=e2802]: What are the benefits of Docker's layered image architecture? (Select all that apply)
+                - generic [ref=e2803]: Multiple
+              - generic [ref=e2805]:
+                - strong [ref=e2806]: "1"
+                - text: point •
+                - strong [ref=e2807]: "5"
+                - text: answers
+              - generic [ref=e2808]:
+                - strong [ref=e2810]: "Answers:"
+                - generic [ref=e2812]:
+                  - text: ✓
+                  - strong [ref=e2813]: Efficient storage through layer sharing between images
+                - generic [ref=e2815]:
+                  - text: ✓
+                  - strong [ref=e2816]: Faster builds through layer caching when...
+                - generic [ref=e2817]: ○ Automatic compression of all application data
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2820] [cursor=pointer]
+          - generic [ref=e2822]:
+            - generic [ref=e2823]:
+              - generic [ref=e2824]:
+                - strong [ref=e2825]: Which scenario best demonstrates Docker's value proposition for application...
+                - generic [ref=e2826]: Single
+              - generic [ref=e2828]:
+                - strong [ref=e2829]: "1"
+                - text: point •
+                - strong [ref=e2830]: "5"
+                - text: answers
+              - generic [ref=e2831]:
+                - strong [ref=e2833]: "Answers:"
+                - generic [ref=e2834]: ○ A single-user desktop application that never...
+                - generic [ref=e2836]:
+                  - text: ✓
+                  - strong [ref=e2837]: A web application that needs to run...
+                - generic [ref=e2838]: ○ A database server that requires direct...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2841] [cursor=pointer]
+          - generic [ref=e2843]:
+            - generic [ref=e2844]:
+              - generic [ref=e2845]:
+                - strong [ref=e2846]: How do Docker containers differ fundamentally from traditional virtual...
+                - generic [ref=e2847]: Single
+              - generic [ref=e2849]:
+                - strong [ref=e2850]: "1"
+                - text: point •
+                - strong [ref=e2851]: "5"
+                - text: answers
+              - generic [ref=e2852]:
+                - strong [ref=e2854]: "Answers:"
+                - generic [ref=e2855]: ○ Containers include a complete operating system...
+                - generic [ref=e2856]: ○ Containers virtualize hardware components...
+                - generic [ref=e2858]:
+                  - text: ✓
+                  - strong [ref=e2859]: Containers share the host operating system...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2862] [cursor=pointer]
+          - generic [ref=e2864]:
+            - generic [ref=e2865]:
+              - generic [ref=e2866]:
+                - strong [ref=e2867]: What is the primary problem Docker containers solve that traditional...
+                - generic [ref=e2868]: Single
+              - generic [ref=e2870]:
+                - strong [ref=e2871]: "1"
+                - text: point •
+                - strong [ref=e2872]: "5"
+                - text: answers
+              - generic [ref=e2873]:
+                - strong [ref=e2875]: "Answers:"
+                - generic [ref=e2876]: ○ Docker containers provide better graphics...
+                - generic [ref=e2878]:
+                  - text: ✓
+                  - strong [ref=e2879]: Docker containers eliminate the "it works on...
+                - generic [ref=e2880]: ○ Docker containers are faster than compiled...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2883] [cursor=pointer]
+          - generic [ref=e2885]:
+            - generic [ref=e2886]:
+              - generic [ref=e2887]:
+                - strong [ref=e2888]: You're running a global application with Istio service mesh across 3...
+                - generic [ref=e2889]: Single
+              - generic [ref=e2891]:
+                - strong [ref=e2892]: "1"
+                - text: point •
+                - strong [ref=e2893]: "5"
+                - text: answers
+              - generic [ref=e2894]:
+                - strong [ref=e2896]: "Answers:"
+                - generic [ref=e2897]: ○ Cross-region network latency is causing...
+                - generic [ref=e2899]:
+                  - text: ✓
+                  - strong [ref=e2900]: The readiness probe starts before Istio...
+                - generic [ref=e2901]: ○ Database connection failures in some regions...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2904] [cursor=pointer]
+          - generic [ref=e2906]:
+            - generic [ref=e2907]:
+              - generic [ref=e2908]:
+                - strong [ref=e2909]: Your high-throughput order processing service handles long-running...
+                - generic [ref=e2910]: Single
+              - generic [ref=e2912]:
+                - strong [ref=e2913]: "1"
+                - text: point •
+                - strong [ref=e2914]: "5"
+                - text: answers
+              - generic [ref=e2915]:
+                - strong [ref=e2917]: "Answers:"
+                - generic [ref=e2919]:
+                  - text: ✓
+                  - strong [ref=e2920]: The terminationGracePeriodSeconds (60s) is...
+                - generic [ref=e2921]: ○ The livenessProbe is interfering with the...
+                - generic [ref=e2922]: ○ The preStop hook is not giving enough time for...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2925] [cursor=pointer]
+          - generic [ref=e2927]:
+            - generic [ref=e2928]:
+              - generic [ref=e2929]:
+                - strong [ref=e2930]: Your e-commerce platform is performing a rolling update during Black Friday...
+                - generic [ref=e2931]: Single
+              - generic [ref=e2933]:
+                - strong [ref=e2934]: "1"
+                - text: point •
+                - strong [ref=e2935]: "5"
+                - text: answers
+              - generic [ref=e2936]:
+                - strong [ref=e2938]: "Answers:"
+                - generic [ref=e2939]: ○ The livenessProbe is killing new containers...
+                - generic [ref=e2941]:
+                  - text: ✓
+                  - strong [ref=e2942]: The readinessProbe times out before ML models...
+                - generic [ref=e2943]: ○ The rolling update strategy is too aggressive...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2946] [cursor=pointer]
+          - generic [ref=e2948]:
+            - generic [ref=e2949]:
+              - generic [ref=e2950]:
+                - strong [ref=e2951]: You have a web application with the following probe configuration running in...
+                - generic [ref=e2952]: Single
+              - generic [ref=e2954]:
+                - strong [ref=e2955]: "1"
+                - text: point •
+                - strong [ref=e2956]: "5"
+                - text: answers
+              - generic [ref=e2957]:
+                - strong [ref=e2959]: "Answers:"
+                - generic [ref=e2960]: ○ The pod will be killed and restarted after 2...
+                - generic [ref=e2962]:
+                  - text: ✓
+                  - strong [ref=e2963]: The pod will be removed from service endpoints...
+                - generic [ref=e2964]: ○ Both readiness and liveness probes will fail,...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2967] [cursor=pointer]
+          - generic [ref=e2969]:
+            - generic [ref=e2970]:
+              - generic [ref=e2971]:
+                - strong [ref=e2972]: A DevOps engineer is trying to configure probes for a microservice and wants...
+                - generic [ref=e2973]: Single
+                - generic [ref=e2974]: Probes
+              - generic [ref=e2976]:
+                - strong [ref=e2977]: "1"
+                - text: point •
+                - strong [ref=e2978]: "5"
+                - text: answers
+              - generic [ref=e2979]:
+                - strong [ref=e2981]: "Answers:"
+                - generic [ref=e2982]: ○ All probes will work as configured, requiring...
+                - generic [ref=e2984]:
+                  - text: ✓
+                  - strong [ref=e2985]: Only the readinessProbe will work; liveness...
+                - generic [ref=e2986]: ○ Kubernetes will automatically reset...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e2989] [cursor=pointer]
+          - generic [ref=e2991]:
+            - generic [ref=e2992]:
+              - generic [ref=e2993]:
+                - strong [ref=e2994]: Your team is configuring a liveness probe for a Java application that takes...
+                - generic [ref=e2995]: Single
+              - generic [ref=e2997]:
+                - strong [ref=e2998]: "1"
+                - text: point •
+                - strong [ref=e2999]: "4"
+                - text: answers
+              - generic [ref=e3000]:
+                - strong [ref=e3002]: "Answers:"
+                - generic [ref=e3004]:
+                  - text: ✓
+                  - strong [ref=e3005]: t=15s (respecting the initialDelaySeconds)
+                - generic [ref=e3006]: ○ t=30s (initialDelaySeconds is ignored because...
+                - generic [ref=e3007]: ○ t=45s (initialDelaySeconds + periodSeconds)
+                - text: ... and 1 more option
+            - button "➕ Add to Quiz" [ref=e3010] [cursor=pointer]
+          - generic [ref=e3012]:
+            - generic [ref=e3013]:
+              - generic [ref=e3014]:
+                - strong [ref=e3015]: Your team is running a Node.js microservice in production that handles...
+                - generic [ref=e3016]: Single
+              - generic [ref=e3018]:
+                - strong [ref=e3019]: "1"
+                - text: point •
+                - strong [ref=e3020]: "5"
+                - text: answers
+              - generic [ref=e3021]:
+                - strong [ref=e3023]: "Answers:"
+                - generic [ref=e3024]: ○ The pods remain healthy and continue serving...
+                - generic [ref=e3025]: ○ The readiness probe fails and removes pods...
+                - generic [ref=e3027]:
+                  - text: ✓
+                  - strong [ref=e3028]: The liveness probe fails and kills the...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e3031] [cursor=pointer]
+          - generic [ref=e3033]:
+            - generic [ref=e3034]:
+              - generic [ref=e3035]:
+                - strong [ref=e3036]: You're deploying a Java Spring Boot application with complex startup...
+                - generic [ref=e3037]: Multiple
+              - generic [ref=e3039]:
+                - strong [ref=e3040]: "1"
+                - text: point •
+                - strong [ref=e3041]: "5"
+                - text: answers
+              - generic [ref=e3042]:
+                - strong [ref=e3044]: "Answers:"
+                - generic [ref=e3045]: ○ The pod fails immediately because the startup...
+                - generic [ref=e3046]: ○ The startup probe succeeds at t=23s, but the...
+                - generic [ref=e3048]:
+                  - text: ✓
+                  - strong [ref=e3049]: The startup probe succeeds at t=23s, and the...
+                - text: ... and 2 more options
+            - button "➕ Add to Quiz" [ref=e3052] [cursor=pointer]
+      - generic [ref=e3053]:
+        - heading "Quiz Management" [level=4] [ref=e3054]
+        - generic [ref=e3056]:
+          - link "📝 Create New Question" [ref=e3058] [cursor=pointer]:
+            - /url: /quiz/admin/questions/create
+          - link "👁️ Preview Quiz" [ref=e3060] [cursor=pointer]:
+            - /url: /quiz/21/goldilocks-tutorial
+          - button "▶️ Activate Quiz" [ref=e3062] [cursor=pointer]
+      - generic [ref=e3063]:
+        - heading "Quiz Summary" [level=5] [ref=e3064]
+        - generic [ref=e3065]:
+          - generic [ref=e3067]:
+            - generic [ref=e3068]: "36"
+            - generic [ref=e3069]: Questions
+          - generic [ref=e3071]:
+            - generic [ref=e3072]: "36"
+            - generic [ref=e3073]: Total Points
+          - generic [ref=e3075]:
+            - generic [ref=e3076]: ∞
+            - generic [ref=e3077]: Time Limit
+          - generic [ref=e3079]:
+            - generic [ref=e3080]: Draft
+            - generic [ref=e3081]: Status
+  - contentinfo [ref=e3084]:
+    - generic [ref=e3086]:
+      - generic [ref=e3087]:
+        - paragraph
+        - link "www.devoriales.com" [ref=e3088] [cursor=pointer]:
+          - /url: /home
+        - paragraph
+        - paragraph [ref=e3089]: © 2025 Copyrights. All rights reserved.
+      - list [ref=e3091]:
+        - listitem [ref=e3092]:
+          - link "Terms" [ref=e3093] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e3094]:
+          - link "Privacy Policy" [ref=e3095] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e3096]:
+          - link "Blog" [ref=e3097] [cursor=pointer]:
+            - /url: /blog
+      - list [ref=e3099]:
+        - listitem [ref=e3100]:
+          - link "Support" [ref=e3101] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e3102]:
+        - heading [level=5]
+        - paragraph [ref=e3103]:
+          - link "Sign Up To Our Newsletter" [ref=e3104] [cursor=pointer]:
+            - /url: /newsletter
+  - region "Cookies management panel":
+    - heading "Cookies management panel" [level=1] [ref=e3105]
+    - text: ☑ ☐ ✛ ☑ ☐ ✛ ✛ ✛ ☑ ☐ ✛ ✛ ✛ ✛ ✛ ✛ ☝ 🍪 ☐ ☐
